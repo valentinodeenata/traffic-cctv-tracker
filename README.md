@@ -15,8 +15,9 @@ Stream tetap diputar langsung dari server pemilik kamera.
 Butuh Node 24+. Tanpa dependency.
 
 ```
-node scripts/fetch-cameras-dki.mjs     # daftar kamera DKI -> data/cameras-dki.json
+node scripts/fetch-cameras.mjs         # daftar kamera Jabodetabek -> data/cameras.json
 node --test "scripts/*.test.mjs"
 ```
 
-Sumber kamera: CCTV Publik Pemprov DKI Jakarta (jakcctv.jakarta.go.id/publik).
+Sumber kamera: CCTV Publik Pemprov DKI Jakarta (jakcctv.jakarta.go.id/publik),
+CCTV jalan tol BPJT Kementerian PU (bpjt.pu.go.id/cctv), CCTV Bina Marga (binamarga.pu.go.id).

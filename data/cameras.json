@@ -1,0 +1,4277 @@
+[
+  {
+    "id": "dki:502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-01",
+    "name": "JKP POLDA JPO JL. GATOT SUBROTO 7 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-02",
+    "name": "JKP POLDA JPO JL. GATOT SUBROTO 7 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-01",
+    "name": "JKP POLDA JL. GERBANG PEMUDA C02 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-02",
+    "name": "JKP POLDA JL. GERBANG PEMUDA C02 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-01",
+    "name": "JKP POLDA JL. GERBANG PEMUDA C03 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-02",
+    "name": "JKP POLDA JL. GERBANG PEMUDA C03 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-01",
+    "name": "JKP SATPOL PP JL. GERBANG PEMUDA C04 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-02",
+    "name": "JKP SATPOL PP JL. GERBANG PEMUDA C04 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-01",
+    "name": "JKP SATPOL PP JL. JEND. GATOT SUBROTO C11 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-02",
+    "name": "JKP SATPOL PP JL. JEND. GATOT SUBROTO C11 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-01",
+    "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C07 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-02",
+    "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C07 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-01",
+    "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C08 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-02",
+    "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C08 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-01",
+    "name": "JKP POLDA JL. JEND. GATOT SUBROTO C13 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-02",
+    "name": "JKP POLDA JL. JEND. GATOT SUBROTO C13 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-01",
+    "name": "JKP POLDA JL. TENTARA PELAJAR C04 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-02",
+    "name": "JKP POLDA JL. TENTARA PELAJAR C04 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-01",
+    "name": "JKP POLDA JL. JEND. GATOT SUBROTO C14 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-02",
+    "name": "JKP POLDA JL. JEND. GATOT SUBROTO C14 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-01",
+    "name": "JKP DBM FLYOVER LADOKGI C01 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-02",
+    "name": "JKP DBM FLYOVER LADOKGI C01 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-01",
+    "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C07 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-02",
+    "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C07 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-01",
+    "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C08 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-02",
+    "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C08 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-01",
+    "name": "JKP DISHUB JL. MH. THAMRIN C01 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-02",
+    "name": "JKP DISHUB JL. MH. THAMRIN C01 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-01",
+    "name": "JKP SATPOLPP JL. MH. THAMRIN C02 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-02",
+    "name": "JKP SATPOLPP JL. MH. THAMRIN C02 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-01",
+    "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C09 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-02",
+    "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C09 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-01",
+    "name": "JKP POLRI UOB PLAZA C01 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-02",
+    "name": "JKP POLRI UOB PLAZA C01 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-03",
+    "name": "JKP POLRI UOB PLAZA C01 CCTV-03",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-03/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-03/preview.jpg"
+  },
+  {
+    "id": "dki:501478_JKS_SATPOLPP_TAMAN-LITERASI-C01_CCTV-01",
+    "name": "Taman Literasi-C01 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501478_JKS_SATPOLPP_TAMAN-LITERASI-C01_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501478_JKS_SATPOLPP_TAMAN-LITERASI-C01_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:501493_JKP_SATPOLPP_PASAR-TANAH-ABANG-C02_CCTV-02",
+    "name": "Simpang Jl. Panglima Polim-C01 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501493_JKP_SATPOLPP_PASAR-TANAH-ABANG-C02_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501493_JKP_SATPOLPP_PASAR-TANAH-ABANG-C02_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:501594_JKS_DISGULKARMAT_JL.-MANGGARAI-UTARA-2-C01_CCTV-01",
+    "name": "Jl. Sultan Agung-C03 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501594_JKS_DISGULKARMAT_JL.-MANGGARAI-UTARA-2-C01_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501594_JKS_DISGULKARMAT_JL.-MANGGARAI-UTARA-2-C01_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-01",
+    "name": "Simpang Jl. Sultan Agung-C01 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-03",
+    "name": "Simpang Jl. Sultan Agung-C01 CCTV-03",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-03/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-03/preview.jpg"
+  },
+  {
+    "id": "dki:502041_JKP_POLDA_JL.-KH.-MAS-MANSYUR-C02_CCTV-02",
+    "name": "Simpang Jl. Sultan Agung-C02 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502041_JKP_POLDA_JL.-KH.-MAS-MANSYUR-C02_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502041_JKP_POLDA_JL.-KH.-MAS-MANSYUR-C02_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-01",
+    "name": "Pasar Tanah Abang-C02 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-02",
+    "name": "Pasar Tanah Abang-C02 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-01",
+    "name": "Jl. KH. Mas Mansyur-C02 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-02",
+    "name": "Jl. KH. Mas Mansyur-C02 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:503675_JKP_BAKESBANGPOL_JL.-JATI-BARU-RAYA-C02_CCTV-01",
+    "name": "Jl. Jati Baru Raya-C02 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/503675_JKP_BAKESBANGPOL_JL.-JATI-BARU-RAYA-C02_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503675_JKP_BAKESBANGPOL_JL.-JATI-BARU-RAYA-C02_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-01",
+    "name": "Simpang Jl Nurdin Raya C01 CCTV-01",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-01/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-01/preview.jpg"
+  },
+  {
+    "id": "dki:501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-02",
+    "name": "Simpang Jl Nurdin Raya C01 CCTV-02",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-02/index.m3u8",
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-02/preview.jpg"
+  },
+  {
+    "id": "dki:Senayan-018-705979_2",
+    "name": "Senayan 018 CCTV-2",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://jakcctv.jakarta.go.id/Senayan-018-705979_2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "dki:Senayan-001-705084_2",
+    "name": "Senayan 001 CCTV-2",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://jakcctv.jakarta.go.id/Senayan-001-705084_2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "dki:Bendungan-Hilir-003-700014_1",
+    "name": "Bendungan Hilir 003 CCTV-1",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://jakcctv.jakarta.go.id/Bendungan-Hilir-003-700014_1/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "dki:Kebon-Melati-010-700332_2",
+    "name": "Kebon Melati 010 CCTV-2",
+    "source": "Pemprov DKI Jakarta",
+    "lat": null,
+    "lng": null,
+    "stream": "https://jakcctv.jakarta.go.id/Kebon-Melati-010-700332_2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-479-1-105",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 04+500 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2856471909535,
+    "lng": 106.877086758614,
+    "stream": "https://jmlive.jasamarga.com/hls/1/454fece7-abcb-4a0d-836e-09c98b5c1b41/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-480-1-105",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 05+000 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28899045039938,
+    "lng": 106.878438591957,
+    "stream": "https://jmlive.jasamarga.com/hls/1/a2c3a889-f6b9-49e2-8253-5567141b70b3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-480-1-106",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 05+000 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28899045039938,
+    "lng": 106.878438591957,
+    "stream": "https://jmlive.jasamarga.com/hls/1/a2c3a889-f6b9-49e2-8253-5567141b70b3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-481-1-106",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 05+500 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29320815213923,
+    "lng": 106.880165934563,
+    "stream": "https://jmlive.jasamarga.com/hls/1/e5680d8a-5bae-4e91-ac53-181f834937ed/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-482-1-106",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 06+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29728718635984,
+    "lng": 106.881984472275,
+    "stream": "https://jmlive.jasamarga.com/hls/1/27e35831-390b-4f83-aa6e-116d54b15e5a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-483-1-106",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 07+000 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.3070122,
+    "lng": 106.8843712,
+    "stream": "https://jmlive.jasamarga.com/hls/1/5aad6d10-094f-4183-9c17-f6c9e86e7b69/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-485-1-108",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 08+000 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31472269662198,
+    "lng": 106.88616335392,
+    "stream": "https://jmlive.jasamarga.com/hls/1/2951df12-535a-4456-a856-62b93e09556a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-488-1-108",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 09+200 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.32541032093356,
+    "lng": 106.887043118477,
+    "stream": "https://jmlive.jasamarga.com/hls/1/3b73e590-605c-4d5a-b5c1-614ed8594c6e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-490-1-108",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 10+350 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.33564453379732,
+    "lng": 106.888067722321,
+    "stream": "https://jmlive.jasamarga.com/hls/1/76adbbaf-15ec-4add-b6b8-8a86fa8796e8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-493-1-108",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 12+150",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.3518365,
+    "lng": 106.8917289,
+    "stream": "https://jmlive.jasamarga.com/hls/1/09562f3c-cd4c-41b2-b12f-56fcb609812a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-494-1-720",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 13+150 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.36006826580642,
+    "lng": 106.893582344055,
+    "stream": "https://jmlive.jasamarga.com/hls/1/f1003777-26d7-4b28-980a-53243a29b34a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-146-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 14+000 | TUNNEL CBBR EXIT",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.3666526,
+    "lng": 106.8947055,
+    "stream": "https://jmlive.jasamarga.com/hls/1/91ebb5d8-370c-4958-9e49-1e78154f65bc/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1209-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 14+500B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.37189851061382,
+    "lng": 106.895749568939,
+    "stream": "https://jmlive.jasamarga.com/hls/1/f68a5be3-c452-4415-9981-f3863750775b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-150-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 15+000 | A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.37831733058415,
+    "lng": 106.896479129791,
+    "stream": "https://jmlive.jasamarga.com/hls/1/32a532b7-76b7-4aca-9270-5ebee3f6de6f/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-497-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 16+400",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.38903295553624,
+    "lng": 106.895599365234,
+    "stream": "https://jmlive.jasamarga.com/hls/1/c1537900-5c40-4a5f-bf63-21b123739310/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-2270-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 16+400 | JPO RAFLES HILLS ",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.39108,
+    "lng": 106.895195,
+    "stream": "https://jmlive.jasamarga.com/hls/1/c0232d18-2bcc-4799-829b-2a5386078478/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-498-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 17+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.400752,
+    "lng": 106.897517,
+    "stream": "https://jmlive.jasamarga.com/hls/1/5c40694b-5d63-4131-bb3e-f65405d478e0/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-498-1-110",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 17+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.400752,
+    "lng": 106.897517,
+    "stream": "https://jmlive.jasamarga.com/hls/1/5c40694b-5d63-4131-bb3e-f65405d478e0/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-500-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 18+400",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.40674256597893,
+    "lng": 106.89844250679,
+    "stream": "https://jmlive.jasamarga.com/hls/1/8c9d664d-4b87-4ba9-ac73-9985bd930282/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-500-1-110",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 18+400",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.40674256597893,
+    "lng": 106.89844250679,
+    "stream": "https://jmlive.jasamarga.com/hls/1/8c9d664d-4b87-4ba9-ac73-9985bd930282/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-504-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 19+600 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.41742561002255,
+    "lng": 106.897509098053,
+    "stream": "https://jmlive.jasamarga.com/hls/1/201557c6-c2f3-4440-b975-4d2b2d8a88e2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-504-1-110",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 19+600 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.41742561002255,
+    "lng": 106.897509098053,
+    "stream": "https://jmlive.jasamarga.com/hls/1/201557c6-c2f3-4440-b975-4d2b2d8a88e2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-149-1-109",
+    "name": "Jakarta-Bogor-Ciawi · JAGORAWI KM 15+500 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.37539581783567,
+    "lng": 106.896114349365,
+    "stream": "https://jmlive.jasamarga.com/hls/1/493efb7d-e292-4068-8d04-b643298d0f7b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-4-2-41",
+    "name": "Dalam Kota · JTC KM 00+400 | CAWANG-CILILITAN",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2508073,
+    "lng": 106.8744278,
+    "stream": "https://jmlive.jasamarga.com/hls/2/165e18d7-42c9-49d8-b48c-e5286492e987/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-5-2-41",
+    "name": "Dalam Kota · JTC KM 00+400 | HALIM",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2475021216717,
+    "lng": 106.880560219288,
+    "stream": "https://jmlive.jasamarga.com/hls/2/6473a07b-39a4-452f-966a-3496ebbe99b4/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12821-2-41",
+    "name": "Dalam Kota · JTC KM 00+400 B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.245866671011502,
+    "lng": 106.87257601831851,
+    "stream": "https://jmlive.jasamarga.com/hls/2/9c49dae1-2b47-401e-bd57-80f8a326d2e1/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12822-2-41",
+    "name": "Dalam Kota · JTC KM 00+400 A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2459815638807346,
+    "lng": 106.87258227958232,
+    "stream": "https://jmlive.jasamarga.com/hls/2/d71bdc53-f0fb-40d3-967b-2de3087139aa/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-6-2-41",
+    "name": "Dalam Kota · JTC KM 00+700",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.24747812515476,
+    "lng": 106.883338987827,
+    "stream": "https://jmlive.jasamarga.com/hls/2/b842813c-df77-4a6e-bcb6-780c5deb9828/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-11-2-41",
+    "name": "Dalam Kota · JTC KM 02+100",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.24317473199613,
+    "lng": 106.858606338501,
+    "stream": "https://jmlive.jasamarga.com/hls/2/e2fd102a-4057-4d22-b4f1-eb294dad6213/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-15-2-42",
+    "name": "Dalam Kota · JTC KM 03+800",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.24328671665292,
+    "lng": 106.843301653862,
+    "stream": "https://jmlive.jasamarga.com/hls/2/912115ab-beb1-4893-9e6a-43e0c4a6ea64/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-16-2-43",
+    "name": "Dalam Kota · JTC KM 05+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2399143,
+    "lng": 106.8322003,
+    "stream": "https://jmlive.jasamarga.com/hls/2/0b946037-fb98-465a-b8ac-5b831eca089e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-781-2-43",
+    "name": "Dalam Kota · JTC KM 05+000 B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.239913,
+    "lng": 106.8323169,
+    "stream": "https://jmlive.jasamarga.com/hls/2/fedf0e23-4a76-4ae3-b274-66a57e9a283b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-18-2-43",
+    "name": "Dalam Kota · JTC KM 06+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.23543173482932,
+    "lng": 106.825261116028,
+    "stream": "https://jmlive.jasamarga.com/hls/2/1cab8c77-4a38-465a-b52c-4135927c7f91/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-20-2-44",
+    "name": "Dalam Kota · JTC KM 07+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.22916046323667,
+    "lng": 106.819070577621,
+    "stream": "https://jmlive.jasamarga.com/hls/2/1a1b2634-a74a-49ce-a8d9-3a689b77362e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12047-2-46",
+    "name": "Dalam Kota · JTC KM 10+100",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2075815,
+    "lng": 106.8032484,
+    "stream": "https://jmlive.jasamarga.com/hls/2/6f461d5e-9c8c-47d2-8c63-f69f85041b31/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-23-2-47",
+    "name": "Dalam Kota · JTC KM 10+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.20286936896635,
+    "lng": 106.80037021637,
+    "stream": "https://jmlive.jasamarga.com/hls/2/9423a3e7-dfb8-44a2-a34a-b5f74ab6e816/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-23-2-48",
+    "name": "Dalam Kota · JTC KM 10+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.20286936896635,
+    "lng": 106.80037021637,
+    "stream": "https://jmlive.jasamarga.com/hls/2/9423a3e7-dfb8-44a2-a34a-b5f74ab6e816/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-25-2-47",
+    "name": "Dalam Kota · JTC KM 11+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.199594889225,
+    "lng": 106.798760890961,
+    "stream": "https://jmlive.jasamarga.com/hls/2/857e5101-c51b-4b85-91de-20c088282aa8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-25-2-48",
+    "name": "Dalam Kota · JTC KM 11+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.199594889225,
+    "lng": 106.798760890961,
+    "stream": "https://jmlive.jasamarga.com/hls/2/857e5101-c51b-4b85-91de-20c088282aa8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-28-2-47",
+    "name": "Dalam Kota · JTC KM 12+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19089128727205,
+    "lng": 106.797151565552,
+    "stream": "https://jmlive.jasamarga.com/hls/2/7b4efa68-435a-48c0-8059-391653f2e882/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-28-2-48",
+    "name": "Dalam Kota · JTC KM 12+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19089128727205,
+    "lng": 106.797151565552,
+    "stream": "https://jmlive.jasamarga.com/hls/2/7b4efa68-435a-48c0-8059-391653f2e882/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-31-2-48",
+    "name": "Dalam Kota · JTC KM 13+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.18018224692375,
+    "lng": 106.796454191208,
+    "stream": "https://jmlive.jasamarga.com/hls/2/0ed1e636-5ee8-40c6-a5de-b67f60dd6e3f/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-31-2-49",
+    "name": "Dalam Kota · JTC KM 13+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.18018224692375,
+    "lng": 106.796454191208,
+    "stream": "https://jmlive.jasamarga.com/hls/2/0ed1e636-5ee8-40c6-a5de-b67f60dd6e3f/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-35-2-49",
+    "name": "Dalam Kota · JTC KM 14+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.17473164612061,
+    "lng": 106.791722774506,
+    "stream": "https://jmlive.jasamarga.com/hls/2/db03266f-4be5-4573-bda4-13283327b47b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-35-2-50",
+    "name": "Dalam Kota · JTC KM 14+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.17473164612061,
+    "lng": 106.791722774506,
+    "stream": "https://jmlive.jasamarga.com/hls/2/db03266f-4be5-4573-bda4-13283327b47b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-39-2-50",
+    "name": "Dalam Kota · JTC KM 16+100",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.15804883264214,
+    "lng": 106.792130470276,
+    "stream": "https://jmlive.jasamarga.com/hls/2/4a97ab2b-213f-4f8a-b8ae-1ea4ad6fd941/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-40-2-51",
+    "name": "Dalam Kota · JTC KM 17+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.15040059003977,
+    "lng": 106.792763471603,
+    "stream": "https://jmlive.jasamarga.com/hls/2/b708774c-0ee0-4655-854c-b35a0bf8447b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-42-2-51",
+    "name": "Dalam Kota · JTC KM 18+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.14092813708955,
+    "lng": 106.787656545639,
+    "stream": "https://jmlive.jasamarga.com/hls/2/e0c3ed31-24a0-483e-9e60-a77aa6a953b3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-44-2-52",
+    "name": "Dalam Kota · JTC KM 19+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1338,
+    "lng": 106.785258,
+    "stream": "https://jmlive.jasamarga.com/hls/2/74e0a34e-0a0e-4f11-80ac-bedbb213cf79/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-322-3-53",
+    "name": "Sedyatmo · SEDYATMO KM 20+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1252216,
+    "lng": 106.7767833,
+    "stream": "https://jmlive.jasamarga.com/hls/3/839419d1-d190-493e-986b-d5c05616fa55/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-323-3-53",
+    "name": "Sedyatmo · SEDYATMO KM 20+950",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1222814,
+    "lng": 106.7747217,
+    "stream": "https://jmlive.jasamarga.com/hls/3/83dca673-d1a2-4ff6-8cc5-9c9f51dea1e3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1368-3-54",
+    "name": "Sedyatmo · SEDYATMO KM 23+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1226775,
+    "lng": 106.7534403,
+    "stream": "https://jmlive.jasamarga.com/hls/3/5d7647cd-2302-426a-9314-b444bbcb09ce/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-334-3-54",
+    "name": "Sedyatmo · SEDYATMO KM 24+000 | A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.12269745806898,
+    "lng": 106.74610376358,
+    "stream": "https://jmlive.jasamarga.com/hls/3/e4d90f44-26a3-4ebe-8c48-ab55f33dc30e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-335-3-54",
+    "name": "Sedyatmo · SEDYATMO KM 24+000 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.12214274069272,
+    "lng": 106.745556592941,
+    "stream": "https://jmlive.jasamarga.com/hls/3/0a36bd8d-100a-4a46-b8ae-9a4d35fccab7/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-343-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 26+000 | A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.11358721900429,
+    "lng": 106.730675697327,
+    "stream": "https://jmlive.jasamarga.com/hls/3/8d7b9c05-a802-4263-bd4f-2c2880ee4ee0/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-346-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 26+800",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.10822127958095,
+    "lng": 106.725815534592,
+    "stream": "https://jmlive.jasamarga.com/hls/3/966b464b-3002-40a8-ae61-d50178cf94d2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-347-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 27+200 | A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.10549028379356,
+    "lng": 106.723465919495,
+    "stream": "https://jmlive.jasamarga.com/hls/3/ce0a8931-2ced-4645-8bc8-c3ddc86e4de0/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-349-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 28+200 | B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.09857738849053,
+    "lng": 106.717983484268,
+    "stream": "https://jmlive.jasamarga.com/hls/3/8168bca8-c940-43c0-8fe7-d8e36b8cf042/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-350-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 28+200 A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.098810041756705,
+    "lng": 106.71769399293487,
+    "stream": "https://jmlive.jasamarga.com/hls/3/b3496713-564b-4f9e-8a19-69956e68fa20/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-351-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 29+050",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.09636908370558,
+    "lng": 106.710923910141,
+    "stream": "https://jmlive.jasamarga.com/hls/3/2f1fdc4d-039d-465d-be8f-9b0fb9b6674d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-353-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 30+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.10207651947927,
+    "lng": 106.702415943146,
+    "stream": "https://jmlive.jasamarga.com/hls/3/d897039d-9ec9-474f-9f6f-d4b77894010c/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-353-3-56",
+    "name": "Sedyatmo · SEDYATMO KM 30+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.10207651947927,
+    "lng": 106.702415943146,
+    "stream": "https://jmlive.jasamarga.com/hls/3/d897039d-9ec9-474f-9f6f-d4b77894010c/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-354-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 30+650",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.10429546875773,
+    "lng": 106.699036359787,
+    "stream": "https://jmlive.jasamarga.com/hls/3/9406a9a1-2e7a-4fe9-ae7d-db6f11722f12/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-354-3-56",
+    "name": "Sedyatmo · SEDYATMO KM 30+650",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.10429546875773,
+    "lng": 106.699036359787,
+    "stream": "https://jmlive.jasamarga.com/hls/3/9406a9a1-2e7a-4fe9-ae7d-db6f11722f12/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-355-3-55",
+    "name": "Sedyatmo · SEDYATMO GT CENGKARENG LAJUR",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1064665,
+    "lng": 106.6953571,
+    "stream": "https://jmlive.jasamarga.com/hls/3/8fb44923-2562-4ba8-a168-be26608760ae/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-355-3-56",
+    "name": "Sedyatmo · SEDYATMO GT CENGKARENG LAJUR",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1064665,
+    "lng": 106.6953571,
+    "stream": "https://jmlive.jasamarga.com/hls/3/8fb44923-2562-4ba8-a168-be26608760ae/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-356-3-55",
+    "name": "Sedyatmo · SEDYATMO KM 32+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.11147498684529,
+    "lng": 106.689069271088,
+    "stream": "https://jmlive.jasamarga.com/hls/3/5a4677ae-f7b2-4958-8d4d-e2ecf7315c9c/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-356-3-56",
+    "name": "Sedyatmo · SEDYATMO KM 32+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.11147498684529,
+    "lng": 106.689069271088,
+    "stream": "https://jmlive.jasamarga.com/hls/3/5a4677ae-f7b2-4958-8d4d-e2ecf7315c9c/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-275-4-83",
+    "name": "Jakarta-Tangerang · JANGER KM 00+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.18407549883864,
+    "lng": 106.791427731514,
+    "stream": "https://jmlive.jasamarga.com/hls/4/df2033e7-4caf-41f1-922e-33d2346eaa64/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-282-4-84",
+    "name": "Jakarta-Tangerang · JANGER KM 04+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19068862816427,
+    "lng": 106.756285429001,
+    "stream": "https://jmlive.jasamarga.com/hls/4/84bea1de-1b5b-4318-84a7-b375e47433c3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-617-4-84",
+    "name": "Jakarta-Tangerang · JANGER GT. MERUYA 2",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19139260157299,
+    "lng": 106.741404533386,
+    "stream": "https://jmlive.jasamarga.com/hls/4/9b0cad7a-ce4b-4d66-a7d0-c51ee59a4c5f/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-617-4-85",
+    "name": "Jakarta-Tangerang · JANGER GT. MERUYA 2",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19139260157299,
+    "lng": 106.741404533386,
+    "stream": "https://jmlive.jasamarga.com/hls/4/9b0cad7a-ce4b-4d66-a7d0-c51ee59a4c5f/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-287-4-84",
+    "name": "Jakarta-Tangerang · JANGER KM 07+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19150993038322,
+    "lng": 106.73278927803,
+    "stream": "https://jmlive.jasamarga.com/hls/4/c213c181-8945-4f13-a2e6-c5f4df7855cf/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-287-4-85",
+    "name": "Jakarta-Tangerang · JANGER KM 07+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19150993038322,
+    "lng": 106.73278927803,
+    "stream": "https://jmlive.jasamarga.com/hls/4/c213c181-8945-4f13-a2e6-c5f4df7855cf/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-294-4-86",
+    "name": "Jakarta-Tangerang · JANGER KM 10+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.20228273728311,
+    "lng": 106.705827713013,
+    "stream": "https://jmlive.jasamarga.com/hls/4/a21812b4-756c-4816-aa7a-e46e6b957f18/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-294-4-87",
+    "name": "Jakarta-Tangerang · JANGER KM 10+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.20228273728311,
+    "lng": 106.705827713013,
+    "stream": "https://jmlive.jasamarga.com/hls/4/a21812b4-756c-4816-aa7a-e46e6b957f18/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-295-4-87",
+    "name": "Jakarta-Tangerang · JANGER KM 11+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.20777571747664,
+    "lng": 106.698703765869,
+    "stream": "https://jmlive.jasamarga.com/hls/4/adbd3073-8265-410b-b5b2-90d92b2c08ce/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-298-4-87",
+    "name": "Jakarta-Tangerang · JANGER KM 13+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.21381259662718,
+    "lng": 106.681773662567,
+    "stream": "https://jmlive.jasamarga.com/hls/4/cebd0795-2d53-4b26-8126-eb5020536b81/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-301-4-87",
+    "name": "Jakarta-Tangerang · JANGER KM 15+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.21819622342443,
+    "lng": 106.665240526199,
+    "stream": "https://jmlive.jasamarga.com/hls/4/944d628e-e4e8-497a-b1fa-96ff0bc96dfe/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-305-4-88",
+    "name": "Jakarta-Tangerang · JANGER KM 17+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.22086264520983,
+    "lng": 106.646454334259,
+    "stream": "https://jmlive.jasamarga.com/hls/4/e967d8ac-29fc-48cf-890b-e5e1073b2523/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-305-4-89",
+    "name": "Jakarta-Tangerang · JANGER KM 17+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.22086264520983,
+    "lng": 106.646454334259,
+    "stream": "https://jmlive.jasamarga.com/hls/4/e967d8ac-29fc-48cf-890b-e5e1073b2523/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-308-4-89",
+    "name": "Jakarta-Tangerang · JANGER KM 19+300",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.22303843536511,
+    "lng": 106.631187200546,
+    "stream": "https://jmlive.jasamarga.com/hls/4/87c2238e-e246-49fc-b279-420aa3b63628/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-319-4-90",
+    "name": "Jakarta-Tangerang · JANGER KM 25+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.22170523168182,
+    "lng": 106.575525999069,
+    "stream": "https://jmlive.jasamarga.com/hls/4/9c5972a3-cc9b-4e56-93e5-98ce54ffe319/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-47-5-1",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 01+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.24713150867619,
+    "lng": 106.885567903519,
+    "stream": "https://jmlive.jasamarga.com/hls/5/037c3294-e214-4c58-80b6-92a814a6cae2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12704-5-1",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 03+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2494269,
+    "lng": 106.900179,
+    "stream": "https://jmlive.jasamarga.com/hls/5/4f861b22-5167-4094-a31a-845692310b7c/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12704-5-2",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 03+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2494269,
+    "lng": 106.900179,
+    "stream": "https://jmlive.jasamarga.com/hls/5/4f861b22-5167-4094-a31a-845692310b7c/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-50-5-2",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 04+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25548223564827,
+    "lng": 106.906843185425,
+    "stream": "https://jmlive.jasamarga.com/hls/5/500e58f6-6330-498d-8d62-aa9262960344/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-52-5-3",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 05+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25829777636331,
+    "lng": 106.915383338928,
+    "stream": "https://jmlive.jasamarga.com/hls/5/040ad071-3255-4dd3-bf20-359f425fbcef/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-54-5-3",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 07+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25765788207833,
+    "lng": 106.933332681656,
+    "stream": "https://jmlive.jasamarga.com/hls/5/146619a1-2242-4fe8-9307-3c2c10b979f2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-58-5-4",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 09+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25677269369233,
+    "lng": 106.951442956924,
+    "stream": "https://jmlive.jasamarga.com/hls/5/091c639f-da28-4307-ad74-0b8f1887e4b3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-58-5-5",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 09+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25677269369233,
+    "lng": 106.951442956924,
+    "stream": "https://jmlive.jasamarga.com/hls/5/091c639f-da28-4307-ad74-0b8f1887e4b3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-58-5-36",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 09+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25677269369233,
+    "lng": 106.951442956924,
+    "stream": "https://jmlive.jasamarga.com/hls/5/091c639f-da28-4307-ad74-0b8f1887e4b3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-58-5-37",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 09+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25677269369233,
+    "lng": 106.951442956924,
+    "stream": "https://jmlive.jasamarga.com/hls/5/091c639f-da28-4307-ad74-0b8f1887e4b3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-61-5-5",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 11+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25221874902461,
+    "lng": 106.968458890915,
+    "stream": "https://jmlive.jasamarga.com/hls/5/d4a24f86-5c81-4601-9e19-9bf87c70a27e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-61-5-36",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 11+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25221874902461,
+    "lng": 106.968458890915,
+    "stream": "https://jmlive.jasamarga.com/hls/5/d4a24f86-5c81-4601-9e19-9bf87c70a27e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-63-5-5",
+    "name": "Jakarta-Cikampek · CIKAMPEK  KM 12+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.24956315174347,
+    "lng": 106.982529759407,
+    "stream": "https://jmlive.jasamarga.com/hls/5/8608a1dc-20b5-4871-bb96-779af5e830d9/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-65-5-6",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 14+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25438374405917,
+    "lng": 106.993317604065,
+    "stream": "https://jmlive.jasamarga.com/hls/5/c987bbba-fc19-45a4-a153-4274777d7c6f/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-69-5-7",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 18+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.26628572403902,
+    "lng": 107.027435302734,
+    "stream": "https://jmlive.jasamarga.com/hls/5/4c247d1c-ba47-4732-99cf-75fd152ff294/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-71-5-7",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 20+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27251389213156,
+    "lng": 107.044451236725,
+    "stream": "https://jmlive.jasamarga.com/hls/5/2409aa15-a388-4c45-a396-dfd721918f3e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-73-5-7",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 22+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27895527537126,
+    "lng": 107.061166763306,
+    "stream": "https://jmlive.jasamarga.com/hls/5/21d5d99f-5c3a-4a29-9568-a7f900912648/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-73-5-8",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 22+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27895527537126,
+    "lng": 107.061166763306,
+    "stream": "https://jmlive.jasamarga.com/hls/5/21d5d99f-5c3a-4a29-9568-a7f900912648/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-75-5-9",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 24+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28437280091434,
+    "lng": 107.078461647034,
+    "stream": "https://jmlive.jasamarga.com/hls/5/07a6695f-eb72-4d05-991c-ad788f403547/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-77-5-9",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 26+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29015285454828,
+    "lng": 107.095692157745,
+    "stream": "https://jmlive.jasamarga.com/hls/5/36cd57fc-facf-47a3-9033-03332d1780bd/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-77-5-10",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 26+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29015285454828,
+    "lng": 107.095692157745,
+    "stream": "https://jmlive.jasamarga.com/hls/5/36cd57fc-facf-47a3-9033-03332d1780bd/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-79-5-9",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 28+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29853488454559,
+    "lng": 107.11163520813,
+    "stream": "https://jmlive.jasamarga.com/hls/5/fe7b6036-f78a-4817-ae99-6f5fff0812be/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-79-5-10",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 28+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29853488454559,
+    "lng": 107.11163520813,
+    "stream": "https://jmlive.jasamarga.com/hls/5/fe7b6036-f78a-4817-ae99-6f5fff0812be/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-82-5-10",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 31+000 | CIKARANG BARAT",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31227003032264,
+    "lng": 107.135238647461,
+    "stream": "https://jmlive.jasamarga.com/hls/5/89137df0-12af-4edd-b1e3-5e182058e524/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-82-5-11",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 31+000 | CIKARANG BARAT",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31227003032264,
+    "lng": 107.135238647461,
+    "stream": "https://jmlive.jasamarga.com/hls/5/89137df0-12af-4edd-b1e3-5e182058e524/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-82-5-31",
+    "name": "Jakarta-Cikampek · CIKAMPEK KM 31+000 | CIKARANG BARAT",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31227003032264,
+    "lng": 107.135238647461,
+    "stream": "https://jmlive.jasamarga.com/hls/5/89137df0-12af-4edd-b1e3-5e182058e524/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-590-5-11",
+    "name": "Jakarta-Cikampek · CIKAMPEK GT. CKR BRT 4 ENTR",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31149157293848,
+    "lng": 107.139036655426,
+    "stream": "https://jmlive.jasamarga.com/hls/5/6e12ed68-b4c7-4629-a3df-f08d47f747ac/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-582-5-9",
+    "name": "Jakarta-Cikampek · CIKAMPEK GT. CIBITUNG 3",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2846074,
+    "lng": 107.0801964,
+    "stream": "https://jmlive.jasamarga.com/hls/5/17f12f0e-8c2b-4414-9216-b88b2992a55a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-591-5-11",
+    "name": "Jakarta-Cikampek · CIKAMPEK GT. CKR BRT 5 ENTR",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31347503739084,
+    "lng": 107.136236429214,
+    "stream": "https://jmlive.jasamarga.com/hls/5/d22148ba-1aa1-49cb-b3e0-53eaaed1153d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-589-5-11",
+    "name": "Jakarta-Cikampek · CIKAMPEK GT. CKR BRT 3 ENTR",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31169418524696,
+    "lng": 107.136558294296,
+    "stream": "https://jmlive.jasamarga.com/hls/5/d8daf0f5-e98a-4a38-9423-72040def0183/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-569-5-2",
+    "name": "Jakarta-Cikampek · CIKAMPEK GT. PGB 1",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25536492112265,
+    "lng": 106.907229423523,
+    "stream": "https://jmlive.jasamarga.com/hls/5/9f0507c6-4c41-4d0c-80c6-a675b2344638/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-568-5-2",
+    "name": "Jakarta-Cikampek · CIKAMPEK GT. PGB 2",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25666604438797,
+    "lng": 106.909021139145,
+    "stream": "https://jmlive.jasamarga.com/hls/5/73f7788d-572f-4620-90fd-6176b72c2602/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-60-5-9",
+    "name": "Jakarta-Cikampek · CIKAMPEK GT CIBITUNG 8",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2810954,
+    "lng": 107.086082,
+    "stream": "https://jmlive.jasamarga.com/hls/5/b5ee5f5d-1bf5-4a5d-8cf5-ab13cca0c0ba/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-236-8-143",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 34+800",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.3102758974234,
+    "lng": 106.900534629822,
+    "stream": "https://jmlive.jasamarga.com/hls/8/4261f73f-9716-436d-be29-ae40c0ea565a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-238-8-143",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 35+600",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31184347847619,
+    "lng": 106.907572746277,
+    "stream": "https://jmlive.jasamarga.com/hls/8/a8a151ad-eced-47ba-8fcf-7259171711a4/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-239-8-143",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 36+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31197677596593,
+    "lng": 106.910780668259,
+    "stream": "https://jmlive.jasamarga.com/hls/8/077a6f17-c232-4ca5-a690-a05e218f233b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-239-8-144",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 36+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31197677596593,
+    "lng": 106.910780668259,
+    "stream": "https://jmlive.jasamarga.com/hls/8/077a6f17-c232-4ca5-a690-a05e218f233b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1117-8-143",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 37+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31137427103943,
+    "lng": 106.920018196106,
+    "stream": "https://jmlive.jasamarga.com/hls/8/924119d1-4ff3-4d9f-89e7-05c28b5d2d52/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1117-8-144",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 37+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31137427103943,
+    "lng": 106.920018196106,
+    "stream": "https://jmlive.jasamarga.com/hls/8/924119d1-4ff3-4d9f-89e7-05c28b5d2d52/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1118-8-144",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 38+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.30992399082088,
+    "lng": 106.928944587708,
+    "stream": "https://jmlive.jasamarga.com/hls/8/5cb169a1-2234-4a87-962b-e5290d372187/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1118-8-145",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 38+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.30992399082088,
+    "lng": 106.928944587708,
+    "stream": "https://jmlive.jasamarga.com/hls/8/5cb169a1-2234-4a87-962b-e5290d372187/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1119-8-145",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 39+400",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.30516789633134,
+    "lng": 106.941175460815,
+    "stream": "https://jmlive.jasamarga.com/hls/8/088951ef-f0ca-427b-a15c-e92a31571a8d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1120-8-145",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 40+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.30299244843563,
+    "lng": 106.945488452911,
+    "stream": "https://jmlive.jasamarga.com/hls/8/da90dbcf-dd76-493f-8f8f-89a40fda7b7e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1122-8-145",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 41+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29821496221973,
+    "lng": 106.953556537628,
+    "stream": "https://jmlive.jasamarga.com/hls/8/868c05c8-6556-493c-bb84-2a1e7e4ba47a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-243-8-145",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 42+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29045145335957,
+    "lng": 106.958395242691,
+    "stream": "https://jmlive.jasamarga.com/hls/8/55a0843c-9ba4-4b9b-bb93-1bc224778866/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-243-8-146",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 42+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29045145335957,
+    "lng": 106.958395242691,
+    "stream": "https://jmlive.jasamarga.com/hls/8/55a0843c-9ba4-4b9b-bb93-1bc224778866/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-244-8-145",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 43+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28151474328463,
+    "lng": 106.959253549576,
+    "stream": "https://jmlive.jasamarga.com/hls/8/a6ed1425-7094-4148-a71e-cf508d7f4801/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-244-8-146",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 43+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28151474328463,
+    "lng": 106.959253549576,
+    "stream": "https://jmlive.jasamarga.com/hls/8/a6ed1425-7094-4148-a71e-cf508d7f4801/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-245-8-145",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 44+050",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27251389213156,
+    "lng": 106.959092617035,
+    "stream": "https://jmlive.jasamarga.com/hls/8/85b18ea1-e736-4afe-a595-23d0d683754d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-245-8-146",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 44+050",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27251389213156,
+    "lng": 106.959092617035,
+    "stream": "https://jmlive.jasamarga.com/hls/8/85b18ea1-e736-4afe-a595-23d0d683754d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-247-8-146",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 45+700",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25779652590658,
+    "lng": 106.957976818085,
+    "stream": "https://jmlive.jasamarga.com/hls/8/86426ab9-3257-4930-990d-2d8735e34eee/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-247-8-147",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 45+700",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25779652590658,
+    "lng": 106.957976818085,
+    "stream": "https://jmlive.jasamarga.com/hls/8/86426ab9-3257-4930-990d-2d8735e34eee/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12417-8-147",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 46+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2504862,
+    "lng": 106.9567479,
+    "stream": "https://jmlive.jasamarga.com/hls/8/0c5fd455-97e8-4377-99cd-0b7967efab76/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-249-8-147",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 47+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.24472118466242,
+    "lng": 106.954951286316,
+    "stream": "https://jmlive.jasamarga.com/hls/8/9a78f35f-edcd-472d-bd5f-ed1a457e1a3b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1126-8-147",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 48+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.23795942003447,
+    "lng": 106.951797008514,
+    "stream": "https://jmlive.jasamarga.com/hls/8/69486db6-4a70-4ea4-8321-198272bb8f9a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1126-8-148",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 48+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.23795942003447,
+    "lng": 106.951797008514,
+    "stream": "https://jmlive.jasamarga.com/hls/8/69486db6-4a70-4ea4-8321-198272bb8f9a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1113-8-148",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 49+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.22914979774495,
+    "lng": 106.951861381531,
+    "stream": "https://jmlive.jasamarga.com/hls/8/33325a50-c138-42f5-bf7a-48e6c73f74da/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1114-8-149",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 51+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.21195674362166,
+    "lng": 106.95104598999,
+    "stream": "https://jmlive.jasamarga.com/hls/8/4a16474b-820f-44c6-ad1f-d9b39dc1b71d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1114-8-150",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 51+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.21195674362166,
+    "lng": 106.95104598999,
+    "stream": "https://jmlive.jasamarga.com/hls/8/4a16474b-820f-44c6-ad1f-d9b39dc1b71d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1130-8-149",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 52+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.20353066208106,
+    "lng": 106.946496963501,
+    "stream": "https://jmlive.jasamarga.com/hls/8/f00738fe-eba4-4c08-9d7b-a39bb7387f1d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1130-8-150",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 52+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.20353066208106,
+    "lng": 106.946496963501,
+    "stream": "https://jmlive.jasamarga.com/hls/8/f00738fe-eba4-4c08-9d7b-a39bb7387f1d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1132-8-149",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 53+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19531776943521,
+    "lng": 106.943621635437,
+    "stream": "https://jmlive.jasamarga.com/hls/8/fb992c3c-e1d6-44b4-9081-9bcfcc17b683/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1132-8-150",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 53+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19531776943521,
+    "lng": 106.943621635437,
+    "stream": "https://jmlive.jasamarga.com/hls/8/fb992c3c-e1d6-44b4-9081-9bcfcc17b683/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1133-8-150",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 54+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.18678475860052,
+    "lng": 106.94304227829,
+    "stream": "https://jmlive.jasamarga.com/hls/8/e07b418a-eae8-44c8-acb1-f1442dbb2fc0/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1133-8-151",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 54+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.18678475860052,
+    "lng": 106.94304227829,
+    "stream": "https://jmlive.jasamarga.com/hls/8/e07b418a-eae8-44c8-acb1-f1442dbb2fc0/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12419-8-151",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 55+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1727252,
+    "lng": 106.9428809,
+    "stream": "https://jmlive.jasamarga.com/hls/8/a0c8197d-ac18-4b52-8f77-94f9f21f5695/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12418-8-151",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 56+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.1641803,
+    "lng": 106.9415521,
+    "stream": "https://jmlive.jasamarga.com/hls/8/c950fa79-bb99-4dfd-a6c0-c22007d0b7dc/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1139-8-151",
+    "name": "JORR E (Bambu Apus-Rorotan) · JORR E KM 57+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.15954220049592,
+    "lng": 106.940875053406,
+    "stream": "https://jmlive.jasamarga.com/hls/8/a0b9d8c0-bdee-4c31-9baf-aa345c5e89fa/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-207-9-132",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S KM 00+100",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25407,
+    "lng": 106.761098,
+    "stream": "https://jmlive.jasamarga.com/hls/9/24a915e3-8d59-43c3-a2a9-fa57d70fd563/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-207-9-133",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S KM 00+100",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25407,
+    "lng": 106.761098,
+    "stream": "https://jmlive.jasamarga.com/hls/9/24a915e3-8d59-43c3-a2a9-fa57d70fd563/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-209-9-131",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S KM 02+800",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.271884,
+    "lng": 106.749028,
+    "stream": "https://jmlive.jasamarga.com/hls/9/d38b5e6a-8d5d-4f07-b115-e32e83a14464/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-209-9-132",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S KM 02+800",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.271884,
+    "lng": 106.749028,
+    "stream": "https://jmlive.jasamarga.com/hls/9/d38b5e6a-8d5d-4f07-b115-e32e83a14464/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1900-9-130",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S GT Pondok Ranji Arah Serpong",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.283489,
+    "lng": 106.737426,
+    "stream": "https://jmlive.jasamarga.com/hls/9/9ebe728e-2e2c-42d2-9035-4231d8097670/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1900-9-131",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S GT Pondok Ranji Arah Serpong",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.283489,
+    "lng": 106.737426,
+    "stream": "https://jmlive.jasamarga.com/hls/9/9ebe728e-2e2c-42d2-9035-4231d8097670/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1901-9-130",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S GT Pondok Ranji Arah Jakarta",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.283136,
+    "lng": 106.734562,
+    "stream": "https://jmlive.jasamarga.com/hls/9/39bc7754-8367-48f6-b914-c3a32e68c1e8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1901-9-131",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S GT Pondok Ranji Arah Jakarta",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.283136,
+    "lng": 106.734562,
+    "stream": "https://jmlive.jasamarga.com/hls/9/39bc7754-8367-48f6-b914-c3a32e68c1e8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-205-9-130",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S GT Pondok Ranji A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.283458,
+    "lng": 106.734712,
+    "stream": "https://jmlive.jasamarga.com/hls/9/91465600-82bd-4f08-b13d-775b64f0613a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-205-9-131",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S GT Pondok Ranji A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.283458,
+    "lng": 106.734712,
+    "stream": "https://jmlive.jasamarga.com/hls/9/91465600-82bd-4f08-b13d-775b64f0613a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-878-9-133",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S KM 17+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.259775,
+    "lng": 106.766103,
+    "stream": "https://jmlive.jasamarga.com/hls/9/d36b54b8-8408-4a3a-876a-e44a050e0430/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-878-9-134",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S KM 17+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.259775,
+    "lng": 106.766103,
+    "stream": "https://jmlive.jasamarga.com/hls/9/d36b54b8-8408-4a3a-876a-e44a050e0430/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-876-9-134",
+    "name": "JORR W2S (Pondok Ranji-Ulujami-Pondok Pinang) · JORR W2S KM 18+800",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.274442,
+    "lng": 106.767797,
+    "stream": "https://jmlive.jasamarga.com/hls/9/fba6f7d1-2f85-43cc-9e55-e921592682d3/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1888-10-220",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U AKSES ROAD KM 08",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.19091,
+    "lng": 106.731292,
+    "stream": "https://jmlive.jasamarga.com/hls/10/7c5bbb24-ae0a-4af5-9975-6dbb99967ac9/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12937-10-220",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U  IC KM 08",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.191074,
+    "lng": 106.731742,
+    "stream": "https://jmlive.jasamarga.com/hls/10/1d4ec526-4260-4213-b589-fa21c8b61524/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1867-10-220",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U KM 08+400",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.191192,
+    "lng": 106.731575,
+    "stream": "https://jmlive.jasamarga.com/hls/10/d15a1591-5c6e-4e6c-8771-63002c6a60a1/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1868-10-220",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U  KM 08+890",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.195638,
+    "lng": 106.73329,
+    "stream": "https://jmlive.jasamarga.com/hls/10/a5cbf366-02b1-4ae0-bfd0-80cdd696dbf4/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1870-10-220",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U KM.09+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.196306,
+    "lng": 106.733599,
+    "stream": "https://jmlive.jasamarga.com/hls/10/c3768b39-02f0-4b3e-933d-ee77388d2dc4/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1884-10-221",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U  POOL DEREK A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.210186,
+    "lng": 106.740633,
+    "stream": "https://jmlive.jasamarga.com/hls/10/2379a0b3-2ecf-4c2e-95f3-c8c317b3999b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12938-10-220",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U KM 10+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.204527,
+    "lng": 106.737694,
+    "stream": "https://jmlive.jasamarga.com/hls/10/70bac336-fa90-488f-8752-7721b07a2c40/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1880-10-221",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U OFF RAMPP JOGLO 1",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.216036,
+    "lng": 106.744187,
+    "stream": "https://jmlive.jasamarga.com/hls/10/6855ce97-9067-40d8-8dbb-e965fd389f47/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1873-10-222",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U KM.13+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.227882983623039,
+    "lng": 106.7514003103238,
+    "stream": "https://jmlive.jasamarga.com/hls/10/0b0c1504-1328-4aaa-81c7-efe718b2ca44/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1876-10-223",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U KM.15+800",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.250541,
+    "lng": 106.762713,
+    "stream": "https://jmlive.jasamarga.com/hls/10/0e6c40d1-076a-4257-ac9c-c396772aaf54/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1877-10-223",
+    "name": "JORR W2U (Ulujami-Kembangan) · JORR W2U KM.16+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.251647,
+    "lng": 106.763582,
+    "stream": "https://jmlive.jasamarga.com/hls/10/951a43e7-d0ab-4afc-bfdb-9418131e5375/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-13671-28-606",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 25+500",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.3047293,
+    "lng": 106.7052858,
+    "stream": "https://jmlive.jasamarga.com/hls/28/b6f1c83e-022a-4b7e-a6e4-eb7398706ae2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1380-28-605",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 14+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2179869,
+    "lng": 106.6674262,
+    "stream": "https://jmlive.jasamarga.com/hls/28/32f35a3f-a710-4e7e-8999-b5df3da69d24/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1381-28-605",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 14+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2193308,
+    "lng": 106.6683961,
+    "stream": "https://jmlive.jasamarga.com/hls/28/59bd593e-200a-4d48-97b3-507ab3213543/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1383-28-605",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 16+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2349281,
+    "lng": 106.672002,
+    "stream": "https://jmlive.jasamarga.com/hls/28/ececdb2e-527a-4479-b0e7-8d0daa76a74e/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1385-28-605",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 18+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2512119,
+    "lng": 106.668143,
+    "stream": "https://jmlive.jasamarga.com/hls/28/7f8b8a05-3e4b-4f34-88be-a88c3f50a058/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1386-28-605",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 19+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2582115,
+    "lng": 106.6735775,
+    "stream": "https://jmlive.jasamarga.com/hls/28/da5124f0-5a35-4464-95d2-0aff9bb0e25a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1389-28-606",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 22+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2811658,
+    "lng": 106.6877208,
+    "stream": "https://jmlive.jasamarga.com/hls/28/78f90974-ee64-4869-9153-99c421b41c15/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1390-28-606",
+    "name": "JORR 2 (Serpong-Kunciran) · (MTN) KM 23+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2887658,
+    "lng": 106.6926215,
+    "stream": "https://jmlive.jasamarga.com/hls/28/81da4a69-1405-4693-8528-47283fb15114/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1427-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) KM 10+000|B L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25590350122782,
+    "lng": 106.960825324059,
+    "stream": "https://jmlive.jasamarga.com/hls/29/9114fab7-dfb2-45d5-aee9-da90d8fa6182/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1543-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) ON RAMP PERTEMUAN JALUR A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25544444,
+    "lng": 106.9614444,
+    "stream": "https://jmlive.jasamarga.com/hls/29/9658c6d3-10ac-4f1e-b12d-f4138c1b9db7/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1547-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) ON RAMP JATI ASIH 4 JALUR A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25522222,
+    "lng": 106.9593333,
+    "stream": "https://jmlive.jasamarga.com/hls/29/af63cd9f-5f82-414e-9135-e793adb34f20/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1549-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) OFF RAMP ARAH CIKUNIR 6 JALUR B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25675,
+    "lng": 106.9592222,
+    "stream": "https://jmlive.jasamarga.com/hls/29/d8733492-dff6-4705-a5ee-f9a1d252e0e7/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1426-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) KM 10+500|A L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25423976683511,
+    "lng": 106.964972019196,
+    "stream": "https://jmlive.jasamarga.com/hls/29/571ad288-0898-4747-8747-f07cb43f449d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1545-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) ON RAMP JATI ASIH 2 JALUR A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25502778,
+    "lng": 106.9572778,
+    "stream": "https://jmlive.jasamarga.com/hls/29/0ca86f67-7ef0-4780-9a7b-f75416cb0860/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1429-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) KM 11+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25195212340043,
+    "lng": 106.968925595284,
+    "stream": "https://jmlive.jasamarga.com/hls/29/0ed772ce-8688-46c2-829e-fc8796145714/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1431-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) KM 12+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.24873127512359,
+    "lng": 106.977235078812,
+    "stream": "https://jmlive.jasamarga.com/hls/29/e3498e7a-958f-4f55-8c3a-be491e6bbe06/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1433-29-480",
+    "name": "Jalan Layang MBZ · (MBZ) KM 13+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25106692535351,
+    "lng": 106.985828876495,
+    "stream": "https://jmlive.jasamarga.com/hls/29/f09eb9aa-a5ab-4866-8a5a-4770331c1676/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1435-29-481",
+    "name": "Jalan Layang MBZ · (MBZ) KM 14+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25465036844342,
+    "lng": 106.994079351425,
+    "stream": "https://jmlive.jasamarga.com/hls/29/b84f8070-b25c-4d28-93a1-fbcc666a06af/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1437-29-481",
+    "name": "Jalan Layang MBZ · (MBZ) KM 15+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.25768987681118,
+    "lng": 107.002619504929,
+    "stream": "https://jmlive.jasamarga.com/hls/29/1c6a452b-9260-4647-9dc0-ea58f649a8d7/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1439-29-481",
+    "name": "Jalan Layang MBZ · (MBZ) KM 16+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.26063338385208,
+    "lng": 107.011127471924,
+    "stream": "https://jmlive.jasamarga.com/hls/29/e6e01abc-217d-44f4-9b88-d9fe0d93ddf8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1441-29-481",
+    "name": "Jalan Layang MBZ · (MBZ) KM 17+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.26359820388383,
+    "lng": 107.019667625427,
+    "stream": "https://jmlive.jasamarga.com/hls/29/e0f07ad8-a638-40f0-9219-52c997e78c5c/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1443-29-481",
+    "name": "Jalan Layang MBZ · (MBZ) KM 18+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.2665736718062,
+    "lng": 107.028197050095,
+    "stream": "https://jmlive.jasamarga.com/hls/29/d46b7bf3-c9df-4e84-af33-c423ac33fac2/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1445-29-482",
+    "name": "Jalan Layang MBZ · (MBZ) KM 19+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.26953845809216,
+    "lng": 107.03670501709,
+    "stream": "https://jmlive.jasamarga.com/hls/29/3826b209-9f73-445d-ab5f-fa38024b2e06/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1447-29-482",
+    "name": "Jalan Layang MBZ · (MBZ) KM 20+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27263120280307,
+    "lng": 107.045191526413,
+    "stream": "https://jmlive.jasamarga.com/hls/29/456ee675-4d8b-4c2d-ba73-a8d7bdabef0a/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1449-29-482",
+    "name": "Jalan Layang MBZ · (MBZ) KM 21+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27613984613666,
+    "lng": 107.053484916687,
+    "stream": "https://jmlive.jasamarga.com/hls/29/860e84f2-18e0-46bc-8c33-e63910548f28/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1449-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 21+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27613984613666,
+    "lng": 107.053484916687,
+    "stream": "https://jmlive.jasamarga.com/hls/29/860e84f2-18e0-46bc-8c33-e63910548f28/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1451-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 22+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.27906192011886,
+    "lng": 107.06202507019,
+    "stream": "https://jmlive.jasamarga.com/hls/29/04448465-9559-45dd-a721-c2f89e268400/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1453-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 23+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28191999121695,
+    "lng": 107.070618867874,
+    "stream": "https://jmlive.jasamarga.com/hls/29/a29f47b7-2228-475f-927e-d1c0bbb755f7/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1455-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 24+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28458608816769,
+    "lng": 107.079201936722,
+    "stream": "https://jmlive.jasamarga.com/hls/29/e4ee0dc9-8a02-4c0b-b616-912214233909/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1457-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 25+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.28729482867755,
+    "lng": 107.08783864975,
+    "stream": "https://jmlive.jasamarga.com/hls/29/e5cb1d09-78ea-4da0-89b9-0dad5ff6984b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1459-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 26+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29041946063801,
+    "lng": 107.096292972565,
+    "stream": "https://jmlive.jasamarga.com/hls/29/c7e0c9c0-112b-41d6-9d27-1c527528bc84/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1461-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 27+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29440787141183,
+    "lng": 107.10444688797,
+    "stream": "https://jmlive.jasamarga.com/hls/29/0aef3183-5abc-44ed-964e-c2910ad79232/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1463-29-483",
+    "name": "Jalan Layang MBZ · (MBZ) KM 28+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.29894011920864,
+    "lng": 107.112300395966,
+    "stream": "https://jmlive.jasamarga.com/hls/29/d27105ea-2309-4477-9d68-1c973e98037b/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1465-29-484",
+    "name": "Jalan Layang MBZ · (MBZ) KM 29+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.30307776028971,
+    "lng": 107.12023973465,
+    "stream": "https://jmlive.jasamarga.com/hls/29/cbb7bc68-f1c0-42b3-85c4-1823e8110556/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1467-29-484",
+    "name": "Jalan Layang MBZ · (MBZ) KM 30+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.30798316829531,
+    "lng": 107.12794303894,
+    "stream": "https://jmlive.jasamarga.com/hls/29/73f37d50-f6ab-4313-949f-8ce70348f9bc/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1469-29-484",
+    "name": "Jalan Layang MBZ · (MBZ) KM 31+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31252596126188,
+    "lng": 107.135764360428,
+    "stream": "https://jmlive.jasamarga.com/hls/29/57d52263-0ed7-40eb-a217-e65cb53c5066/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-1471-29-484",
+    "name": "Jalan Layang MBZ · (MBZ) KM 32+000 L",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.31719667868396,
+    "lng": 107.14373588562,
+    "stream": "https://jmlive.jasamarga.com/hls/29/c0f43d55-3ac8-4ed2-9873-f80ee27fd986/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-2122-32-607",
+    "name": "JORR 2 (Serpong-Cinere) · CSJ KM 27+200",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.313959,
+    "lng": 106.716343,
+    "stream": "https://jmlive.jasamarga.com/hls/32/df78afa2-f675-4fc5-9efa-c8b52d588f64/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-2124-32-607",
+    "name": "JORR 2 (Serpong-Cinere) · CSJ TL PAMULANG",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.322012,
+    "lng": 106.731773,
+    "stream": "https://jmlive.jasamarga.com/hls/32/fbbb8112-66bf-4cc9-98cc-a24f18c6546d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12827-32-607",
+    "name": "JORR 2 (Serpong-Cinere) · CSJ KM 33+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.3457517,
+    "lng": 106.7548064,
+    "stream": "https://jmlive.jasamarga.com/hls/32/c4362834-f430-45d6-b79c-bdf839744ecd/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-2238-33-600",
+    "name": "JORR 2 (Kunciran-Cengkareng) · JKC KM 01+300",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.124291,
+    "lng": 106.685689,
+    "stream": "https://jmlive.jasamarga.com/hls/33/14876421-a2e6-42da-86f0-c4bedff18cb9/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-2240-33-600",
+    "name": "JORR 2 (Kunciran-Cengkareng) · JKC GT Benda arah Kunciran B",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.135619,
+    "lng": 106.681649,
+    "stream": "https://jmlive.jasamarga.com/hls/33/ced1a882-8a86-43fd-ac3f-76645ef36630/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-12287-33-600",
+    "name": "JORR 2 (Kunciran-Cengkareng) · JKC GT Benda arah Kunciran A",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.135663,
+    "lng": 106.681534,
+    "stream": "https://jmlive.jasamarga.com/hls/33/7138bedf-8693-41c0-9874-f0209489dfc8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jm-2179-33-601",
+    "name": "JORR 2 (Kunciran-Cengkareng) · JKC KM 07+000",
+    "source": "BPJT Kementerian PU (jm)",
+    "lat": -6.160697,
+    "lng": 106.659204,
+    "stream": "https://jmlive.jasamarga.com/hls/33/7478bff8-ba39-4ed8-8047-d4a9dee3cfb8/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cw-636",
+    "name": "Depok-Antasari · Km 1 + 600 B",
+    "source": "BPJT Kementerian PU (cw)",
+    "lat": -6.306562,
+    "lng": 106.8036316,
+    "stream": "https://cctv.cctvdesari.online/1/video/stream.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-17",
+    "name": "Pondok Aren-Serpong · Exit Pondok Aren Barat 1",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2897947,
+    "lng": 106.7266385,
+    "stream": "https://stream.bsdtol.com/memfs/f6541ad9-15d2-45a5-88c6-ec625dfb56c6.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-1017",
+    "name": "Pondok Aren-Serpong · KM 06+200",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2894881,
+    "lng": 106.7263699,
+    "stream": "https://stream.bsdtol.com/memfs/7a2d5b4a-a408-4de6-888b-6f83848fa9bf.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-19",
+    "name": "Pondok Aren-Serpong · KM 06+400",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2901095,
+    "lng": 106.7256834,
+    "stream": "https://stream.bsdtol.com/memfs/556489e6-00c5-484b-bf4e-337d3025a5f6.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2482",
+    "name": "Pondok Aren-Serpong · km 06+600",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2905625,
+    "lng": 106.7264305,
+    "stream": "https://stream.bsdtol.com/memfs/f88035ff-8d15-48f6-b338-742c44f55245.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-20",
+    "name": "Pondok Aren-Serpong · KM 07+000",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2929061,
+    "lng": 106.7203989,
+    "stream": "https://stream.bsdtol.com/memfs/a136d3c4-599a-4a53-8d9e-ee190f1e9ced.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2479",
+    "name": "Pondok Aren-Serpong · KM 07+200",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2938166,
+    "lng": 106.718815,
+    "stream": "https://stream.bsdtol.com/memfs/74220d9a-a9da-4c18-b628-4b7c41727f1e.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-21",
+    "name": "Pondok Aren-Serpong · KM 07+400",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2941672,
+    "lng": 106.7170189,
+    "stream": "https://stream.bsdtol.com/memfs/bed4f2d5-0ee4-4540-93e0-58bfca3ee95f.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2480",
+    "name": "Pondok Aren-Serpong · KM 07+600",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2949954,
+    "lng": 106.7151107,
+    "stream": "https://stream.bsdtol.com/memfs/4f166be4-4e6c-46de-9fd0-0431503493e3.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-22",
+    "name": "Pondok Aren-Serpong · KM 07+800",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2952003,
+    "lng": 106.712234,
+    "stream": "https://stream.bsdtol.com/memfs/ff560f32-433f-4f7a-9401-3ed71eca7aea.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-1051",
+    "name": "Pondok Aren-Serpong · KM 08+075",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2958496,
+    "lng": 106.7108974,
+    "stream": "https://stream.bsdtol.com/memfs/1586641e-03b8-4807-acbc-f314f4480a41.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-23",
+    "name": "Pondok Aren-Serpong · KM 08+350",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2969949,
+    "lng": 106.7090393,
+    "stream": "https://stream.bsdtol.com/memfs/76034d96-b3f2-4c38-af19-2f15b06bef21.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-1006",
+    "name": "Pondok Aren-Serpong · km 08+700",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.299277,
+    "lng": 106.7064486,
+    "stream": "https://stream.bsdtol.com/memfs/73cc6e50-e75e-46d3-b51d-654eb992fa08.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2477",
+    "name": "Pondok Aren-Serpong · KM 09+200",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3015495,
+    "lng": 106.7032678,
+    "stream": "https://stream.bsdtol.com/memfs/31a155a0-dbfe-4c69-a1ee-1c4e66eee56b.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-24",
+    "name": "Pondok Aren-Serpong · KM 09+400",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3025596,
+    "lng": 106.7015952,
+    "stream": "https://stream.bsdtol.com/memfs/efa450aa-23c5-448e-9424-4877500c5c1e.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-1048",
+    "name": "Pondok Aren-Serpong · KM 10+000",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.305335,
+    "lng": 106.6962706,
+    "stream": "https://stream.bsdtol.com/memfs/84bff122-de3c-499f-8b0b-5e549b856b89.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-1005",
+    "name": "Pondok Aren-Serpong · km 09+700",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3038457,
+    "lng": 106.6992512,
+    "stream": "https://stream.bsdtol.com/memfs/45622a12-c356-455a-85ef-34b3e6080564.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2486",
+    "name": "Pondok Aren-Serpong · KM 10+000 A Weaving",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3060357,
+    "lng": 106.6948128,
+    "stream": "https://stream.bsdtol.com/memfs/681382de-4260-4b92-80e2-2788e62daa9c.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-1018",
+    "name": "Pondok Aren-Serpong · KM 10+600 A Weaving",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3072973,
+    "lng": 106.6920078,
+    "stream": "https://stream.bsdtol.com/memfs/8895c2fe-a4b2-4039-9f9a-da92a5e18d0c.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2484",
+    "name": "Pondok Aren-Serpong · km 10+500",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3067562,
+    "lng": 106.6931374,
+    "stream": "https://stream.bsdtol.com/memfs/681382de-4260-4b92-80e2-2788e62daa9c.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-1047",
+    "name": "Pondok Aren-Serpong · KM 11+000",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3087637,
+    "lng": 106.6878171,
+    "stream": "https://stream.bsdtol.com/memfs/7f0767d4-8500-4e51-880a-99b48a20bfb8.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2483",
+    "name": "Pondok Aren-Serpong · km 11+500",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3101482,
+    "lng": 106.6838891,
+    "stream": "https://stream.bsdtol.com/memfs/ded3b9ea-4145-4ead-93bd-4b824cad01ee.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-25",
+    "name": "Pondok Aren-Serpong · KM 12+600",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3124729,
+    "lng": 106.6745808,
+    "stream": "https://stream.bsdtol.com/memfs/885d3159-dc20-41c2-8dcf-564592079f02.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-978",
+    "name": "Pondok Aren-Serpong · KM 12+000",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.3116053,
+    "lng": 106.6797484,
+    "stream": "https://stream.bsdtol.com/memfs/620a0c54-25cc-43b4-ac80-fa0bba110729.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:PT Bintaro Serpong Damai-2481",
+    "name": "Pondok Aren-Serpong · km 05+500",
+    "source": "BPJT Kementerian PU (PT Bintaro Serpong Damai)",
+    "lat": -6.2854709,
+    "lng": 106.7313353,
+    "stream": "https://stream.bsdtol.com/memfs/3f2b1849-6791-4643-9298-6bb50b5e9bf2.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TLKJ-635",
+    "name": "Cinere - jagorawi · KM 38+300 B",
+    "source": "BPJT Kementerian PU (TLKJ)",
+    "lat": -6.3651996,
+    "lng": 106.7939869,
+    "stream": "https://cijagolive.app-intracs.co.id:5443/LiveApp/streams/10018.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TLKJ-625",
+    "name": "Cinere - jagorawi · KM 36+300 B",
+    "source": "BPJT Kementerian PU (TLKJ)",
+    "lat": -6.3618503,
+    "lng": 106.776423,
+    "stream": "https://cijagolive.app-intracs.co.id:5443/LiveApp/streams/10037.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TLKJ-634",
+    "name": "Cinere - jagorawi · KM 40+300 B",
+    "source": "BPJT Kementerian PU (TLKJ)",
+    "lat": -6.368549,
+    "lng": 106.8115673,
+    "stream": "https://cijagolive.app-intracs.co.id:5443/LiveApp/streams/10023.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-235",
+    "name": "Cimanggis-Cibitung · GT Jatikarya 1",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.382051,
+    "lng": 106.918068,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/395563568012170999809057.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-256",
+    "name": "Cimanggis-Cibitung · KM. 68+000",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.3349,
+    "lng": 107.033873,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/507909711721836488619938.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-242",
+    "name": "Cimanggis-Cibitung · KM 24+100 (KM 50+100)",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.387944,
+    "lng": 106.8968056,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/862319596737576314743177.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-243",
+    "name": "Cimanggis-Cibitung · KM 25+000 (KM 51+000)",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.3890557,
+    "lng": 106.9046389,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/418964061815952674729554.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-246",
+    "name": "Cimanggis-Cibitung · KM. 59+400",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.378138,
+    "lng": 106.974712,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/309234587115641908709722.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-247",
+    "name": "Cimanggis-Cibitung · KM. 61+600",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.375688,
+    "lng": 106.994273,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/859389239238521120834932.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-248",
+    "name": "Cimanggis-Cibitung · KM. 64+400",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.364677,
+    "lng": 107.005833,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/167013141883764986350307.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-249",
+    "name": "Cimanggis-Cibitung · KM. 65+800",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.351165,
+    "lng": 107.021763,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/380686335677885377945037.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-277",
+    "name": "Cimanggis-Cibitung · KM. 70+400",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.318107,
+    "lng": 107.04796,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/871311996681478545431857.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-369",
+    "name": "Cimanggis-Cibitung · KM. 72+600",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.31501,
+    "lng": 107.066907,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/506841805129051037322084.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-407",
+    "name": "Cimanggis-Cibitung · KM. 73+400",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.309333,
+    "lng": 107.071633,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/222170400250068902122953.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-418",
+    "name": "Cimanggis-Cibitung · On Ramp Jatikarya",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.380311,
+    "lng": 106.922047,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/364231033851578471527863.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-420",
+    "name": "Cimanggis-Cibitung · Traffic Light Jatikarya",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.379989,
+    "lng": 106.92233395,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/364231033851578471527863.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2077",
+    "name": "Cimanggis-Cibitung · GT Jatikarya 2",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.3825,
+    "lng": 106.9185,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/086623470392836343757862.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2659",
+    "name": "Cimanggis-Cibitung · KM 53+500",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.3821917,
+    "lng": 106.92836365,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/728033679170510237677933.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2662",
+    "name": "Cimanggis-Cibitung · KM 54+000",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.381419,
+    "lng": 106.92412587,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/513568218162926065451774.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2664",
+    "name": "Cimanggis-Cibitung · KM 54+400",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.382721,
+    "lng": 106.93288854,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/042926552556500254096382.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2669",
+    "name": "Cimanggis-Cibitung · KM 55+400",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.38508,
+    "lng": 106.941107,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/419578865556916403624234.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2670",
+    "name": "Cimanggis-Cibitung · KM 55+400",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.38508,
+    "lng": 106.941107,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/419578865556916403624234.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2672",
+    "name": "Cimanggis-Cibitung · KM 55+650",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.384914,
+    "lng": 106.94333144,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/753814245775591052124656.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cct-2674",
+    "name": "Cimanggis-Cibitung · KM 56+000",
+    "source": "BPJT Kementerian PU (cct)",
+    "lat": -6.384752,
+    "lng": 106.94549224,
+    "stream": "https://streaming-cct.co.id/LiveApp/streams/808428562383454739684500.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-69",
+    "name": "Akses Tanjung Priok · ATP GT KOJA TIMUR",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.108496,
+    "lng": 106.91125,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/610831844814460955304790.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-70",
+    "name": "Akses Tanjung Priok · ATP GT SEMPER I",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.139322,
+    "lng": 106.937965,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/316164049687665625966374.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-71",
+    "name": "Akses Tanjung Priok · ATP KM 58+400 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.147817,
+    "lng": 106.940081,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/687489889091511277827377.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-72",
+    "name": "Akses Tanjung Priok · ATP KM 58+400 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.147817,
+    "lng": 106.940081,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/501264524429471982550467.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-73",
+    "name": "Akses Tanjung Priok · ATP KM 59+000 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.1439996,
+    "lng": 106.9398527,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/095660838019901274554950.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-74",
+    "name": "Akses Tanjung Priok · ATP KM 59+000 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.1439996,
+    "lng": 106.9398527,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/956464037412277558025165.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-75",
+    "name": "Akses Tanjung Priok · ATP KM 59+400 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.140674,
+    "lng": 106.938908,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/675323017321643087627650.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-76",
+    "name": "Akses Tanjung Priok · ATP KM 59+400 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.140674,
+    "lng": 106.938908,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/742155705555120746594962.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-79",
+    "name": "Akses Tanjung Priok · ATP KM 60+800 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.130164,
+    "lng": 106.931521,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/215099945954037183566898.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-80",
+    "name": "Akses Tanjung Priok · ATP KM 60+800 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.130164,
+    "lng": 106.931521,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/936875605865456745186345.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-81",
+    "name": "Akses Tanjung Priok · ATP KM 61+400 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.124933,
+    "lng": 106.927774,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/756751654695732090756915.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-82",
+    "name": "Akses Tanjung Priok · ATP KM 61+400 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.124933,
+    "lng": 106.927774,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/241370079371388169899174.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-83",
+    "name": "Akses Tanjung Priok · ATP KM 62+450 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.116377,
+    "lng": 106.924952,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/341140856007945232503242.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-84",
+    "name": "Akses Tanjung Priok · ATP KM 62+450 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.116377,
+    "lng": 106.924952,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/929965054608082862392361.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-87",
+    "name": "Akses Tanjung Priok · ATP KM 64+100 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.107252,
+    "lng": 106.920274,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/884788511122999510332002.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-88",
+    "name": "Akses Tanjung Priok · ATP KM 64+100 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.107252,
+    "lng": 106.920274,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/395196439889823078971618.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-89",
+    "name": "Akses Tanjung Priok · ATP KM 65+000 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.108809,
+    "lng": 106.909949,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/359581681833174683835659.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-90",
+    "name": "Akses Tanjung Priok · ATP KM 65+000 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.108809,
+    "lng": 106.909949,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/732329756425808171838308.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-85",
+    "name": "Akses Tanjung Priok · ATP KM 63+000 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.1105598,
+    "lng": 106.923271,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/167891762725762261014120.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-91",
+    "name": "Akses Tanjung Priok · ATP KM 65+800 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.107867,
+    "lng": 106.900088,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/282683392556897946274334.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-92",
+    "name": "Akses Tanjung Priok · ATP KM 66+400",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.107079,
+    "lng": 106.894764,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/056605534596645381685649.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-93",
+    "name": "Akses Tanjung Priok · ATP KM 66+500 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.107079,
+    "lng": 106.894764,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/613685260667025565685154.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-94",
+    "name": "Akses Tanjung Priok · ATP KM 67+200 A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.114893,
+    "lng": 106.893044,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/806970033882204083458834.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-95",
+    "name": "Akses Tanjung Priok · ATP KM 67+200 B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.114893,
+    "lng": 106.893044,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/356285838211375724458124.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-77",
+    "name": "Akses Tanjung Priok · ATP KM 60+000A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.135349,
+    "lng": 106.935296,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/062223762734246730973930.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-12",
+    "name": "Akses Tanjung Priok · ATP GT SEMPER II",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.116301,
+    "lng": 106.925046,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/539029826611825636156852.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-14",
+    "name": "Akses Tanjung Priok · ATP GT KOJA BARAT",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.108464,
+    "lng": 106.902491,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/800925316301503102079844.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-13",
+    "name": "Akses Tanjung Priok · ATP GT KOJA DIRECT",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.103144,
+    "lng": 106.900061,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/849705788476171969074221.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-2585",
+    "name": "Akses Tanjung Priok · ATP GT KB BAWANG",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.11957,
+    "lng": 106.893244,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/710404214066673275657182.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-116",
+    "name": "JORR S · JORRS GT AMPERA 1",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2924006,
+    "lng": 106.8191373,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/314944433014333275671534.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-117",
+    "name": "JORR S · JORRS GT AMPERA 2",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2924115,
+    "lng": 106.8111231,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/645733666909706688403926.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-118",
+    "name": "JORR S · JORRS GT DUKUH 1",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3022719,
+    "lng": 106.8836845,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/464822683082385104405863.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-119",
+    "name": "JORR S · JORRS GT FATMAWATI 2",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2921483,
+    "lng": 106.7983494,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/837865507132921558450011.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-120",
+    "name": "JORR S · JORRS GT GEDONG 2",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3057081,
+    "lng": 106.8618582,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/420058855294412322884038.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-121",
+    "name": "JORR S · JORRS GT KP RAMBUTAN",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3072178,
+    "lng": 106.8778104,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/501026346597024351642009.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-122",
+    "name": "JORR S · JORRS GT LENTENG 1",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.303741,
+    "lng": 106.8443611,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/439272921460954347649828.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-123",
+    "name": "JORR S · JORRS GT LENTENG AGUNG 2",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3036397,
+    "lng": 106.8447685,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/720556408093325199948146.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-124",
+    "name": "JORR S · JORRS GT PASAR REBO",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3104152,
+    "lng": 106.8847441,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/786252567929925275184104.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-125",
+    "name": "JORR S · JORRS KM 19+850",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2834271,
+    "lng": 106.7738913,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/288999494098565239566328.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-126",
+    "name": "JORR S · JORRS KM 20+300",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2866661,
+    "lng": 106.7766431,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/977760504019242121012038.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-127",
+    "name": "JORR S · JORRS KM 20+800",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.29098,
+    "lng": 106.7802773,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/052053429007064876625130.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-128",
+    "name": "JORR S · JORRS KM 21+300",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2915629,
+    "lng": 106.7837955,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/743206696886685995011480.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-129",
+    "name": "JORR S · JORRS KM 21+800",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2918991,
+    "lng": 106.7881857,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/977787495230088227640516.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-130",
+    "name": "JORR S · JORRS KM 22+400",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2921739,
+    "lng": 106.7938054,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/269363542266933731794240.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-131",
+    "name": "JORR S · JORRS KM 23+000",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.292387,
+    "lng": 106.7991677,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/121810470572829194057319.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-132",
+    "name": "JORR S · JORRS KM 23+200",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2924203,
+    "lng": 106.8009845,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/271820726275436138198288.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-133",
+    "name": "JORR S · JORRS KM 23+600",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2924292,
+    "lng": 106.8044466,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/101502919369166746058073.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-134",
+    "name": "JORR S · JORRS KM 24+000",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2922037,
+    "lng": 106.8080419,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/222888349210580537521273.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-135",
+    "name": "JORR S · JORRS KM 24+450",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2920982,
+    "lng": 106.8121265,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/529068807902101265499497.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-136",
+    "name": "JORR S · JORRS KM 24+900",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.293073,
+    "lng": 106.8198459,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/179954112963766001683574.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-137",
+    "name": "JORR S · JORRS KM 25+200",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.292568,
+    "lng": 106.8190011,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/393537034871811406318656.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-138",
+    "name": "JORR S · JORRS KM 25+950",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2949672,
+    "lng": 106.8251087,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/108824399705771324185498.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-139",
+    "name": "JORR S · JORRS KM 26+450",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2970338,
+    "lng": 106.8290735,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/178201133461271928605115.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-140",
+    "name": "JORR S · JORRS KM 27+250",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3008176,
+    "lng": 106.8352374,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/965292045493317236595034.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-141",
+    "name": "JORR S · JORRS KM 27+800",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3029273,
+    "lng": 106.8398802,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/768053906099639875515809.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-142",
+    "name": "JORR S · JORRS KM 28+000",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3033066,
+    "lng": 106.8418104,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/039381128256008706551669.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-143",
+    "name": "JORR S · JORRS KM 28+350",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3037324,
+    "lng": 106.8447082,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/090097396103176470086786.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-144",
+    "name": "JORR S · JORRS KM 29+000",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.304214,
+    "lng": 106.8500083,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/199446466305883459721900.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-145",
+    "name": "JORR S · JORRS KM 29+650",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.305484,
+    "lng": 106.856151,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/548853102262453987779962.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-146",
+    "name": "JORR S · JORRS KM 30+300",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3054512,
+    "lng": 106.8620157,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/309430648597231213602103.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-147",
+    "name": "JORR S · JORRS KM 30+900",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3073182,
+    "lng": 106.8669867,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/746991492646583252398044.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-148",
+    "name": "JORR S · JORRS KM 31+300",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3082891,
+    "lng": 106.8690244,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/146024230666959414726933.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-149",
+    "name": "JORR S · JORRS KM 31+650",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3080654,
+    "lng": 106.8734084,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/452218312235468702302329.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-150",
+    "name": "JORR S · JORRS KM 32+750",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3058847,
+    "lng": 106.8824666,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/854107383579084611495985.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-151",
+    "name": "JORR S · JORRS KM 33+400",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.305784,
+    "lng": 106.8888155,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/805476032194386565347579.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-152",
+    "name": "JORR S · JORRS Tunnel Ampera A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2922854,
+    "lng": 106.8163557,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/329355223439296950556355.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-153",
+    "name": "JORR S · JORRS Tunnel Ampera B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2924883,
+    "lng": 106.8168335,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/882624657831398134353315.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-154",
+    "name": "JORR S · JORRS Tunnel Pasar Rebo A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3060538,
+    "lng": 106.8641562,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/338106711025024740618299.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-155",
+    "name": "JORR S · JORRS Tunnel Pasar Rebo B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3070211,
+    "lng": 106.8657242,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/235783955983767649922256.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-156",
+    "name": "JORR S · JORRS Tunnel Ragunan A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2938345,
+    "lng": 106.8221032,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/742441725283948460839902.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-157",
+    "name": "JORR S · JORRS Tunnel Ragunan B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.2938937,
+    "lng": 106.822209,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/531345685980475209810923.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-158",
+    "name": "JORR S · JORRS Tunnel Ranco A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3044113,
+    "lng": 106.8501571,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/977652092975610429297766.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-159",
+    "name": "JORR S · JORRS Tunnel Ranco B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3044946,
+    "lng": 106.8511542,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/303549026471898651386718.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-160",
+    "name": "JORR S · JORRS Tunnel Tanah Merdeka A",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.3080247,
+    "lng": 106.8736971,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/298760837680959605712264.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:hk-161",
+    "name": "JORR S · JORRS Tunnel Tanah Merdeka B",
+    "source": "BPJT Kementerian PU (hk)",
+    "lat": -6.307987,
+    "lng": 106.8738921,
+    "stream": "https://pub2.hk-opt.com/LiveApp/streams/542240865799532088567034.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cmnp-456",
+    "name": "Cawang-Tj Priok-Ancol Timur-Jembatan Tiga/Pluit · Interchange Pluit KM 24+800",
+    "source": "BPJT Kementerian PU (cmnp)",
+    "lat": -6.191793,
+    "lng": 106.786906,
+    "stream": "https://cctv.citramarga.com/hls/cam3-interchange-pluit/stream.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cmnp-501",
+    "name": "Cawang-Tj Priok-Ancol Timur-Jembatan Tiga/Pluit · Interchange Priok KM 13+200",
+    "source": "BPJT Kementerian PU (cmnp)",
+    "lat": -6.131478,
+    "lng": 106.89169,
+    "stream": "https://cctv.citramarga.com/hls/cam2-interchange-priok/stream.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:cmnp-533",
+    "name": "Cawang-Tj Priok-Ancol Timur-Jembatan Tiga/Pluit · Interchange Cawang KM 00+400",
+    "source": "BPJT Kementerian PU (cmnp)",
+    "lat": -6.242413,
+    "lng": 106.87725,
+    "stream": "https://cctv.citramarga.com/hls/cam1-interchange-cawang/stream.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:kkdm-649",
+    "name": "Bekasi-Cawang-Kampung Melayu · Loop Pasar Gembrong",
+    "source": "BPJT Kementerian PU (kkdm)",
+    "lat": -6.224388,
+    "lng": 106.8754117,
+    "stream": "https://cctv.kkdm.co.id/api/cctv/1/37/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:kkdm-650",
+    "name": "Bekasi-Cawang-Kampung Melayu · On Ramp Cassablanca",
+    "source": "BPJT Kementerian PU (kkdm)",
+    "lat": -6.2245364,
+    "lng": 106.8763762,
+    "stream": "https://cctv.kkdm.co.id/api/cctv/1/35/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:kkdm-1085",
+    "name": "Bekasi-Cawang-Kampung Melayu · KM 12+000 A",
+    "source": "BPJT Kementerian PU (kkdm)",
+    "lat": -6.2494845,
+    "lng": 106.9602277,
+    "stream": "https://cctv.kkdm.co.id/api/cctv/1/1/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jlb-678",
+    "name": "JORR W1 · KM 8+430 A",
+    "source": "BPJT Kementerian PU (jlb)",
+    "lat": -6.19148,
+    "lng": 106.73173,
+    "stream": "https://cctvjorrw1.com/JLB/KM8+430A.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jlb-679",
+    "name": "JORR W1 · KM 7+950 B",
+    "source": "BPJT Kementerian PU (jlb)",
+    "lat": -6.18717,
+    "lng": 106.73063,
+    "stream": "https://cctvjorrw1.com/KM/7+950B.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jlb-680",
+    "name": "JORR W1 · KM 4+380 B",
+    "source": "BPJT Kementerian PU (jlb)",
+    "lat": -6.15422,
+    "lng": 106.7275,
+    "stream": "https://cctvjorrw1.com/JLB/KM4+380B.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jlb-681",
+    "name": "JORR W1 · KM 3+415 B",
+    "source": "BPJT Kementerian PU (jlb)",
+    "lat": -6.14678,
+    "lng": 106.72834,
+    "stream": "https://cctvjorrw1.com/JLB/KM3+415B.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jlb-711",
+    "name": "JORR W1 · KM 0+500 B",
+    "source": "BPJT Kementerian PU (jlb)",
+    "lat": -6.12085,
+    "lng": 106.73195,
+    "stream": "https://cctvjorrw1.com/KM/0+500B.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jlb-2624",
+    "name": "JORR W1 · KM 4+900 B",
+    "source": "BPJT Kementerian PU (jlb)",
+    "lat": -6.1602,
+    "lng": 106.7272,
+    "stream": "https://cctvjorrw1.com/JLB/KM4+900B.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jlb-2625",
+    "name": "JORR W1 · KM 3+415 A",
+    "source": "BPJT Kementerian PU (jlb)",
+    "lat": -6.14678,
+    "lng": 106.72834,
+    "stream": "https://cctvjorrw1.com/JLB/KM3+415A.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1695",
+    "name": "Serpong - Balaraja Seksi 1 · 13+200 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30861,
+    "lng": 106.67083,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10003.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1696",
+    "name": "Serpong - Balaraja Seksi 1 · 13+200 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30861,
+    "lng": 106.67083,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10004.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1697",
+    "name": "Serpong - Balaraja Seksi 1 · 13+700 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30556,
+    "lng": 106.66806,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10005.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1698",
+    "name": "Serpong - Balaraja Seksi 1 · 13+700 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30556,
+    "lng": 106.66806,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10006.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1699",
+    "name": "Serpong - Balaraja Seksi 1 · 14+200 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30472,
+    "lng": 106.66333,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10007.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1700",
+    "name": "Serpong - Balaraja Seksi 1 · 14+200 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30472,
+    "lng": 106.66333,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10008.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1710",
+    "name": "Serpong - Balaraja Seksi 1 · 19+200 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31889,
+    "lng": 106.62194,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10559.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1711",
+    "name": "Serpong - Balaraja Seksi 1 · 19+200 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31889,
+    "lng": 106.62194,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10560.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1712",
+    "name": "Serpong - Balaraja Seksi 1 · GT BSD Timur 2",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30972,
+    "lng": 106.64139,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10026.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1715",
+    "name": "Serpong - Balaraja Seksi 1 · 15+200 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30417,
+    "lng": 106.65444,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10011.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1716",
+    "name": "Serpong - Balaraja Seksi 1 · 15+200 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30417,
+    "lng": 106.65444,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10012.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1717",
+    "name": "Serpong - Balaraja Seksi 1 · 15+650 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30472,
+    "lng": 106.65,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10013.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1718",
+    "name": "Serpong - Balaraja Seksi 1 · 15+650 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30472,
+    "lng": 106.65,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10014.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1719",
+    "name": "Serpong - Balaraja Seksi 1 · 16+100 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30583,
+    "lng": 106.64583,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10015.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1720",
+    "name": "Serpong - Balaraja Seksi 1 · 16+100 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30583,
+    "lng": 106.64583,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10016.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1721",
+    "name": "Serpong - Balaraja Seksi 1 · 16+650 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30833,
+    "lng": 106.64167,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10017.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1722",
+    "name": "Serpong - Balaraja Seksi 1 · 16+650 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30833,
+    "lng": 106.64167,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10018.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1723",
+    "name": "Serpong - Balaraja Seksi 1 · 17+150 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31083,
+    "lng": 106.63833,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10551.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1726",
+    "name": "Serpong - Balaraja Seksi 1 · 18+150 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31611,
+    "lng": 106.63111,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10555.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1727",
+    "name": "Serpong - Balaraja Seksi 1 · 18+150 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31611,
+    "lng": 106.63111,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10556.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1728",
+    "name": "Serpong - Balaraja Seksi 1 · 19+600 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31944,
+    "lng": 106.61778,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10561.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1729",
+    "name": "Serpong - Balaraja Seksi 1 · 19+600 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31944,
+    "lng": 106.61778,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10562.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1731",
+    "name": "Serpong - Balaraja Seksi 1 · GT BSD Barat 1",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30778,
+    "lng": 106.64389,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10027.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1732",
+    "name": "Serpong - Balaraja Seksi 1 · GT BSD Timur 1",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.30639,
+    "lng": 106.6425,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10025.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1733",
+    "name": "Serpong - Balaraja Seksi 1 · Jalan Akses On Ramp BSD Timur 1 On Ramp",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.305,
+    "lng": 106.64167,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10021.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1873",
+    "name": "Serpong - Balaraja Seksi 1 · 17+150 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31083,
+    "lng": 106.63833,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10552.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1875",
+    "name": "Serpong - Balaraja Seksi 1 · 17+700 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31417,
+    "lng": 106.63444,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10554.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1964",
+    "name": "Serpong - Balaraja Seksi 1 · 18+700 A",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31778,
+    "lng": 106.62694,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10557.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:TBS-1965",
+    "name": "Serpong - Balaraja Seksi 1 · 18+700 B",
+    "source": "BPJT Kementerian PU (TBS)",
+    "lat": -6.31778,
+    "lng": 106.62694,
+    "stream": "https://info.serbaraja-tollroad.co.id:20443/LiveApp/streams/10558.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jtd-1821",
+    "name": "6 Tol Dalam Kota (Kelapa Gading-Pulo Gebang) · 27+100",
+    "source": "BPJT Kementerian PU (jtd)",
+    "lat": -6.182948,
+    "lng": 106.922189,
+    "stream": "https://camera.jtd.co.id/camera/share/tios/2/19/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jtd-1822",
+    "name": "6 Tol Dalam Kota (Kelapa Gading-Pulo Gebang) · 25+540",
+    "source": "BPJT Kementerian PU (jtd)",
+    "lat": -6.173327,
+    "lng": 106.917908,
+    "stream": "https://camera.jtd.co.id/camera/share/tios/2/80/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jtd-1823",
+    "name": "6 Tol Dalam Kota (Kelapa Gading-Pulo Gebang) · 23+150",
+    "source": "BPJT Kementerian PU (jtd)",
+    "lat": -6.158798,
+    "lng": 106.902556,
+    "stream": "https://camera.jtd.co.id/camera/share/tios/2/27/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jtd-1824",
+    "name": "6 Tol Dalam Kota (Kelapa Gading-Pulo Gebang) · GERBANG TOL CAKUNG",
+    "source": "BPJT Kementerian PU (jtd)",
+    "lat": -6.186473,
+    "lng": 106.937349,
+    "stream": "https://camera.jtd.co.id/camera/share/tios/2/81/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jtd-2619",
+    "name": "6 Tol Dalam Kota (Kelapa Gading-Pulo Gebang) · ON RAMP BEKASI (28+150)",
+    "source": "BPJT Kementerian PU (jtd)",
+    "lat": -6.183321,
+    "lng": 106.928626,
+    "stream": "https://camera.jtd.co.id/camera/share/tios/2/20/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:jtd-2620",
+    "name": "6 Tol Dalam Kota (Kelapa Gading-Pulo Gebang) · 24+150",
+    "source": "BPJT Kementerian PU (jtd)",
+    "lat": -6.1651506,
+    "lng": 106.9129272,
+    "stream": "https://camera.jtd.co.id/camera/share/tios/2/25/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-737",
+    "name": "Cibitung-Cilincing · MR STA 21",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.116443,
+    "lng": 107.046509,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_32/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-906",
+    "name": "Cibitung-Cilincing · MR STA 27",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.11174,
+    "lng": 106.9900279,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_38/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-907",
+    "name": "Cibitung-Cilincing · MR STA 28",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.113184,
+    "lng": 106.9855,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_39/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-154",
+    "name": "Cibitung-Cilincing · MR STA 6",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.235446,
+    "lng": 107.099435,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_17/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-155",
+    "name": "Cibitung-Cilincing · MR STA 7",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.229775,
+    "lng": 107.093639,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_18/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-118",
+    "name": "Cibitung-Cilincing · MR STA 25",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.110527,
+    "lng": 107.011154,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_36/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-119",
+    "name": "Cibitung-Cilincing · MR STA 26",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.109999,
+    "lng": 107.002418,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_37/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-127",
+    "name": "Cibitung-Cilincing · MR STA 33",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.126372,
+    "lng": 106.943733,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_44/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-153",
+    "name": "Cibitung-Cilincing · MR STA 5",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.235613,
+    "lng": 107.099437,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_16/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-156",
+    "name": "Cibitung-Cilincing · MR STA 8",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.223123,
+    "lng": 107.086387,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_19/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-695",
+    "name": "Cibitung-Cilincing · MR STA 10",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.206427,
+    "lng": 107.081255,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_21/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-689",
+    "name": "Cibitung-Cilincing · MR STA 18",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.137309,
+    "lng": 107.063111,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_29/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-691",
+    "name": "Cibitung-Cilincing · MR STA 2",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.270903,
+    "lng": 107.0912906,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_13/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-692",
+    "name": "Cibitung-Cilincing · MR STA 20",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.121987,
+    "lng": 107.054134,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_31/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-743",
+    "name": "Cibitung-Cilincing · MR STA 22",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.113298,
+    "lng": 107.037963,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_33/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-2714",
+    "name": "Cibitung-Cilincing · MR STA 11",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.198166,
+    "lng": 107.078382,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_22/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-2715",
+    "name": "Cibitung-Cilincing · MR STA 12",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.191034,
+    "lng": 107.075994,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_23/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-2716",
+    "name": "Cibitung-Cilincing · MR STA 13",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.181536,
+    "lng": 107.071263,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_24/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-2719",
+    "name": "Cibitung-Cilincing · MR STA 23",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.112215,
+    "lng": 107.028939,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_34/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-2721",
+    "name": "Cibitung-Cilincing · MR STA 3",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.268522,
+    "lng": 107.093273,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_14/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:ctp-2722",
+    "name": "Cibitung-Cilincing · MR STA 30",
+    "source": "BPJT Kementerian PU (ctp)",
+    "lat": -6.11828,
+    "lng": 106.969347,
+    "stream": "https://cctv.ctptollways.com:2254/streams/cam_41/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:csj-1091",
+    "name": "Serpong - Cinere · CSJ KM 27+200",
+    "source": "BPJT Kementerian PU (csj)",
+    "lat": -6.313959,
+    "lng": 106.716343,
+    "stream": "https://jmlive.jasamarga.com/hls/32/5d315fb7-2c6e-4906-b058-8a36dfb2f33d/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:csj-1092",
+    "name": "Serpong - Cinere · CSJ KM 33+000",
+    "source": "BPJT Kementerian PU (csj)",
+    "lat": -6.336496,
+    "lng": 106.74912,
+    "stream": "https://jmlive.jasamarga.com/hls/32/b8cadefc-4463-4708-b1c3-0d05feaf6e03/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:mlj-1948",
+    "name": "JORR W2 Utara (Kebon Jeruk - Ulujami) · GT JOGLO 1",
+    "source": "BPJT Kementerian PU (mlj)",
+    "lat": -6.216056,
+    "lng": 106.743806,
+    "stream": "https://jid.jasamarga.com/cctv2/7a300ba?tx=1650300759793",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:mlj-1949",
+    "name": "JORR W2 Utara (Kebon Jeruk - Ulujami) · KM 09+000",
+    "source": "BPJT Kementerian PU (mlj)",
+    "lat": -6.204527,
+    "lng": 106.737799,
+    "stream": "https://jid.jasamarga.com/cctv2/75f5f53?tx=1650300759793",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:mlj-1950",
+    "name": "JORR W2 Utara (Kebon Jeruk - Ulujami) · OFF RAMPP MERAYU SLTN 1",
+    "source": "BPJT Kementerian PU (mlj)",
+    "lat": -6.201556,
+    "lng": 106.736361,
+    "stream": "https://jid.jasamarga.com/cctv2/da06a62?tx=1650300759793",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:mlj-1951",
+    "name": "JORR W2 Utara (Kebon Jeruk - Ulujami) · AKSES ROAD KM 08",
+    "source": "BPJT Kementerian PU (mlj)",
+    "lat": -6.207528,
+    "lng": 106.739167,
+    "stream": "https://jid.jasamarga.com/cctv2/feaed0c?tx=1650300759793",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:mlj-2626",
+    "name": "JORR W2 Utara (Kebon Jeruk - Ulujami) · KM 15+800",
+    "source": "BPJT Kementerian PU (mlj)",
+    "lat": -6.25,
+    "lng": 106.762189,
+    "stream": "https://jid.jasamarga.com/cctv2/5577b8f?tx=1650300759793",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:mtn-2015",
+    "name": "Kunciran-Serpong · Km 14+000",
+    "source": "BPJT Kementerian PU (mtn)",
+    "lat": -6.217987,
+    "lng": 106.6674262,
+    "stream": "https://jid.jasamarga.com/cctv2/4ac6fc9?tx=1650300759793",
+    "snapshot": null
+  },
+  {
+    "id": "bpjt:mtn-2016",
+    "name": "Kunciran-Serpong · KM 23+200",
+    "source": "BPJT Kementerian PU (mtn)",
+    "lat": -6.288766,
+    "lng": 106.6926215,
+    "stream": "https://jid.jasamarga.com/cctv2/6faaeff?tx=1650793840119",
+    "snapshot": null
+  },
+  {
+    "id": "bm:33/its",
+    "name": "Tambun Selatan · Bekasi",
+    "source": "Bina Marga Kementerian PU",
+    "lat": -6.26267497,
+    "lng": 107.0628449,
+    "stream": "https://its.binamarga.pu.go.id:8989/play/hls/CT-01/index.m3u8",
+    "snapshot": null
+  },
+  {
+    "id": "bm:34/its",
+    "name": "Cikarang Barat - Jl Sultan Hasanudin · Bekasi",
+    "source": "Bina Marga Kementerian PU",
+    "lat": -6.26816649,
+    "lng": 107.0826144,
+    "stream": "https://its.binamarga.pu.go.id:8989/play/hls/CT-02/index.m3u8",
+    "snapshot": null
+  }
+]
