@@ -3,469 +3,521 @@
     "id": "dki:502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-01",
     "name": "JKP POLDA JPO JL. GATOT SUBROTO 7 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.236278,
+    "lng": 106.827217,
     "stream": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-02",
     "name": "JKP POLDA JPO JL. GATOT SUBROTO 7 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.236278,
+    "lng": 106.826677,
     "stream": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502045_JKP_POLDA_JPO-JL.-GATOT-SUBROTO-7_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-01",
     "name": "JKP POLDA JL. GERBANG PEMUDA C02 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.212987,
+    "lng": 106.804382,
     "stream": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-02",
     "name": "JKP POLDA JL. GERBANG PEMUDA C02 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.212753,
+    "lng": 106.804247,
     "stream": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502155_JKP_POLDA_JL.-GERBANG-PEMUDA-C02_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-01",
     "name": "JKP POLDA JL. GERBANG PEMUDA C03 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.212753,
+    "lng": 106.803977,
     "stream": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-02",
     "name": "JKP POLDA JL. GERBANG PEMUDA C03 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.212987,
+    "lng": 106.803842,
     "stream": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502160_JKP_POLDA_JL.-GERBANG-PEMUDA-C03_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-01",
     "name": "JKP SATPOL PP JL. GERBANG PEMUDA C04 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.213221,
+    "lng": 106.803977,
     "stream": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-02",
     "name": "JKP SATPOL PP JL. GERBANG PEMUDA C04 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.213221,
+    "lng": 106.804247,
     "stream": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502506_JKP_SATPOL-PP_JL.-GERBANG-PEMUDA-C04_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-01",
     "name": "JKP SATPOL PP JL. JEND. GATOT SUBROTO C11 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.242471,
+    "lng": 106.84261,
     "stream": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-02",
     "name": "JKP SATPOL PP JL. JEND. GATOT SUBROTO C11 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.242237,
+    "lng": 106.842475,
     "stream": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502507_JKP_SATPOL-PP_JL.-JEND.-GATOT-SUBROTO-C11_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-01",
     "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C07 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.1908,
+    "lng": 106.79777,
     "stream": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-02",
     "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C07 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.19053,
+    "lng": 106.7975,
     "stream": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502535_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C07_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-01",
     "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C08 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.1908,
+    "lng": 106.79723,
     "stream": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-02",
     "name": "JKB SATPOL PP SIMPANG JL. LETJEN. S. PARMAN C08 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.19107,
+    "lng": 106.7975,
     "stream": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502645_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C08_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-01",
     "name": "JKP POLDA JL. JEND. GATOT SUBROTO C13 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.242237,
+    "lng": 106.842205,
     "stream": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-02",
     "name": "JKP POLDA JL. JEND. GATOT SUBROTO C13 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.242471,
+    "lng": 106.84207,
     "stream": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503300_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C13_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-01",
     "name": "JKP POLDA JL. TENTARA PELAJAR C04 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.218346,
+    "lng": 106.79231,
     "stream": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-02",
     "name": "JKP POLDA JL. TENTARA PELAJAR C04 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.218346,
+    "lng": 106.79177,
     "stream": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503301_JKP_POLDA_JL.-TENTARA-PELAJAR-C04_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-01",
     "name": "JKP POLDA JL. JEND. GATOT SUBROTO C14 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.242705,
+    "lng": 106.842205,
     "stream": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-02",
     "name": "JKP POLDA JL. JEND. GATOT SUBROTO C14 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.242705,
+    "lng": 106.842475,
     "stream": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503303_JKP_POLDA_JL.-JEND.-GATOT-SUBROTO-C14_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-01",
     "name": "JKP DBM FLYOVER LADOKGI C01 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.22787,
+    "lng": 106.818733,
     "stream": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-02",
     "name": "JKP DBM FLYOVER LADOKGI C01 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.22787,
+    "lng": 106.818193,
     "stream": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503536_JKP_DBM_FLYOVER-LADOKGI-C01_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-01",
     "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C07 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192581,
+    "lng": 106.823387,
     "stream": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-02",
     "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C07 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192422,
+    "lng": 106.823335,
     "stream": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502491_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C07_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-01",
     "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C08 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192324,
+    "lng": 106.8232,
     "stream": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-02",
     "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C08 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192324,
+    "lng": 106.823034,
     "stream": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502492_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C08_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-01",
     "name": "JKP DISHUB JL. MH. THAMRIN C01 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192422,
+    "lng": 106.822899,
     "stream": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-02",
     "name": "JKP DISHUB JL. MH. THAMRIN C01 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192581,
+    "lng": 106.822847,
     "stream": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501844_JKP_DISHUB_JL.-MH.-THAMRIN-C01_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-01",
     "name": "JKP SATPOLPP JL. MH. THAMRIN C02 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.19274,
+    "lng": 106.822899,
     "stream": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-02",
     "name": "JKP SATPOLPP JL. MH. THAMRIN C02 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192838,
+    "lng": 106.823034,
     "stream": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501941_JKP_SATPOLPP_JL.-MH.-THAMRIN-C02_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-01",
     "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C09 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.192838,
+    "lng": 106.8232,
     "stream": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-02",
     "name": "JKP SATPOL PP SIMPANG JL. MH. THAMRIN C09 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.19274,
+    "lng": 106.823335,
     "stream": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502493_JKP_SATPOL-PP_SIMPANG-JL.-MH.-THAMRIN-C09_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-01",
     "name": "JKP POLRI UOB PLAZA C01 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.1965,
+    "lng": 106.82207,
     "stream": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-02",
     "name": "JKP POLRI UOB PLAZA C01 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.196266,
+    "lng": 106.821665,
     "stream": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-03",
     "name": "JKP POLRI UOB PLAZA C01 CCTV-03",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.196734,
+    "lng": 106.821665,
     "stream": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-03/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-03/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/504866_JKP_POLRI_UOB-PLAZA-C01_CCTV-03/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501478_JKS_SATPOLPP_TAMAN-LITERASI-C01_CCTV-01",
     "name": "Taman Literasi-C01 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.2433,
+    "lng": 106.8,
     "stream": "https://dki-jkt.balitower.co.id:7028/501478_JKS_SATPOLPP_TAMAN-LITERASI-C01_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501478_JKS_SATPOLPP_TAMAN-LITERASI-C01_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501478_JKS_SATPOLPP_TAMAN-LITERASI-C01_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501493_JKP_SATPOLPP_PASAR-TANAH-ABANG-C02_CCTV-02",
     "name": "Simpang Jl. Panglima Polim-C01 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.246786,
+    "lng": 106.79854,
     "stream": "https://dki-jkt.balitower.co.id:7028/501493_JKP_SATPOLPP_PASAR-TANAH-ABANG-C02_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501493_JKP_SATPOLPP_PASAR-TANAH-ABANG-C02_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501493_JKP_SATPOLPP_PASAR-TANAH-ABANG-C02_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501594_JKS_DISGULKARMAT_JL.-MANGGARAI-UTARA-2-C01_CCTV-01",
     "name": "Jl. Sultan Agung-C03 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.208508,
+    "lng": 106.84525,
     "stream": "https://dki-jkt.balitower.co.id:7028/501594_JKS_DISGULKARMAT_JL.-MANGGARAI-UTARA-2-C01_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501594_JKS_DISGULKARMAT_JL.-MANGGARAI-UTARA-2-C01_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501594_JKS_DISGULKARMAT_JL.-MANGGARAI-UTARA-2-C01_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-01",
     "name": "Simpang Jl. Sultan Agung-C01 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.208238,
+    "lng": 106.84498,
     "stream": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-03",
     "name": "Simpang Jl. Sultan Agung-C01 CCTV-03",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.208508,
+    "lng": 106.84471,
     "stream": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-03/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-03/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501862_JKB_DISHUB_JL.-LETJEN.-S.-PARMAN-C01_CCTV-03/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502041_JKP_POLDA_JL.-KH.-MAS-MANSYUR-C02_CCTV-02",
     "name": "Simpang Jl. Sultan Agung-C02 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.208778,
+    "lng": 106.84498,
     "stream": "https://dki-jkt.balitower.co.id:7028/502041_JKP_POLDA_JL.-KH.-MAS-MANSYUR-C02_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502041_JKP_POLDA_JL.-KH.-MAS-MANSYUR-C02_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502041_JKP_POLDA_JL.-KH.-MAS-MANSYUR-C02_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-01",
     "name": "Pasar Tanah Abang-C02 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.187,
+    "lng": 106.81327,
     "stream": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-02",
     "name": "Pasar Tanah Abang-C02 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.187,
+    "lng": 106.81273,
     "stream": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/502540_JKB_SATPOL-PP_SIMPANG-JL.-LETJEN.-S.-PARMAN-C02_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-01",
     "name": "Jl. KH. Mas Mansyur-C02 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.201,
+    "lng": 106.81727,
     "stream": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-02",
     "name": "Jl. KH. Mas Mansyur-C02 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.201,
+    "lng": 106.81673,
     "stream": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503343_JKP_DBM_JPO-JL.-CIDENG-TIMUR-C02_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:503675_JKP_BAKESBANGPOL_JL.-JATI-BARU-RAYA-C02_CCTV-01",
     "name": "Jl. Jati Baru Raya-C02 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.184,
+    "lng": 106.8105,
     "stream": "https://dki-jkt.balitower.co.id:7028/503675_JKP_BAKESBANGPOL_JL.-JATI-BARU-RAYA-C02_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/503675_JKP_BAKESBANGPOL_JL.-JATI-BARU-RAYA-C02_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/503675_JKP_BAKESBANGPOL_JL.-JATI-BARU-RAYA-C02_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-01",
     "name": "Simpang Jl Nurdin Raya C01 CCTV-01",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.160732,
+    "lng": 106.797028,
     "stream": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-01/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-01/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-01/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-02",
     "name": "Simpang Jl Nurdin Raya C01 CCTV-02",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.160732,
+    "lng": 106.796488,
     "stream": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-02/index.m3u8",
-    "snapshot": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-02/preview.jpg"
+    "snapshot": "https://dki-jkt.balitower.co.id:7028/501968-Simpang-Jl-Nurdin-Raya-C01_CCTV-02/preview.jpg",
+    "approx": true
   },
   {
     "id": "dki:Senayan-018-705979_2",
     "name": "Senayan 018 CCTV-2",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.226586,
+    "lng": 106.811832,
     "stream": "https://jakcctv.jakarta.go.id/Senayan-018-705979_2/index.m3u8",
-    "snapshot": null
+    "snapshot": null,
+    "approx": true
   },
   {
     "id": "dki:Senayan-001-705084_2",
     "name": "Senayan 001 CCTV-2",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.226586,
+    "lng": 106.811292,
     "stream": "https://jakcctv.jakarta.go.id/Senayan-001-705084_2/index.m3u8",
-    "snapshot": null
+    "snapshot": null,
+    "approx": true
   },
   {
     "id": "dki:Bendungan-Hilir-003-700014_1",
     "name": "Bendungan Hilir 003 CCTV-1",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.211,
+    "lng": 106.816,
     "stream": "https://jakcctv.jakarta.go.id/Bendungan-Hilir-003-700014_1/index.m3u8",
-    "snapshot": null
+    "snapshot": null,
+    "approx": true
   },
   {
     "id": "dki:Kebon-Melati-010-700332_2",
     "name": "Kebon Melati 010 CCTV-2",
     "source": "Pemprov DKI Jakarta",
-    "lat": null,
-    "lng": null,
+    "lat": -6.197487,
+    "lng": 106.816546,
     "stream": "https://jakcctv.jakarta.go.id/Kebon-Melati-010-700332_2/index.m3u8",
-    "snapshot": null
+    "snapshot": null,
+    "approx": true
   },
   {
     "id": "bpjt:jm-479-1-105",

@@ -1,7 +1,17 @@
 // Run: node --test "scripts/*.test.mjs"
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDki, parseBpjt, parseBinaMarga, inJabodetabek } from './fetch-cameras.mjs';
+import { parseDki, parseBpjt, parseBinaMarga, inJabodetabek, applyDkiLocations } from './fetch-cameras.mjs';
+
+test('applyDkiLocations: matches by location name, spreads cameras sharing a point', () => {
+  const cams = [{ name: 'JL. X CCTV-01' }, { name: 'JL. X CCTV-02' }, { name: 'Senayan 018' }, { name: 'Unknown CCTV-01', lat: null }];
+  applyDkiLocations(cams, { 'JL. X': [-6.2, 106.8, 'q'], 'Senayan 018': [-6.22, 106.8, 'q'] });
+  assert.ok(cams[0].approx && cams[1].approx);
+  assert.notDeepEqual([cams[0].lat, cams[0].lng], [cams[1].lat, cams[1].lng]);
+  assert.ok(Math.abs(cams[0].lat - -6.2) < 0.001 && Math.abs(cams[1].lng - 106.8) < 0.001);
+  assert.deepEqual([cams[2].lat, cams[2].lng], [-6.22, 106.8]); // alone: exact point
+  assert.equal(cams[3].lat, null);
+});
 
 test('parseDki: Bali Tower camera gets a snapshot, jakcctv-hosted one does not', () => {
   const html = `<iframe src="https://dki-jkt.balitower.co.id:7028/502045_JKP_X_CCTV-01/embed.html" loading="lazy"></iframe>

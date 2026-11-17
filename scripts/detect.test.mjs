@@ -1,6 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { decode, nms } from './detect.mjs';
+import { decode, nms, normalizeBoxes } from './detect.mjs';
+
+test('normalizeBoxes maps letterboxed coords back to the original image', () => {
+  // 640x360 -> scale 0.65 -> 416x234 at top-left
+  const [b] = normalizeBoxes([{ x1: 0, y1: 0, x2: 208, y2: 234, cls: 'car', score: 0.91234 }], 640, 360);
+  assert.deepEqual(b, { x1: 0, y1: 0, x2: 0.5, y2: 1, cls: 'car', score: 0.91 });
+});
 
 // Build a fake raw YOLOX output with one row set per entry.
 function fakeOutput(rows) {

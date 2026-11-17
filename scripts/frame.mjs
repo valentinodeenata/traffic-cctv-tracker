@@ -32,6 +32,20 @@ export async function grabFrame(cam, timeoutMs = 20000) {
   return isJpeg(buf) ? buf : null;
 }
 
+// Width/height from the JPEG's SOF header, without decoding.
+export function jpegSize(buf) {
+  let i = 2;
+  while (i + 9 < buf.length) {
+    if (buf[i] !== 0xff) return null;
+    const m = buf[i + 1];
+    if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) {
+      return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+    }
+    i += 2 + buf.readUInt16BE(i + 2);
+  }
+  return null;
+}
+
 // Run fn over items with at most n in flight.
 export async function pool(items, n, fn) {
   const out = new Array(items.length);

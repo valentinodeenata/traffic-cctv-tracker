@@ -4,7 +4,7 @@
 // Every camera: { id, name, source, lat, lng, stream, snapshot }
 //   stream   = URL ffmpeg can read (HLS or MJPEG)
 //   snapshot = direct JPEG URL when the server offers one (cheaper than ffmpeg), else null
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'node:fs';
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -32,13 +32,38 @@ export function parseDki(html) {
   }));
 }
 
+// The DKI portal has names only; data/dki-locations.json (scripts/geocode-dki.mjs) gives street-level coordinates.
+// Cameras sharing a point are spread on a ~30 m circle so each stays clickable.
+export function applyDkiLocations(cams, locs) {
+  const groups = new Map();
+  for (const c of cams) {
+    const hit = locs[c.name.replace(/\s+CCTV-?\d+$/, '')];
+    if (!hit) continue;
+    const key = `${hit[0]},${hit[1]}`;
+    groups.set(key, [...(groups.get(key) ?? []), c]);
+  }
+  for (const [key, group] of groups) {
+    const [lat, lng] = key.split(',').map(Number);
+    group.forEach((c, i) => {
+      const a = (2 * Math.PI * i) / group.length, r = group.length > 1 ? 0.00027 : 0;
+      c.lat = +(lat + r * Math.sin(a)).toFixed(6);
+      c.lng = +(lng + r * Math.cos(a)).toFixed(6);
+      c.approx = true;
+    });
+  }
+  return cams;
+}
+
 async function fetchDki() {
   const out = [];
   for (let page = 1; ; page++) {
     const data = JSON.parse(await get(`https://jakcctv.jakarta.go.id/publik/data?q=&page=${page}`));
     const cams = parseDki(data.cards);
     out.push(...cams);
-    if (!cams.length || out.length >= data.total) return out;
+    if (!cams.length || out.length >= data.total) {
+      const locs = existsSync('data/dki-locations.json') ? JSON.parse(readFileSync('data/dki-locations.json', 'utf8')) : {};
+      return applyDkiLocations(out, locs);
+    }
     await sleep(1000);
   }
 }
