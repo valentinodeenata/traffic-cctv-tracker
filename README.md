@@ -32,3 +32,12 @@ npm test
 
 Sumber kamera: CCTV Publik Pemprov DKI Jakarta (jakcctv.jakarta.go.id/publik),
 CCTV jalan tol BPJT Kementerian PU (bpjt.pu.go.id/cctv), CCTV Bina Marga (binamarga.pu.go.id).
+
+## Deploy
+
+Push ke `main` → CI menjalankan test, membangun rilis (kode, `node_modules` Linux, model dengan checksum),
+mengirimnya ke VPS lewat SSH, lalu me-restart service `traffic-collector`. Kalau collector tidak jalan
+30 detik setelahnya, CI otomatis rollback ke rilis sebelumnya.
+
+Setup server sekali saja: lihat komentar di `deploy/bootstrap-server.sh`.
+Database ada di server: `/var/lib/traffic/traffic.db`.
