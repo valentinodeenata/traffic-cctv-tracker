@@ -9,3 +9,14 @@ Rencana:
 
 Video tidak disimpan. Yang disimpan hanya hasil hitungan.
 Stream tetap diputar langsung dari server pemilik kamera.
+
+## Menjalankan
+
+Butuh Node 24+. Tanpa dependency.
+
+```
+node scripts/fetch-cameras-dki.mjs     # daftar kamera DKI -> data/cameras-dki.json
+node --test "scripts/*.test.mjs"
+```
+
+Sumber kamera: CCTV Publik Pemprov DKI Jakarta (jakcctv.jakarta.go.id/publik).
