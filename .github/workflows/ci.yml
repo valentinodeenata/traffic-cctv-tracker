@@ -72,7 +72,8 @@ jobs:
           ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "deploy@${{ vars.DEPLOY_HOST }}" status | tee status.txt
           grep -qx 'collector: active' status.txt
           curl -fsS --max-time 15 https://traffic.valentinodeenata.com/api/summary | grep -q '"storage"'
-          curl -fsS --max-time 15 https://traffic.valentinodeenata.com/ | grep -q '<title>Traffic CCTV Monitor'
+          curl -fsS --max-time 15 https://traffic.valentinodeenata.com/api/cameras | grep -q '"level"'
+          curl -fsS --max-time 15 https://traffic.valentinodeenata.com/ | grep -q 'id="map"'
 
       - name: Roll back
         if: failure() && steps.publish.outcome == 'success'
