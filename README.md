@@ -12,13 +12,22 @@ Stream tetap diputar langsung dari server pemilik kamera.
 
 ## Menjalankan
 
-Butuh Node 24+ dan ffmpeg. Tanpa dependency npm.
+Butuh Node 24+ dan ffmpeg.
+
+```
+npm install
+curl -L -o models/yolox_nano.onnx https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.onnx
+```
+
+Deteksi kendaraan pakai YOLOX-nano (Apache-2.0) lewat onnxruntime-node.
 
 ```
 node scripts/fetch-cameras.mjs         # daftar kamera Jabodetabek -> data/cameras.json
-node scripts/collector.mjs --once      # ambil 1 frame per kamera, catat yang online ke data/traffic.db
+node scripts/collector.mjs --once      # 1 putaran: ambil frame, hitung kendaraan, simpan ke data/traffic.db
+node scripts/collector.mjs --once --save   # sama, plus simpan frame ke snapshots/ untuk cek akurasi
+node scripts/detect.mjs foto.jpg       # hitung kendaraan di satu gambar
 node scripts/collector.mjs             # jalan terus, tiap 5 menit
-node --test "scripts/*.test.mjs"
+npm test
 ```
 
 Sumber kamera: CCTV Publik Pemprov DKI Jakarta (jakcctv.jakarta.go.id/publik),

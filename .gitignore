@@ -5,3 +5,5 @@ __pycache__/
 *.db
 *.sqlite
 snapshots/
+node_modules/
+models/*.onnx

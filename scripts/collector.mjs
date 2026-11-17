@@ -1,9 +1,14 @@
-// Every 5 minutes: grab one frame per camera and log the result to SQLite.
-// Run: node scripts/collector.mjs          (loop)
-//      node scripts/collector.mjs --once   (single pass + summary)
-import { readFileSync, mkdirSync } from 'node:fs';
+// Every 5 minutes: grab one frame per camera, count vehicles, log the count to SQLite.
+// Frames are dropped after counting unless --save is given.
+// Run: node scripts/collector.mjs                 (loop)
+//      node scripts/collector.mjs --once          (single pass + summary)
+//      node scripts/collector.mjs --once --save   (also keep frames in snapshots/ for the accuracy check)
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { DatabaseSync } from 'node:sqlite';
 import { grabFrame, pool } from './frame.mjs';
+import { detectVehicles } from './detect.mjs';
+
+const SAVE = process.argv.includes('--save');
 
 const INTERVAL_MS = 5 * 60 * 1000; // 1 frame / 5 min per camera keeps the load on owners' servers tiny
 const CONCURRENCY = 8;
@@ -25,10 +30,17 @@ async function pass() {
   const cameras = JSON.parse(readFileSync('data/cameras.json', 'utf8'));
   const started = Date.now();
   const ts = Math.floor(started / 1000);
+  const saveDir = `snapshots/${ts}`;
+  if (SAVE) mkdirSync(saveDir, { recursive: true });
   const results = await pool(cameras, CONCURRENCY, async (cam) => {
     const frame = await grabFrame(cam);
-    insert.run(cam.id, ts, frame ? 1 : 0, null);
-    return { cam, ok: !!frame };
+    let vehicles = null;
+    if (frame) {
+      vehicles = (await detectVehicles(frame).catch(() => null))?.length ?? null;
+      if (SAVE) writeFileSync(`${saveDir}/${cam.id.replace(/[^\w.-]+/g, '_')}__${vehicles}.jpg`, frame);
+    }
+    insert.run(cam.id, ts, frame ? 1 : 0, vehicles);
+    return { cam, ok: !!frame, vehicles };
   });
 
   const bySource = {};
@@ -37,7 +49,9 @@ async function pass() {
     s.total++; if (ok) s.ok++;
   }
   const online = results.filter((r) => r.ok).length;
-  console.log(`${new Date().toISOString()} ${online}/${cameras.length} online in ${Math.round((Date.now() - started) / 1000)}s`);
+  const counted = results.filter((r) => r.vehicles != null);
+  const total = counted.reduce((a, r) => a + r.vehicles, 0);
+  console.log(`${new Date().toISOString()} ${online}/${cameras.length} online, ${total} vehicles across ${counted.length} cameras, ${Math.round((Date.now() - started) / 1000)}s`);
   for (const [src, s] of Object.entries(bySource).sort()) console.log(`  ${String(s.ok).padStart(4)}/${String(s.total).padEnd(4)} ${src}`);
 }
 
