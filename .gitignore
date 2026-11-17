@@ -7,3 +7,5 @@ __pycache__/
 snapshots/
 node_modules/
 models/*.onnx
+*.db-wal
+*.db-shm
