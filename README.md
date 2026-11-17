@@ -40,4 +40,7 @@ mengirimnya ke VPS lewat SSH, lalu me-restart service `traffic-collector`. Kalau
 30 detik setelahnya, CI otomatis rollback ke rilis sebelumnya.
 
 Setup server sekali saja: lihat komentar di `deploy/bootstrap-server.sh`.
-Database ada di server: `/var/lib/traffic/traffic.db`.
+Database ada di server: `/var/lib/traffic/traffic.db`. Monitor: https://traffic.valentinodeenata.com
+
+Penyimpanan: server hanya menyimpan angka (tidak ada gambar). Data mentah per 5 menit 7 hari, ringkasan per jam 180 hari,
+log putaran 90 hari; collector membersihkan sendiri sekali sehari (`maintain()` di `scripts/db.mjs`).

@@ -8,6 +8,8 @@ User=traffic
 Group=traffic
 WorkingDirectory=/opt/traffic/current
 Environment=DB_PATH=/var/lib/traffic/traffic.db
+# Monitoring UI on localhost only; Caddy serves it at traffic.valentinodeenata.com
+Environment=PORT=8790
 ExecStart=/usr/local/bin/node scripts/collector.mjs
 Restart=always
 RestartSec=30

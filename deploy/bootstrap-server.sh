@@ -47,4 +47,10 @@ install -m 644 traffic-collector.service /etc/systemd/system/traffic-collector.s
 systemctl daemon-reload
 systemctl enable traffic-collector  # starts on the first deploy, once /opt/traffic/current exists
 
+# Monitoring UI at traffic.valentinodeenata.com (Caddy imports /etc/caddy/sites/*.caddy, set up by the portfolio bootstrap)
+install -d -m 755 /etc/caddy/sites
+install -m 644 traffic.caddy /etc/caddy/sites/traffic.caddy
+caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
+systemctl reload caddy
+
 echo "bootstrap ok; node $(/usr/local/bin/node --version), $(ffmpeg -version | head -1 | cut -d' ' -f1-3)"

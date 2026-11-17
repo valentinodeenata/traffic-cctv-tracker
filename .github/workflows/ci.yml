@@ -48,7 +48,7 @@ jobs:
           mkdir -p models
           curl -fsSL -o models/yolox_nano.onnx "$MODEL_URL"
           echo "$MODEL_SHA256  models/yolox_nano.onnx" | sha256sum -c -
-          tar -czf ../release.tgz scripts data/cameras.json models node_modules package.json
+          tar -czf ../release.tgz scripts web data/cameras.json models node_modules package.json
 
       - name: Configure SSH
         env:
@@ -71,6 +71,8 @@ jobs:
           sleep 30
           ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "deploy@${{ vars.DEPLOY_HOST }}" status | tee status.txt
           grep -qx 'collector: active' status.txt
+          curl -fsS --max-time 15 https://traffic.valentinodeenata.com/api/summary | grep -q '"storage"'
+          curl -fsS --max-time 15 https://traffic.valentinodeenata.com/ | grep -q '<title>Traffic CCTV Monitor'
 
       - name: Roll back
         if: failure() && steps.publish.outcome == 'success'
