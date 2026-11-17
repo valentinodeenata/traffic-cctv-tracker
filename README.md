@@ -12,10 +12,12 @@ Stream tetap diputar langsung dari server pemilik kamera.
 
 ## Menjalankan
 
-Butuh Node 24+. Tanpa dependency.
+Butuh Node 24+ dan ffmpeg. Tanpa dependency npm.
 
 ```
 node scripts/fetch-cameras.mjs         # daftar kamera Jabodetabek -> data/cameras.json
+node scripts/collector.mjs --once      # ambil 1 frame per kamera, catat yang online ke data/traffic.db
+node scripts/collector.mjs             # jalan terus, tiap 5 menit
 node --test "scripts/*.test.mjs"
 ```
 
