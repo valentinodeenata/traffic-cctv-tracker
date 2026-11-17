@@ -1,0 +1,26 @@
+[Unit]
+Description=Traffic CCTV collector (one frame per camera every 5 min, vehicle counts to SQLite)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=traffic
+Group=traffic
+WorkingDirectory=/opt/traffic/current
+Environment=DB_PATH=/var/lib/traffic/traffic.db
+ExecStart=/usr/local/bin/node scripts/collector.mjs
+Restart=always
+RestartSec=30
+
+# Read-only system; it may write only its database.
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/traffic
+# Leave room for Caddy and the portfolio on the 2 vCPU / 2 GB box.
+MemoryMax=1G
+CPUQuota=150%
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,77 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  MODEL_URL: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.onnx
+  MODEL_SHA256: c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm test
+      - name: Check shell scripts parse
+        run: bash -n deploy/bootstrap-server.sh deploy/traffic-deploy
+      - name: Test deploy script
+        run: bash deploy/test-traffic-deploy.sh
+
+  deploy:
+    needs: check
+    # skipped until the repo has its deploy settings (see deploy/bootstrap-server.sh)
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.DEPLOY_HOST != ''
+    runs-on: ubuntu-24.04
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Build release (linux node_modules + model)
+        run: |
+          npm ci --omit=dev --no-bin-links
+          mkdir -p models
+          curl -fsSL -o models/yolox_nano.onnx "$MODEL_URL"
+          echo "$MODEL_SHA256  models/yolox_nano.onnx" | sha256sum -c -
+          tar -czf ../release.tgz scripts data/cameras.json models node_modules package.json
+
+      - name: Configure SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      - name: Publish release
+        id: publish
+        run: |
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes \
+            "deploy@${{ vars.DEPLOY_HOST }}" "deploy $GITHUB_SHA" < ../release.tgz
+
+      - name: Smoke test (collector still running after 30s)
+        run: |
+          sleep 30
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "deploy@${{ vars.DEPLOY_HOST }}" status | tee status.txt
+          grep -qx 'collector: active' status.txt
+
+      - name: Roll back
+        if: failure() && steps.publish.outcome == 'success'
+        run: ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "deploy@${{ vars.DEPLOY_HOST }}" rollback

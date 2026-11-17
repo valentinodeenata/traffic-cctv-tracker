@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+# Forced command for this repo's CI key (see authorized_keys of user `deploy`). The key can run only this.
+#   deploy <40-char sha>  read a gzipped tar of the app on stdin, publish it as a new release, restart the collector
+#   rollback              point `current` back to the previous release and restart
+#   status                print the live release and whether the collector is running
+set -euo pipefail
+umask 022
+
+BASE=/opt/traffic
+KEEP=5
+restart() { sudo -n /usr/bin/systemctl restart traffic-collector; }
+cmd="${SSH_ORIGINAL_COMMAND:-}"
+
+current() { readlink -f "$BASE/current"; }
+switch_to() { ln -sfn "$1" "$BASE/.current.tmp" && mv -Tf "$BASE/.current.tmp" "$BASE/current"; }
+
+case "$cmd" in
+  deploy\ *)
+    sha="${cmd#deploy }"
+    [[ "$sha" =~ ^[0-9a-f]{40}$ ]] || { echo "invalid commit sha" >&2; exit 2; }
+    rel="$BASE/releases/$(date -u +%Y%m%dT%H%M%SZ)-${sha:0:12}"
+    mkdir -p "$rel"
+    # Plain files and dirs only, and the pieces the collector needs to start.
+    if ! tar -xzf - -C "$rel" --no-same-owner --no-same-permissions \
+       || [ ! -f "$rel/scripts/collector.mjs" ] \
+       || [ ! -f "$rel/models/yolox_nano.onnx" ] \
+       || [ ! -d "$rel/node_modules/onnxruntime-node" ] \
+       || [ -n "$(find "$rel" ! -type f ! -type d -print -quit)" ]; then
+      rm -rf -- "$rel"
+      echo "upload rejected" >&2
+      exit 1
+    fi
+    switch_to "$rel"
+    restart
+    cur="$(current)"
+    ls -1d "$BASE"/releases/* | sort -r | tail -n +$((KEEP + 1)) | { grep -vFx "$cur" || true; } | xargs -r rm -rf --
+    echo "live: $(basename "$rel")"
+    ;;
+  rollback)
+    cur="$(current)"
+    prev="$(ls -1d "$BASE"/releases/* | sort | { grep -B1 -Fx "$cur" || true; } | head -n 1)"
+    [ -n "$prev" ] && [ "$prev" != "$cur" ] || { echo "no previous release" >&2; exit 1; }
+    switch_to "$prev"
+    restart
+    echo "rolled back to: $(basename "$prev")"
+    ;;
+  status)
+    echo "live: $(basename "$(current)")"
+    echo "collector: $(systemctl is-active traffic-collector || true)"
+    ;;
+  *)
+    echo "usage: deploy <sha> | rollback | status" >&2
+    exit 2
+    ;;
+esac

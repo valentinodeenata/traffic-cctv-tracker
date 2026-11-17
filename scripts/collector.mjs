@@ -4,6 +4,7 @@
 //      node scripts/collector.mjs --once          (single pass + summary)
 //      node scripts/collector.mjs --once --save   (also keep frames in snapshots/ for the accuracy check)
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { dirname } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { grabFrame, pool } from './frame.mjs';
 import { detectVehicles } from './detect.mjs';
@@ -13,8 +14,10 @@ const SAVE = process.argv.includes('--save');
 const INTERVAL_MS = 5 * 60 * 1000; // 1 frame / 5 min per camera keeps the load on owners' servers tiny
 const CONCURRENCY = 8;
 
-mkdirSync('data', { recursive: true });
-const db = new DatabaseSync('data/traffic.db');
+// On the server the DB lives outside the release dir so deploys don't wipe it.
+const DB_PATH = process.env.DB_PATH || 'data/traffic.db';
+mkdirSync(dirname(DB_PATH), { recursive: true });
+const db = new DatabaseSync(DB_PATH);
 db.exec(`
   CREATE TABLE IF NOT EXISTS readings (
     camera_id TEXT NOT NULL,
