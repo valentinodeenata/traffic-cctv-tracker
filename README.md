@@ -5,6 +5,8 @@ lalu tiap kamera diberi status **Lancar**, **Ramai**, atau **Padat**.
 
 **Live:** https://traffic.valentinodeenata.com
 
+![Rute Bundaran HI ke Blok M dengan warna lalu lintas dan dua rute alternatif](docs/rute.webp)
+
 - Peta penuh dengan 475 titik kamera (DKI, jalan tol, Bina Marga), status per kamera, dan filter per status
 - Video live langsung dari server pemilik kamera
 - Tab "Deteksi AI": frame terakhir dengan kotak kendaraan, hijau = bergerak, oranye = berhenti
@@ -13,6 +15,8 @@ lalu tiap kamera diberi status **Lancar**, **Ramai**, atau **Padat**.
 - **Rute**: cari alamat atau klik peta, pilih motor (otomatis tanpa tol) atau mobil. Garis rute diwarnai sesuai lalu lintas saat ini
   (biru lancar, kuning ramai, merah padat, merah tua macet), lengkap dengan 2–3 alternatif dan daftar kamera di sepanjang jalan.
   Rute bisa disimpan, tapi hanya di browser pemakainya
+
+![Peta kamera Jabodetabek dengan status Lancar, Ramai, Padat](docs/peta.webp)
 
 ## Cara status ditentukan
 
