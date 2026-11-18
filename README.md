@@ -10,6 +10,9 @@ lalu tiap kamera diberi status **Lancar**, **Ramai**, atau **Padat**.
 - Tab "Deteksi AI": frame terakhir dengan kotak kendaraan, hijau = bergerak, oranye = berhenti
 - Grafik 24 jam per kamera: jumlah kendaraan, yang berhenti, dan garis "biasanya jam segini"
 - Halaman status sistem: kamera online, durasi tiap putaran, pemakaian penyimpanan
+- **Rute**: cari alamat atau klik peta, pilih motor (otomatis tanpa tol) atau mobil. Garis rute diwarnai sesuai lalu lintas saat ini
+  (biru lancar, kuning ramai, merah padat, merah tua macet), lengkap dengan 2–3 alternatif dan daftar kamera di sepanjang jalan.
+  Rute bisa disimpan, tapi hanya di browser pemakainya
 
 ## Cara status ditentukan
 
@@ -23,6 +26,14 @@ Jadi tiap kamera dibandingkan dengan kondisi normalnya sendiri.
 5. Mobil parkir selalu "berhenti", jadi otomatis masuk ke angka biasanya dan tidak memicu status.
 
 Aturannya ada di [`scripts/levels.mjs`](scripts/levels.mjs). Kasus nyata dari lapangan dijadikan test.
+
+## Rute
+
+Warna jalan berasal dari Routing API TomTom (data GPS kendaraan). Kamera kita jadi buktinya: kalau garisnya merah,
+kamera di titik itu bisa langsung dibuka. Kamera dicocokkan ke rute kalau jaraknya ≤ 60 m dari garis ([`scripts/route.mjs`](scripts/route.mjs)).
+
+Key TomTom hanya ada di server. Server jadi perantara dengan batas harian (600 rute, 80 pencarian) supaya tetap di kuota
+gratis TomTom, dan permintaan yang sama dalam 3 menit dijawab dari memori. Tanpa `TOMTOM_API_KEY`, panel rute nonaktif dan peta tetap jalan.
 
 ## Akurasi deteksi
 
@@ -43,6 +54,7 @@ Yang masih sering terlewat: bus gelap dari samping, dan kendaraan yang sangat ja
 | Deteksi | YOLOX-s (Apache-2.0) di onnxruntime-node, CPU saja. Pre-processing dan pengambilan frame pakai ffmpeg |
 | Database | SQLite (WAL). Hanya angka, tidak ada gambar atau video |
 | Frontend | Satu file HTML, MapLibre GL + OpenFreeMap, hls.js untuk video live |
+| Rute | TomTom Routing + Search API lewat server (key tidak pernah sampai ke browser) |
 | Server | VPS 2 vCPU / 2 GB, systemd, Caddy (HTTPS otomatis) |
 | CI/CD | GitHub Actions: test → build rilis → deploy lewat SSH → smoke test → rollback otomatis kalau gagal |
 
@@ -78,7 +90,7 @@ dan browser menyimpan respons terakhir di localStorage, jadi halaman langsung ta
 - [x] Status Lancar / Ramai / Padat berdasarkan kondisi normal tiap kamera
 - [x] Peta live, video, tampilan deteksi AI, grafik 24 jam
 - [x] Deploy otomatis dengan rollback
-- [ ] Rute harian + notifikasi lewat bot Telegram
+- [x] Rute dengan warna lalu lintas, alternatif, kamera di sepanjang rute, rute tersimpan di browser
 - [ ] Riwayat dan pola: jam terbaik untuk berangkat
 - [ ] Untuk logistik: ganjil-genap, larangan truk, cek rute pengiriman
 
@@ -99,7 +111,7 @@ node scripts/eval-sample.mjs 50 yolox_nano,yolox_s   # bandingkan model, frame b
 npm test
 ```
 
-`DETECT_MODEL=yolox_nano` untuk model yang lebih ringan.
+`DETECT_MODEL=yolox_nano` untuk model yang lebih ringan. Untuk panel rute, isi `TOMTOM_API_KEY=...` di file `.env` (tidak ikut ke git).
 
 ## Deploy
 

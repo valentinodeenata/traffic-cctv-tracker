@@ -3,6 +3,7 @@
 import { createServer } from 'node:http';
 import { readFileSync } from 'node:fs';
 import { RETENTION, dbBytes } from './db.mjs';
+import { handle as routeApi } from './route.mjs';
 
 const INDEX = new URL('../web/index.html', import.meta.url);
 
@@ -74,6 +75,14 @@ export function serve(db, loadCameras, latest, state, port) {
       if (!f) return res.writeHead(404).end();
       res.writeHead(200, { 'Content-Type': 'image/jpeg', 'Cache-Control': 'public, max-age=60' });
       return res.end(f.jpeg);
+    }
+    if (url.pathname === '/api/route' || url.pathname === '/api/search') {
+      return routeApi(url.pathname, url.searchParams, loadCameras()).then(({ status, body }) => {
+        // Routes follow live traffic: short cache. Search results barely change.
+        const age = status !== 200 ? 0 : url.pathname === '/api/route' ? 60 : 86400;
+        res.writeHead(status, { 'Content-Type': 'application/json', 'Cache-Control': age ? `public, max-age=${age}` : 'no-store' });
+        res.end(JSON.stringify(body));
+      });
     }
     let body;
     try {

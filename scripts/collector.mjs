@@ -11,6 +11,9 @@ import { detectVehicles, normalizeBoxes, motion, MODEL } from './detect.mjs';
 import { openDb, recordPass, maintainIfDue } from './db.mjs';
 import { computeLevels, markModel } from './levels.mjs';
 
+// TOMTOM_API_KEY for the route panel (see route.mjs). On the server CI writes it into the release's .env.
+try { process.loadEnvFile(); } catch {}
+
 const SAVE = process.argv.includes('--save');
 const INTERVAL_MS = 5 * 60 * 1000; // 1 frame / 5 min per camera keeps the load on owners' servers tiny
 const CONCURRENCY = 8;

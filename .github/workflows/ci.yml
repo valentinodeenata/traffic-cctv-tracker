@@ -46,12 +46,16 @@ jobs:
           node-version: 24
 
       - name: Build release (linux node_modules + model)
+        env:
+          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
         run: |
           npm ci --omit=dev --no-bin-links
           mkdir -p models
           for m in yolox_s yolox_nano; do curl -fsSL -o "models/$m.onnx" "$MODELS_URL/$m.onnx"; done
           printf '%s' "$MODELS_SHA256" | sha256sum -c -
-          tar -czf ../release.tgz scripts web data/cameras.json models node_modules package.json
+          # Route panel key (scripts/route.mjs); the collector reads .env from its working directory
+          if [ -n "$TOMTOM_API_KEY" ]; then printf 'TOMTOM_API_KEY=%s\n' "$TOMTOM_API_KEY" > .env; else touch .env; fi
+          tar -czf ../release.tgz scripts web data/cameras.json models node_modules package.json .env
 
       - name: Configure SSH
         env:
@@ -77,6 +81,9 @@ jobs:
           curl -fsS --max-time 15 https://traffic.valentinodeenata.com/api/summary | grep -q '"storage"'
           curl -fsS --max-time 15 https://traffic.valentinodeenata.com/api/cameras | grep -q '"level"'
           curl -fsS --max-time 15 https://traffic.valentinodeenata.com/ | grep -q 'id="map"'
+          # A 2-letter search never reaches TomTom: 200 means the key is loaded, 503 means the secret is missing
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 'https://traffic.valentinodeenata.com/api/search?q=ab')
+          [ "$code" = 200 ] || echo "::warning::route panel inactive (HTTP $code): is the TOMTOM_API_KEY secret set?"
 
       - name: Roll back
         if: failure() && steps.publish.outcome == 'success'

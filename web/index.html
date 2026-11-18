@@ -95,6 +95,39 @@
   .chart svg { display: block; width: 100%; height: 100%; overflow: visible; }
   .tip { position: absolute; pointer-events: none; background: var(--ink); color: #fff; border-radius: 8px; padding: 5px 8px; font-size: 12px; white-space: nowrap; display: none; z-index: 3; }
 
+  /* Route */
+  .routebtn { flex: none; display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; background: var(--accent); color: #fff;
+    font-weight: 600; padding: 8px 14px 8px 11px; box-shadow: 0 1px 2px rgba(0,0,0,.12); transition: filter .15s; }
+  .routebtn:hover { filter: brightness(1.08); }
+  .seg { margin-top: 14px; }
+  .rfields { display: grid; gap: 8px; margin: 12px 20px 4px; }
+  .rfield { display: flex; align-items: center; gap: 10px; }
+  .rfield .pin { width: 12px; height: 12px; border-radius: 50%; border: 3px solid var(--ink); flex: none; margin-left: 2px; }
+  .rfield.to .pin { border-color: var(--padat); background: var(--padat); }
+  .rfield input { flex: 1; min-width: 0; height: 42px; border: 0; border-radius: 12px; background: var(--bg-2); padding: 0 12px;
+    font: inherit; font-size: 15px; color: var(--ink); outline: none; transition: box-shadow .15s; }
+  .rfield input:focus { box-shadow: 0 0 0 2px var(--accent); background: var(--bg); }
+  .iconbtn { flex: none; width: 36px; height: 36px; border: 0; border-radius: 10px; background: var(--bg-2); color: var(--ink-2); display: grid; place-items: center; }
+  .iconbtn:hover { background: var(--bg-3); color: var(--ink); }
+  .ropt { display: block; width: calc(100% - 40px); margin: 10px 20px 0; padding: 12px 14px; text-align: left; background: var(--bg);
+    border: 1px solid var(--line); border-radius: 14px; transition: border-color .15s, box-shadow .15s; }
+  .ropt:hover { border-color: var(--bg-3); }
+  .ropt[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .ropt .rtop { display: flex; align-items: baseline; gap: 8px; }
+  .ropt .rtop b { font-size: 19px; font-variant-numeric: tabular-nums; }
+  .ropt .rtop span, .ropt .rsub { color: var(--ink-2); font-size: 13px; }
+  .ropt .late { color: var(--padat); font-weight: 600; }
+  .strip { display: flex; height: 7px; border-radius: 4px; overflow: hidden; margin-top: 10px; }
+  .rlegend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 12px 20px 0; font-size: 12px; color: var(--ink-2); }
+  .rlegend span { display: inline-flex; align-items: center; gap: 6px; }
+  .rlegend i { width: 18px; height: 5px; border-radius: 3px; display: inline-block; }
+  .rsave { display: flex; gap: 8px; margin: 14px 20px 0; }
+  .rsave input { flex: 1; min-width: 0; height: 40px; border: 1px solid var(--line); border-radius: 12px; padding: 0 12px; font: inherit; outline: none; }
+  .rsave input:focus { border-color: var(--accent); }
+  .rsave button, .rsave-open { border: 1px solid var(--line); background: var(--bg); border-radius: 12px; padding: 0 14px; height: 40px; font-weight: 600; }
+  .rsave-open { display: block; width: calc(100% - 40px); margin: 14px 20px 0; }
+  .row .iconbtn { width: 30px; height: 30px; background: none; }
+
   /* System status */
   .kv { display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; font-size: 13px; }
   .kv dt { color: var(--ink-2); } .kv dd { margin: 0; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -136,6 +169,7 @@
           <h1>Lalu Lintas Jabodetabek <span class="live stale" id="live"><i></i>Live</span></h1>
           <div class="sub" id="sub">Memuat kamera…</div>
         </div>
+        <button class="routebtn" id="open-route"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></svg>Rute</button>
       </div>
       <div class="search">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -151,6 +185,25 @@
       <div id="tab-system" hidden></div>
     </section>
     <section id="detail" class="view" hidden></section>
+    <section id="route" class="view" hidden>
+      <button class="back" id="r-back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg>Kembali</button>
+      <div class="dhead"><h2>Rute</h2><div class="src">Warna jalan mengikuti lalu lintas saat ini</div></div>
+      <div class="tabs seg" id="r-mode" role="group" aria-label="Kendaraan">
+        <button data-mode="motor">Motor</button>
+        <button data-mode="mobil">Mobil</button>
+      </div>
+      <div class="rfields">
+        <div class="rfield from"><i class="pin"></i>
+          <input id="r-from" type="search" placeholder="Dari: cari alamat, lalu Enter" autocomplete="off" aria-label="Titik berangkat" enterkeyhint="search">
+          <button class="iconbtn" id="r-me" aria-label="Pakai lokasi saya" title="Pakai lokasi saya"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></button>
+        </div>
+        <div class="rfield to"><i class="pin"></i>
+          <input id="r-to" type="search" placeholder="Ke: cari alamat, lalu Enter" autocomplete="off" aria-label="Tujuan" enterkeyhint="search">
+          <button class="iconbtn" id="r-swap" aria-label="Tukar asal dan tujuan" title="Tukar asal dan tujuan"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v16M3 8l4-4 4 4M17 20V4M13 16l4 4 4-4"/></svg></button>
+        </div>
+      </div>
+      <div id="r-out"></div>
+    </section>
   </div>
 </aside>
 
@@ -295,7 +348,7 @@ function renderSystem() {
 }
 
 // ---------- detail ----------
-let hls = null, detailToken = 0;
+let hls = null, detailToken = 0, backTo = 'home';
 function stopVideo() { if (hls) { hls.destroy(); hls = null; } }
 
 async function select(id, fly) {
@@ -303,7 +356,8 @@ async function select(id, fly) {
   selected = id; history.replaceState(null, '', '#' + encodeURIComponent(id));
   stopVideo();
   const token = ++detailToken;
-  $('home').hidden = true;
+  backTo = $('route').hidden ? 'home' : 'route';
+  $('home').hidden = true; $('route').hidden = true;
   const d = $('detail'); d.hidden = false;
   d.innerHTML = `
     <button class="back" id="back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg>Kembali</button>
@@ -400,8 +454,9 @@ function showMedia(c, mode, info) {
 function closeDetail() {
   stopVideo(); detailToken++;
   selected = null; history.replaceState(null, '', location.pathname);
-  $('detail').hidden = true; $('home').hidden = false;
+  $('detail').hidden = true; $(backTo).hidden = false;
   if (isMobile()) setSheet(0.42);
+  if (backTo === 'route') renderOut();
   updateMap();
 }
 
@@ -473,6 +528,16 @@ function initMap() {
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
   map.addControl(new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: false } }), 'top-right');
   map.on('load', () => {
+    const empty = { type: 'FeatureCollection', features: [] };
+    map.addSource('route', { type: 'geojson', data: empty });
+    map.addSource('route-pts', { type: 'geojson', data: empty });
+    const round = { 'line-join': 'round', 'line-cap': 'round' };
+    const width = (a, b) => ['interpolate', ['linear'], ['zoom'], 10, a, 15, b];
+    map.addLayer({ id: 'route-alt', type: 'line', source: 'route', filter: ['has', 'alt'], layout: round, paint: { 'line-color': '#9db7dc', 'line-width': width(4, 8) } });
+    map.addLayer({ id: 'route-casing', type: 'line', source: 'route', filter: ['has', 'casing'], layout: round, paint: { 'line-color': '#ffffff', 'line-width': width(7, 12) } });
+    map.addLayer({ id: 'route-line', type: 'line', source: 'route', filter: ['has', 'level'], layout: round, paint: {
+      'line-color': ['match', ['get', 'level'], 'ramai', ROAD.ramai.color, 'padat', ROAD.padat.color, 'macet', ROAD.macet.color, ROAD.lancar.color],
+      'line-width': width(4, 8) } });
     map.addSource('cams', { type: 'geojson', data: geojson() });
     const color = ['match', ['get', 'level'], 'padat', LEVEL.padat.color, 'ramai', LEVEL.ramai.color, 'lancar', LEVEL.lancar.color, LEVEL.offline.color];
     map.addLayer({ id: 'pulse', type: 'circle', source: 'cams', filter: ['==', ['get', 'level'], 'padat'],
@@ -486,7 +551,20 @@ function initMap() {
         'circle-stroke-color': ['case', ['==', ['get', 'sel'], 1], '#111110', '#ffffff'],
         'circle-stroke-width': ['case', ['==', ['get', 'sel'], 1], 3, 1.5],
       } });
+    map.addLayer({ id: 'route-pts', type: 'circle', source: 'route-pts', paint: {
+      'circle-radius': 7, 'circle-color': ['case', ['==', ['get', 'end'], 1], ROAD.padat.color, '#ffffff'],
+      'circle-stroke-width': 3, 'circle-stroke-color': ['case', ['==', ['get', 'end'], 1], '#ffffff', '#111110'] } });
     mapReady = true;
+    drawRoute();
+    map.on('click', 'route-alt', (e) => { rt.pick = e.features[0].properties.alt; drawRoute(); renderOut(); });
+    map.on('mouseenter', 'route-alt', () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', 'route-alt', () => { map.getCanvas().style.cursor = ''; });
+    // In the route view, a click on empty map sets the start, then the destination
+    map.on('click', (e) => {
+      if ($('route').hidden || map.queryRenderedFeatures(e.point, { layers: ['cams', 'route-alt'] }).length) return;
+      const field = !rt.from ? 'from' : !rt.to ? 'to' : null; if (!field) return;
+      setPoint(field, { label: 'Titik di peta', lat: +e.lngLat.lat.toFixed(5), lng: +e.lngLat.lng.toFixed(5) });
+    });
     // Pulse the "padat" markers
     const t0 = performance.now();
     const tick = (t) => {
@@ -529,6 +607,212 @@ function setSheet(f) {
   });
 })();
 
+// ---------- route ----------
+// Road colours like a navigation app: blue = flowing, then yellow, red, dark red as the delay grows (TomTom traffic).
+const ROAD = {
+  lancar: { label: 'Lancar', color: '#2f7de1' }, ramai: { label: 'Ramai', color: '#f2a300' },
+  padat: { label: 'Padat', color: '#e0352b' }, macet: { label: 'Macet', color: '#8c1c13' },
+};
+const rt = { mode: cache.get('mode') === 'mobil' ? 'mobil' : 'motor', from: null, to: null, routes: [], pick: 0, at: 0, token: 0, results: [], field: 'from', saving: false };
+const dur = (s) => { const m = Math.max(1, Math.round(s / 60)); return m < 60 ? `${m} mnt` : `${Math.floor(m / 60)} j ${m % 60} mnt`; };
+const km = (m) => `${(m / 1000).toLocaleString('id-ID', { maximumFractionDigits: 1 })} km`;
+const out = (html) => { $('r-out').innerHTML = html; };
+const savedRoutes = () => { const s = cache.get('routes'); return Array.isArray(s) ? s : []; };
+const markMode = () => document.querySelectorAll('#r-mode button').forEach((b) => b.setAttribute('aria-selected', b.dataset.mode === rt.mode));
+
+function openRoute() {
+  $('home').hidden = true; $('detail').hidden = true; $('route').hidden = false;
+  markMode(); renderOut();
+  if (isMobile()) setSheet(0.85);
+  else if (!rt.from) $('r-from').focus();
+}
+function closeRoute() {
+  rt.token++; rt.routes = []; rt.from = rt.to = null; rt.saving = false; $('r-from').value = $('r-to').value = '';
+  $('route').hidden = true; $('home').hidden = false;
+  drawRoute();
+  if (isMobile()) setSheet(0.42);
+}
+
+// Distance along the line, to size the colour strip
+function cumulative(coords) {
+  const kx = 111320 * Math.cos(-6.2 * Math.PI / 180), d = [0];
+  for (let i = 1; i < coords.length; i++) d.push(d[i - 1] + Math.hypot((coords[i][0] - coords[i - 1][0]) * kx, (coords[i][1] - coords[i - 1][1]) * 110540));
+  return d;
+}
+// Split the line into [from, to, level] pieces: traffic spans, blue in between
+function pieces(r) {
+  const res = [], last = r.coords.length - 1; let i = 0;
+  for (const s of [...r.spans].sort((a, b) => a.from - b.from)) {
+    if (s.from > i) res.push([i, s.from, 'lancar']);
+    res.push([Math.max(i, s.from), s.to, s.level]); i = Math.max(i, s.to);
+  }
+  if (i < last) res.push([i, last, 'lancar']);
+  return res;
+}
+function strip(r) {
+  const d = cumulative(r.coords), total = d.at(-1) || 1;
+  return `<div class="strip">${pieces(r).map(([a, b, lv]) => `<i style="width:${((d[b] - d[a]) / total * 100).toFixed(2)}%;background:${ROAD[lv].color}"></i>`).join('')}</div>`;
+}
+
+function renderOut() {
+  if (!rt.routes.length) {
+    const s = savedRoutes();
+    return out((s.length ? `<div class="section-title">Rute tersimpan</div><ul class="list">${s.map((x, i) => `
+      <li class="row" tabindex="0" data-saved="${i}">
+        <div class="meta"><div class="name">${esc(x.name)}</div><div class="src">${x.mode === 'mobil' ? 'Mobil' : 'Motor'} · ${esc(x.from.label)} → ${esc(x.to.label)}</div></div>
+        <button class="iconbtn" data-del="${i}" aria-label="Hapus rute ${esc(x.name)}">✕</button>
+      </li>`).join('')}</ul>` : '')
+      + '<p class="note">Cari alamat lalu tekan Enter, pakai lokasi kamu, atau klik langsung di peta. Motor otomatis tidak lewat tol. Rute tersimpan hanya ada di browser ini.</p>');
+  }
+  const r = rt.routes[rt.pick];
+  const along = r.cameras.map((c) => ({ ...c, cam: cams.find((k) => k.id === c.id) })).filter((c) => c.cam);
+  const live = along.filter((c) => c.cam.level !== 'offline');
+  const fastest = rt.routes.reduce((b, x, i) => x.seconds < rt.routes[b].seconds ? i : b, 0);
+  out(`${rt.routes.map((x, i) => `
+    <button class="ropt" data-pick="${i}" aria-pressed="${i === rt.pick}">
+      <div class="rtop"><b>${dur(x.seconds)}</b><span>${km(x.meters)}</span></div>
+      <div class="rsub">${x.delay >= 60 ? `<span class="late">+${dur(x.delay)} karena macet</span>` : 'Lalu lintas normal'}${i === fastest && rt.routes.length > 1 ? ' · tercepat' : ''}</div>
+      ${strip(x)}
+    </button>`).join('')}
+    <div class="rlegend">${Object.values(ROAD).map((x) => `<span><i style="background:${x.color}"></i>${x.label}</span>`).join('')}</div>
+    ${rt.saving
+      ? `<div class="rsave"><input id="r-name" maxlength="40" aria-label="Nama rute" value="${esc(`${rt.from.label} → ${rt.to.label}`)}"><button id="r-name-ok">Simpan</button></div>`
+      : '<button class="rsave-open" id="r-save">Simpan rute ini</button>'}
+    <div class="section-title">Kamera di rute ini · ${fmt.format(live.length)} aktif</div>
+    ${along.length ? `<ul class="list">${along.map(({ at, cam: c }) => `
+      <li class="row" tabindex="0" data-id="${esc(c.id)}">
+        <div class="meta"><div class="name">${esc(pretty(c.name))}</div><div class="src">km ${(at / 1000).toLocaleString('id-ID', { maximumFractionDigits: 1 })} · ${esc(srcName(c.source))}</div></div>
+        ${badge(c.level)}
+      </li>`).join('')}</ul>` : '<div class="empty">Tidak ada kamera di sepanjang rute ini.</div>'}
+    <p class="note">Warna jalan dari data lalu lintas © TomTom, diperbarui tiap beberapa menit. Kamera dari CCTV publik, dihitung AI tiap 5 menit. Kamera tol yang bersebelahan dengan jalan biasa ikut tampil sebagai acuan.</p>`);
+  if (rt.saving) { $('r-name').focus(); $('r-name').select(); }
+}
+
+function setPoint(field, p) {
+  rt[field] = p; $('r-' + field).value = p?.label ?? '';
+  rt.results = [];
+  if (rt.from && rt.to) return fetchRoute(true);
+  rt.routes = []; drawRoute(); renderOut();
+  if (p && field === 'from' && !isMobile()) $('r-to').focus();
+}
+
+async function search(field) {
+  const q = $('r-' + field).value.trim(); if (q.length < 3) return;
+  rt.field = field; rt.routes = []; drawRoute();
+  out('<div class="empty">Mencari…</div>');
+  try {
+    const res = await fetch('/api/search?q=' + encodeURIComponent(q)), data = await res.json();
+    if (!res.ok) return out(`<div class="empty">${esc(data.error)}</div>`);
+    rt.results = data.results;
+    out(rt.results.length ? `<div class="section-title">Pilih lokasi</div><ul class="list">${rt.results.map((r, i) => `
+      <li class="row" tabindex="0" data-res="${i}"><div class="meta"><div class="name">${esc(r.name)}</div><div class="src">${esc(r.address)}</div></div></li>`).join('')}</ul>`
+      : '<div class="empty">Alamat tidak ditemukan. Coba nama jalan atau tempat, atau klik di peta.</div>');
+  } catch { out('<div class="empty">Server tidak menjawab.</div>'); }
+}
+
+async function fetchRoute(fit, quiet) {
+  const t = ++rt.token, p = (x) => `${x.lat.toFixed(5)},${x.lng.toFixed(5)}`;
+  if (!quiet) out('<div class="empty">Menghitung rute…</div>');
+  drawRoute();
+  try {
+    const res = await fetch(`/api/route?from=${p(rt.from)}&to=${p(rt.to)}&mode=${rt.mode}`), data = await res.json();
+    if (t !== rt.token) return;
+    if (!res.ok || !data.routes?.length) { rt.routes = []; drawRoute(); return out(`<div class="empty">${esc(data.error ?? 'Rute tidak ditemukan.')}</div>`); }
+    rt.routes = data.routes; rt.at = Date.now();
+    rt.pick = fit ? 0 : Math.min(rt.pick, data.routes.length - 1);
+    if (fit && isMobile()) setSheet(0.42); // before fitting, so the map pads for the new sheet height
+    drawRoute(fit); renderOut();
+    if (fit && isMobile()) $('scroll').scrollTop = $('r-out').offsetTop - 8;
+  } catch { if (t === rt.token && !quiet) out('<div class="empty">Server tidak menjawab.</div>'); }
+}
+
+function routeGeo() {
+  const f = [], line = (coords, props) => f.push({ type: 'Feature', properties: props, geometry: { type: 'LineString', coordinates: coords } });
+  rt.routes.forEach((r, i) => { if (i !== rt.pick) line(r.coords, { alt: i }); });
+  const r = rt.routes[rt.pick];
+  if (r) {
+    line(r.coords, { casing: 1 });
+    for (const [a, b, lv] of pieces(r)) line(r.coords.slice(a, b + 1), { level: lv });
+  }
+  return { type: 'FeatureCollection', features: f };
+}
+function pointsGeo() {
+  return { type: 'FeatureCollection', features: ['from', 'to'].filter((k) => rt[k]).map((k) => ({
+    type: 'Feature', properties: { end: k === 'to' ? 1 : 0 }, geometry: { type: 'Point', coordinates: [rt[k].lng, rt[k].lat] } })) };
+}
+function drawRoute(fit) {
+  if (!mapReady) return;
+  map.getSource('route').setData(routeGeo());
+  map.getSource('route-pts').setData(pointsGeo());
+  const r = rt.routes[rt.pick];
+  if (fit && r) {
+    const b = r.coords.reduce((bb, c) => bb.extend(c), new maplibregl.LngLatBounds(r.coords[0], r.coords[0]));
+    map.fitBounds(b, { padding: isMobile() ? { top: 64, bottom: 32, left: 32, right: 64 } : 60, duration: 700 });
+  }
+}
+
+function saveRoute() {
+  const name = $('r-name').value.trim() || `${rt.from.label} → ${rt.to.label}`;
+  const s = savedRoutes().filter((x) => x.name !== name);
+  s.unshift({ name, mode: rt.mode, from: rt.from, to: rt.to });
+  cache.set('routes', s.slice(0, 10));
+  rt.saving = false; renderOut();
+}
+function routeAction(e) {
+  const t = e.target;
+  const del = t.closest('[data-del]');
+  if (del) { const s = savedRoutes(); s.splice(+del.dataset.del, 1); cache.set('routes', s); return renderOut(); }
+  const res = t.closest('[data-res]');
+  if (res) { const r = rt.results[+res.dataset.res]; return setPoint(rt.field, { label: r.name, lat: r.lat, lng: r.lng }); }
+  const sv = t.closest('[data-saved]');
+  if (sv) {
+    const x = savedRoutes()[+sv.dataset.saved]; if (!x) return;
+    Object.assign(rt, { from: x.from, to: x.to, mode: x.mode === 'mobil' ? 'mobil' : 'motor' });
+    $('r-from').value = x.from.label; $('r-to').value = x.to.label;
+    markMode();
+    return fetchRoute(true);
+  }
+  const pick = t.closest('[data-pick]');
+  if (pick) { rt.pick = +pick.dataset.pick; drawRoute(); return renderOut(); }
+  const row = t.closest('[data-id]');
+  if (row) return select(row.dataset.id, true);
+  if (t.id === 'r-save') { rt.saving = true; return renderOut(); }
+  if (t.id === 'r-name-ok') saveRoute();
+}
+
+$('open-route').addEventListener('click', openRoute);
+$('r-back').addEventListener('click', closeRoute);
+$('r-mode').addEventListener('click', (e) => {
+  const b = e.target.closest('button'); if (!b || b.dataset.mode === rt.mode) return;
+  rt.mode = b.dataset.mode; cache.set('mode', rt.mode); markMode();
+  if (rt.from && rt.to) fetchRoute(true);
+});
+for (const field of ['from', 'to']) {
+  const input = $('r-' + field);
+  input.addEventListener('focus', () => { rt.field = field; });
+  input.addEventListener('input', () => { if (rt[field]) { rt[field] = null; rt.routes = []; drawRoute(); renderOut(); } });
+  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); search(field); } });
+}
+$('r-swap').addEventListener('click', () => {
+  [rt.from, rt.to] = [rt.to, rt.from];
+  $('r-from').value = rt.from?.label ?? ''; $('r-to').value = rt.to?.label ?? '';
+  if (rt.from && rt.to) fetchRoute(true); else drawRoute();
+});
+$('r-me').addEventListener('click', () => {
+  if (!navigator.geolocation) return out('<div class="empty">Browser ini tidak bisa membaca lokasi.</div>');
+  out('<div class="empty">Membaca lokasi…</div>');
+  navigator.geolocation.getCurrentPosition(
+    (pos) => setPoint('from', { label: 'Lokasi saya', lat: +pos.coords.latitude.toFixed(5), lng: +pos.coords.longitude.toFixed(5) }),
+    () => out('<div class="empty">Lokasi tidak bisa dibaca. Izinkan akses lokasi, atau klik titik di peta.</div>'),
+    { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 });
+});
+$('r-out').addEventListener('click', routeAction);
+$('r-out').addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter') return;
+  if (e.target.id === 'r-name') return saveRoute();
+  if (e.target.classList.contains('row')) routeAction(e);
+});
+
 // ---------- data ----------
 function apply(s, c) {
   summary = s; cams = c;
@@ -549,7 +833,11 @@ initMap();
 const cs = cache.get('summary'), cc = cache.get('cameras');
 if (cs && cc) apply(cs, cc);
 refresh().then(() => { const id = decodeURIComponent(location.hash.slice(1)); if (id) select(id, true); });
-setInterval(() => { if (!document.hidden) refresh(); }, 60000);
+setInterval(() => {
+  if (document.hidden) return;
+  refresh();
+  if (!$('route').hidden && rt.routes.length && Date.now() - rt.at > 3 * 60_000) fetchRoute(false, true);
+}, 60000);
 addEventListener('resize', () => { if (map) map.setPadding(mapPadding()); });
 </script>
 </body>
