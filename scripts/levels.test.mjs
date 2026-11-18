@@ -1,7 +1,19 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { openDb, recordPass } from './db.mjs';
-import { levelFor, computeLevels, usualByCamera } from './levels.mjs';
+import { levelFor, computeLevels, usualByCamera, markModel } from './levels.mjs';
+
+test('switching the detection model restarts the baseline', () => {
+  const db = openDb(':memory:');
+  const DAY = 86400, now = 100 * DAY;
+  markModel(db, 'yolox_nano', 0);
+  for (let d = 1; d <= 3; d++) for (let m = 0; m < 3; m++) recordPass(db, now - d * DAY + m * 300, [{ id: 'a', ok: true, vehicles: 2, stopped: 0 }], 1);
+  assert.equal(usualByCamera(db, now).get('a').vehicles, 2);
+  markModel(db, 'yolox_nano', now - 3600); // same model again: no reset
+  assert.equal(usualByCamera(db, now).get('a').vehicles, 2);
+  markModel(db, 'yolox_s', now - 3600);    // new model: old counts no longer count
+  assert.equal(usualByCamera(db, now).get('a'), undefined);
+});
 
 const r = (vehicles, stopped) => ({ vehicles, stopped });
 
@@ -20,7 +32,9 @@ test('levelFor: the cases from the field', () => {
   // Busy but flowing: far more cars than usual, nearly all moving -> ramai
   assert.equal(levelFor([r(15, 2)], { vehicles: 6, stopped: 1 }), 'ramai');
   // Only one frame available (stopped unknown) can never be padat
-  assert.equal(levelFor([r(20, null), r(20, null)], null), 'ramai');
+  assert.equal(levelFor([r(20, null), r(20, null)], { vehicles: 6, stopped: null }), 'ramai');
+  // No baseline yet (new camera, or just after a model switch): a big count alone proves nothing
+  assert.equal(levelFor([r(20, 3)], null), 'lancar');
   assert.equal(levelFor([], null), 'offline');
 });
 

@@ -12,7 +12,7 @@ test('motion: in-place vehicles are stopped, shifted or vanished ones are moving
 
 test('normalizeBoxes maps letterboxed coords back to the original image', () => {
   // 640x360 -> scale 0.65 -> 416x234 at top-left
-  const [b] = normalizeBoxes([{ x1: 0, y1: 0, x2: 208, y2: 234, cls: 'car', score: 0.91234 }], 640, 360);
+  const [b] = normalizeBoxes([{ x1: 0, y1: 0, x2: 208, y2: 234, cls: 'car', score: 0.91234 }], 640, 360, 416);
   assert.deepEqual(b, { x1: 0, y1: 0, x2: 0.5, y2: 1, cls: 'car', score: 0.91, stopped: false });
 });
 
@@ -29,7 +29,8 @@ function fakeOutput(rows) {
 test('decode: grid offsets, stride scaling, vehicle classes only, threshold', () => {
   const out = fakeOutput([
     { r: 53, obj: 0.9, cls: 2, score: 0.9 },     // stride 8, grid (1,1) -> centre (12,12), 8x8 box
-    { r: 2704, obj: 0.9, cls: 6, score: 0.9 },   // first stride-16 cell -> centre (8,8); "train" counts as bus
+    { r: 2704, obj: 0.9, cls: 5, score: 0.9 },   // first stride-16 cell -> centre (8,8), bus
+    { r: 2705, obj: 0.9, cls: 6, score: 0.95 },  // train: ignored
     { r: 100, obj: 0.9, cls: 0, score: 0.99 },   // person: ignored
     { r: 200, obj: 0.5, cls: 2, score: 0.5 },    // 0.25 < 0.3: dropped
   ]);

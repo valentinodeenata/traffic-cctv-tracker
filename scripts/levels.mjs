@@ -7,7 +7,7 @@
 //   padat  stopped >= max(4, 2 x usual stopped + 1) and at least half of what's visible is stopped,
 //          in >= 2 of the last 3 passes (~10 min; a red light lasts one pass at most),
 //          or all 3 while the camera's usual stopped count is still unknown
-//   ramai  visible >= max(8, 1.5 x usual + 2), or the padat condition in the latest pass only
+//   ramai  visible >= max(8, 1.5 x usual + 2) (only once a usual exists), or the padat condition in the latest pass only
 //   lancar otherwise
 //
 // "usual" = median for this camera within +-1 h of the current time of day over the last 7 days,
@@ -30,7 +30,8 @@ export function levelFor(recent, usual) {
   // Until this camera's usual queue is known, a red light could hit two passes in a row: require all three.
   const need = usual?.stopped == null ? RULES.WINDOW : RULES.NEED;
   if (recent.slice(0, RULES.WINDOW).filter((r) => jammed(r, us)).length >= need) return 'padat';
-  if (now.vehicles >= Math.max(RULES.MIN_BUSY, 1.5 * uv + 2) || jammed(now, us)) return 'ramai';
+  // "More cars than usual" needs a usual; without one, only standing traffic can make it ramai.
+  if ((usual && now.vehicles >= Math.max(RULES.MIN_BUSY, 1.5 * uv + 2)) || jammed(now, us)) return 'ramai';
   return 'lancar';
 }
 
@@ -41,12 +42,22 @@ const median = (xs) => {
 };
 const hourOfDay = (ts) => (Math.floor(ts / 3600) + TZ_HOURS) % 24;
 
+// Counts from different detection models aren't comparable (yolox_s sees ~60% more than nano),
+// so the baseline only uses readings taken since the current model started.
+export function markModel(db, model, now) {
+  const cur = db.prepare("SELECT value FROM meta WHERE key = 'model'").get()?.value;
+  if (cur === model) return;
+  db.prepare("INSERT OR REPLACE INTO meta VALUES ('model', ?)").run(model);
+  db.prepare("INSERT OR REPLACE INTO meta VALUES ('model_since', ?)").run(String(now));
+}
+
 // Medians per camera around the current hour of day.
 export function usualByCamera(db, now) {
   const h = hourOfDay(now);
   const hours = new Set([(h + 23) % 24, h, (h + 1) % 24]);
+  const since = +(db.prepare("SELECT value FROM meta WHERE key = 'model_since'").get()?.value ?? 0);
   const rows = db.prepare('SELECT camera_id, ts, vehicles, stopped FROM readings WHERE ts >= ? AND ts < ? AND vehicles IS NOT NULL')
-    .all(now - RETENTION.RAW_DAYS * 86400, now - 30 * 60);
+    .all(Math.max(since, now - RETENTION.RAW_DAYS * 86400), now - 30 * 60);
   const by = new Map();
   for (const r of rows) {
     if (!hours.has(hourOfDay(r.ts))) continue;

@@ -16,10 +16,11 @@ Butuh Node 24+ dan ffmpeg.
 
 ```
 npm install
-curl -L -o models/yolox_nano.onnx https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.onnx
+curl -L -o models/yolox_s.onnx https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_s.onnx
 ```
 
-Deteksi kendaraan pakai YOLOX-nano (Apache-2.0) lewat onnxruntime-node.
+Deteksi kendaraan pakai YOLOX-s (Apache-2.0) lewat onnxruntime-node. `DETECT_MODEL=yolox_nano` untuk model yang lebih ringan.
+Cek akurasi: `node scripts/eval-sample.mjs 50 yolox_nano,yolox_s` (frame beranotasi di `snapshots/`).
 
 ```
 node scripts/fetch-cameras.mjs         # daftar kamera Jabodetabek -> data/cameras.json

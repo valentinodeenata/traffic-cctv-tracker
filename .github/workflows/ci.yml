@@ -10,8 +10,11 @@ permissions:
   contents: read
 
 env:
-  MODEL_URL: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.onnx
-  MODEL_SHA256: c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d
+  MODELS_URL: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0
+  # yolox_s is the default; yolox_nano ships as a lighter fallback (DETECT_MODEL=yolox_nano)
+  MODELS_SHA256: |
+    c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063  models/yolox_s.onnx
+    c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d  models/yolox_nano.onnx
 
 jobs:
   check:
@@ -46,8 +49,8 @@ jobs:
         run: |
           npm ci --omit=dev --no-bin-links
           mkdir -p models
-          curl -fsSL -o models/yolox_nano.onnx "$MODEL_URL"
-          echo "$MODEL_SHA256  models/yolox_nano.onnx" | sha256sum -c -
+          for m in yolox_s yolox_nano; do curl -fsSL -o "models/$m.onnx" "$MODELS_URL/$m.onnx"; done
+          printf '%s' "$MODELS_SHA256" | sha256sum -c -
           tar -czf ../release.tgz scripts web data/cameras.json models node_modules package.json
 
       - name: Configure SSH
