@@ -1,104 +1,114 @@
 # traffic-cctv-tracker
 
-Peta lalu lintas Jabodetabek dari CCTV publik. Tiap 5 menit, sekitar 210 kamera dibaca oleh model deteksi kendaraan,
-lalu tiap kamera diberi status **Lancar**, **Ramai**, atau **Padat**.
-
-**Live:** https://traffic.valentinodeenata.com
+Peta macet Jabodetabek dari CCTV publik. Bisa langsung dibuka di https://traffic.valentinodeenata.com
 
 ![Rute Bundaran HI ke Blok M dengan warna lalu lintas dan dua rute alternatif](docs/rute.webp)
 
-- Peta penuh dengan 475 titik kamera (DKI, jalan tol, Bina Marga), status per kamera, dan filter per status
-- Video live langsung dari server pemilik kamera
-- Tab "Deteksi AI": frame terakhir dengan kotak kendaraan, hijau = bergerak, oranye = berhenti
-- Grafik 24 jam per kamera: jumlah kendaraan, yang berhenti, dan garis "biasanya jam segini"
-- Halaman status sistem: kamera online, durasi tiap putaran, pemakaian penyimpanan
-- **Rute**: cari alamat atau klik peta, pilih motor (otomatis tanpa tol) atau mobil. Garis rute diwarnai sesuai lalu lintas saat ini
-  (biru lancar, kuning ramai, merah padat, merah tua macet), lengkap dengan 2–3 alternatif dan daftar kamera di sepanjang jalan.
-  Rute bisa disimpan, tapi hanya di browser pemakainya
+Tiap 5 menit, server ngambil gambar dari sekitar 210 kamera yang lagi online. Model deteksi menghitung kendaraan di tiap gambar.
+Dari situ tiap kamera dapat status Lancar, Ramai, atau Padat.
+
+## Yang bisa dilakukan
+
+- Lihat semua kamera di peta. Warnanya ikut status masing-masing.
+- Buka kamera buat nonton video live-nya. Videonya diputar langsung dari server pemilik kamera.
+- Cek apa yang dihitung AI di tab "Deteksi AI". Kotak hijau artinya kendaraan bergerak, oranye artinya berhenti.
+- Lihat grafik 24 jam tiap kamera, lengkap dengan garis "biasanya jam segini".
+- Cari rute pakai motor atau mobil. Kalau motor, rutenya otomatis nggak lewat tol.
+- Garis rute diwarnai sesuai kondisi sekarang. Biru lancar, kuning ramai, merah padat, merah tua macet.
+- Kamera yang dilewati rute muncul di daftar, jadi videonya bisa langsung dicek.
+- Simpan rute yang sering dipakai. Rutenya cuma disimpan di browser kamu.
 
 ![Peta kamera Jabodetabek dengan status Lancar, Ramai, Padat](docs/peta.webp)
 
-## Cara status ditentukan
+## Kenapa nggak cuma ngitung mobil
 
-Jumlah kendaraan saja tidak cukup. Jalan lebar selalu kelihatan ramai, dan lampu merah selalu punya antrean.
-Jadi tiap kamera dibandingkan dengan kondisi normalnya sendiri.
+Jumlah kendaraan aja nggak cukup buat bilang jalan macet. Jalan lebar hampir selalu kelihatan penuh. Lampu merah juga pasti ada antreannya.
 
-1. Ambil 2 frame berjarak 2 detik, deteksi kendaraan di keduanya, cocokkan kotaknya. Kendaraan yang hampir tidak bergeser dihitung berhenti.
-2. "Biasanya" = median kamera itu di jam yang sama (±1 jam) selama 7 hari terakhir.
-3. **Padat**: kendaraan berhenti ≥ max(4, 2× biasanya + 1) dan minimal separuh dari yang terlihat, di 2 dari 3 putaran terakhir (±10 menit). Satu lampu merah tidak cukup.
-4. **Ramai**: kendaraan terlihat ≥ max(8, 1,5× biasanya + 2), atau kondisi padat baru muncul di putaran terakhir.
-5. Mobil parkir selalu "berhenti", jadi otomatis masuk ke angka biasanya dan tidak memicu status.
+Jadi tiap kamera diambil 2 gambar dengan jeda 2 detik. Kendaraan yang hampir nggak geser dihitung berhenti.
+Angkanya lalu dibandingkan sama kondisi normal kamera itu di jam yang sama selama 7 hari terakhir.
 
-Aturannya ada di [`scripts/levels.mjs`](scripts/levels.mjs). Kasus nyata dari lapangan dijadikan test.
+- **Padat**: yang berhenti minimal 4 kendaraan, minimal dua kali lipat dari biasanya, dan minimal separuh dari yang kelihatan.
+  Kondisinya harus muncul di 2 dari 3 putaran terakhir (sekitar 10 menit). Satu kali lampu merah nggak cukup.
+- **Ramai**: kendaraan yang kelihatan jauh lebih banyak dari biasanya (minimal 8). Bisa juga karena kondisi padat baru muncul sekali.
+- **Lancar**: selain dua kondisi di atas.
 
-## Rute
+Mobil yang parkir selalu kehitung berhenti. Karena ada tiap hari, dia masuk ke angka "biasanya" dan nggak bikin status naik.
 
-Warna jalan berasal dari Routing API TomTom (data GPS kendaraan). Kamera kita jadi buktinya: kalau garisnya merah,
-kamera di titik itu bisa langsung dibuka. Kamera dicocokkan ke rute kalau jaraknya ≤ 60 m dari garis ([`scripts/route.mjs`](scripts/route.mjs)).
+Detailnya ada di [`scripts/levels.mjs`](scripts/levels.mjs). Kasus yang ketemu di lapangan aku jadikan test.
 
-Key TomTom hanya ada di server. Server jadi perantara dengan batas harian (600 rute, 80 pencarian) supaya tetap di kuota
-gratis TomTom, dan permintaan yang sama dalam 3 menit dijawab dari memori. Tanpa `TOMTOM_API_KEY`, panel rute nonaktif dan peta tetap jalan.
+## Seberapa akurat
 
-## Akurasi deteksi
+Aku cek 50 gambar siang hari dari semua sumber kamera pakai [`scripts/eval-sample.mjs`](scripts/eval-sample.mjs).
 
-Dicek pada 50 frame siang hari dari semua sumber kamera (`scripts/eval-sample.mjs`):
-
-| Model | Kendaraan terdeteksi | Precision | Recall (perkiraan) |
+| Model | Kendaraan ketemu | Precision | Recall (perkiraan) |
 |---|---|---|---|
 | YOLOX-nano, 416 px | 198 | ±94% | ±55% |
-| **YOLOX-s, 640 px** (dipakai) | 321 | setara | ±80% |
+| **YOLOX-s, 640 px** (yang dipakai) | 321 | setara | ±80% |
 
-Yang masih sering terlewat: bus gelap dari samping, dan kendaraan yang sangat jauh di kamera tol.
+YOLOX-nano jarang salah, tapi cuma nangkep sekitar separuh kendaraan. Gambar kamera tol ukurannya 720p sampai 1080p.
+Begitu dikecilkan ke 416 px, mobil yang agak jauh hilang. YOLOX-s pakai 640 px dan nemu 62% lebih banyak.
 
-## Tech stack
+Yang masih sering lolos: bus warna gelap yang kelihatan dari samping, sama kendaraan yang jauh banget di kamera tol.
 
-| | |
-|---|---|
-| Runtime | Node.js 24, tanpa framework. Server HTTP dari `node:http`, database dari `node:sqlite`, test dari `node:test` |
-| Deteksi | YOLOX-s (Apache-2.0) di onnxruntime-node, CPU saja. Pre-processing dan pengambilan frame pakai ffmpeg |
-| Database | SQLite (WAL). Hanya angka, tidak ada gambar atau video |
-| Frontend | Satu file HTML, MapLibre GL + OpenFreeMap, hls.js untuk video live |
-| Rute | TomTom Routing + Search API lewat server (key tidak pernah sampai ke browser) |
-| Server | VPS 2 vCPU / 2 GB, systemd, Caddy (HTTPS otomatis) |
-| CI/CD | GitHub Actions: test → build rilis → deploy lewat SSH → smoke test → rollback otomatis kalau gagal |
+## Warna rute
 
-Dependency npm cuma satu: `onnxruntime-node`.
+Warna jalan di rute datang dari TomTom, yang datanya dari GPS kendaraan. Kamera di sini jadi pembuktinya.
+Kalau garisnya merah, kamera di titik itu bisa langsung dibuka. Kamera dianggap ada di rute kalau jaraknya paling jauh 60 m dari garis.
 
-## Arsitektur
+Key TomTom cuma ada di server. Server membatasi 600 rute dan 80 pencarian per hari biar tetap di kuota gratis.
+Rute yang sama dalam 3 menit diambil dari cache. Kalau key-nya kosong, panel rute mati tapi peta tetap jalan.
+Kodenya ada di [`scripts/route.mjs`](scripts/route.mjs).
+
+## Dibuat pakai
+
+- Node.js 24 tanpa framework
+- `node:sqlite` buat database, `node:test` buat test
+- YOLOX-s lewat onnxruntime-node, jalan di CPU
+- ffmpeg buat ngambil gambar dari stream
+- MapLibre GL dan OpenFreeMap buat peta
+- hls.js buat video live
+- TomTom Routing dan Search API buat rute
+- VPS 2 vCPU / 2 GB dengan systemd dan Caddy
+- GitHub Actions buat test dan deploy
+
+Dependency npm-nya cuma satu, `onnxruntime-node`.
+
+## Cara kerjanya
 
 ```
 CCTV publik (HLS / JPEG)
-      │ ffmpeg, 2 frame per kamera tiap 5 menit, 8 kamera paralel
+      │ ffmpeg, 2 gambar per kamera tiap 5 menit, 8 kamera sekaligus
       ▼
 collector.mjs ── detect.mjs (YOLOX-s) ── levels.mjs (status per kamera)
       │                                        │
       ▼                                        ▼
-SQLite (angka saja)                     web.mjs (API + halaman peta)
+SQLite (angka saja)                     web.mjs (API + halaman peta) ── route.mjs (TomTom)
                                                │
                                      Caddy → traffic.valentinodeenata.com
 ```
 
-Satu proses melakukan semuanya: ambil frame, hitung, simpan, dan melayani UI. Frame terakhir per kamera disimpan di RAM saja
-supaya tab "Deteksi AI" bisa menampilkannya.
+Semuanya jalan di satu proses Node. Proses ini ngambil gambar, ngitung, nyimpen hasilnya, sekaligus melayani halaman peta.
+Gambar terakhir tiap kamera cuma ditaruh di RAM buat tab "Deteksi AI". Yang masuk disk cuma angka.
 
 ## Penyimpanan
 
-Server hanya menyimpan angka. Data mentah per 5 menit disimpan 7 hari, ringkasan per jam 180 hari, log putaran 90 hari.
-Collector membersihkan sendiri sekali sehari (`maintain()` di `scripts/db.mjs`). API mengirim `Cache-Control`,
-dan browser menyimpan respons terakhir di localStorage, jadi halaman langsung tampil saat dibuka lagi.
+Data per 5 menit disimpan 7 hari. Ringkasan per jam disimpan 180 hari. Log tiap putaran disimpan 90 hari.
+Data lama dibersihkan sendiri sekali sehari ([`scripts/db.mjs`](scripts/db.mjs)).
 
-## Status fitur
+Browser juga nyimpen respons terakhir. Jadi waktu halaman dibuka lagi, petanya langsung muncul sambil nunggu data baru.
 
-- [x] Daftar kamera Jabodetabek dari 3 portal publik
-- [x] Deteksi kendaraan + deteksi kendaraan berhenti
-- [x] Status Lancar / Ramai / Padat berdasarkan kondisi normal tiap kamera
-- [x] Peta live, video, tampilan deteksi AI, grafik 24 jam
+## Progress
+
+- [x] Kamera dari 3 portal publik
+- [x] Hitung kendaraan dan deteksi yang berhenti
+- [x] Status tiap kamera dibanding kondisi normalnya
+- [x] Peta, video live, tampilan deteksi AI, grafik 24 jam
+- [x] Rute dengan warna lalu lintas
 - [x] Deploy otomatis dengan rollback
-- [x] Rute dengan warna lalu lintas, alternatif, kamera di sepanjang rute, rute tersimpan di browser
-- [ ] Riwayat dan pola: jam terbaik untuk berangkat
-- [ ] Untuk logistik: ganjil-genap, larangan truk, cek rute pengiriman
+- [ ] Jam terbaik buat berangkat, dari riwayat beberapa minggu
+- [ ] Fitur logistik: ganjil-genap, larangan truk, cek rute pengiriman
 
-## Menjalankan di lokal
+## Jalanin sendiri
 
 Butuh Node 24+ dan ffmpeg.
 
@@ -107,24 +117,28 @@ npm install
 curl -L -o models/yolox_s.onnx https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_s.onnx
 
 node scripts/fetch-cameras.mjs             # daftar kamera -> data/cameras.json
-node scripts/collector.mjs --once          # 1 putaran: ambil frame, hitung, simpan ke data/traffic.db
-node scripts/collector.mjs --once --save   # sama, plus simpan frame ke snapshots/
-PORT=8790 node scripts/collector.mjs       # jalan terus tiap 5 menit + UI di http://127.0.0.1:8790
+node scripts/collector.mjs --once          # 1 putaran: ambil gambar, hitung, simpan ke data/traffic.db
+node scripts/collector.mjs --once --save   # sama, tapi gambarnya ikut disimpan ke snapshots/
+PORT=8790 node scripts/collector.mjs       # jalan terus tiap 5 menit, UI di http://127.0.0.1:8790
 node scripts/detect.mjs foto.jpg           # hitung kendaraan di satu gambar
-node scripts/eval-sample.mjs 50 yolox_nano,yolox_s   # bandingkan model, frame beranotasi di snapshots/
+node scripts/eval-sample.mjs 50 yolox_nano,yolox_s   # bandingin model, hasilnya di snapshots/
 npm test
 ```
 
-`DETECT_MODEL=yolox_nano` untuk model yang lebih ringan. Untuk panel rute, isi `TOMTOM_API_KEY=...` di file `.env` (tidak ikut ke git).
+Mau model yang lebih ringan? Pakai `DETECT_MODEL=yolox_nano`.
+Panel rute butuh `TOMTOM_API_KEY=...` di file `.env`. File ini nggak ikut ke git.
 
 ## Deploy
 
-Push ke `main` → CI menjalankan test, membangun rilis (kode, `node_modules` Linux, model dengan checksum),
-mengirimnya ke VPS lewat SSH, lalu me-restart service `traffic-collector`. Kalau collector mati atau API tidak menjawab
-30 detik setelahnya, CI otomatis rollback ke rilis sebelumnya. Setup server sekali saja: lihat `deploy/bootstrap-server.sh`.
+Tiap push ke `main`, CI jalanin test lalu bikin paket rilis. Paketnya dikirim ke VPS lewat SSH, terus collector di-restart.
+Kalau 30 detik kemudian collector mati atau API nggak jawab, CI otomatis balik ke rilis sebelumnya.
+Setup server cukup sekali, lihat [`deploy/bootstrap-server.sh`](deploy/bootstrap-server.sh).
 
 ## Sumber kamera
 
-CCTV Publik Pemprov DKI Jakarta (jakcctv.jakarta.go.id/publik), CCTV jalan tol BPJT Kementerian PU (bpjt.pu.go.id/cctv),
-CCTV Bina Marga (binamarga.pu.go.id). Video tidak disimpan dan selalu diputar dari server pemiliknya.
-Kamera Jasa Marga di portal BPJT butuh token, jadi tidak ditampilkan live.
+- CCTV Publik Pemprov DKI Jakarta (jakcctv.jakarta.go.id/publik)
+- CCTV jalan tol BPJT Kementerian PU (bpjt.pu.go.id/cctv)
+- CCTV Bina Marga (binamarga.pu.go.id)
+
+Videonya nggak disimpan sama sekali. Semuanya diputar langsung dari server pemiliknya.
+Kamera Jasa Marga di portal BPJT butuh token, jadi belum bisa ditampilkan.
