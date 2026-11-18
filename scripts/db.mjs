@@ -33,12 +33,20 @@ export function openDb(path) {
     );
     CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);
   `);
+  // Added later: vehicles standing still between two frames 2 s apart (NULL when only one frame was available)
+  addColumn(db, 'readings', 'stopped INTEGER');
+  addColumn(db, 'hourly', 'avg_stopped REAL');
   db.path = path;
   return db;
 }
 
+function addColumn(db, table, def) {
+  const name = def.split(' ')[0];
+  if (!db.prepare(`PRAGMA table_info(${table})`).all().some((c) => c.name === name)) db.exec(`ALTER TABLE ${table} ADD COLUMN ${def}`);
+}
+
 export function recordPass(db, ts, results, seconds) {
-  const ins = db.prepare('INSERT INTO readings (camera_id, ts, ok, vehicles) VALUES (?, ?, 1, ?)');
+  const ins = db.prepare('INSERT INTO readings (camera_id, ts, ok, vehicles, stopped) VALUES (?, ?, 1, ?, ?)');
   const status = db.prepare(`
     INSERT INTO camera_status (camera_id, last_try, last_ok, fails) VALUES (?, ?, ?, ?)
     ON CONFLICT (camera_id) DO UPDATE SET
@@ -47,8 +55,8 @@ export function recordPass(db, ts, results, seconds) {
       fails    = CASE WHEN excluded.last_ok IS NULL THEN fails + 1 ELSE 0 END`);
   db.exec('BEGIN');
   try {
-    for (const { id, ok, vehicles } of results) {
-      if (ok) ins.run(id, ts, vehicles);
+    for (const { id, ok, vehicles, stopped = null } of results) {
+      if (ok) ins.run(id, ts, vehicles, stopped);
       status.run(id, ts, ok ? ts : null, ok ? 0 : 1);
     }
     const online = results.filter((r) => r.ok);
@@ -65,8 +73,8 @@ export function recordPass(db, ts, results, seconds) {
 export function maintain(db, now) {
   const currentHour = Math.floor(now / 3600);
   db.prepare(`
-    INSERT OR REPLACE INTO hourly (camera_id, hour, samples, avg_vehicles, max_vehicles)
-    SELECT camera_id, ts / 3600, COUNT(*), AVG(vehicles), MAX(vehicles)
+    INSERT OR REPLACE INTO hourly (camera_id, hour, samples, avg_vehicles, max_vehicles, avg_stopped)
+    SELECT camera_id, ts / 3600, COUNT(*), AVG(vehicles), MAX(vehicles), AVG(stopped)
     FROM readings WHERE ts / 3600 < ? AND ts >= ?
     GROUP BY camera_id, ts / 3600`).run(currentHour, now - (RETENTION.RAW_DAYS + 1) * DAY);
   const r = db.prepare('DELETE FROM readings WHERE ts < ?').run(now - RETENTION.RAW_DAYS * DAY);

@@ -19,11 +19,11 @@ test('recordPass stores successful counts only and tracks failures per camera', 
 test('maintain rolls up complete hours and enforces retention', () => {
   const db = openDb(':memory:');
   const now = 400 * DAY; // aligned to an hour
-  const ins = db.prepare('INSERT INTO readings VALUES (?, ?, 1, ?)');
+  const ins = db.prepare('INSERT INTO readings (camera_id, ts, ok, vehicles) VALUES (?, ?, 1, ?)');
   ins.run('a', now - 2 * H, 2); ins.run('a', now - 2 * H + 300, 4); // complete hour -> avg 3, max 4
   ins.run('a', now - 60, 9);                                          // current hour: not rolled up yet
   ins.run('a', now - (RETENTION.RAW_DAYS + 1) * DAY, 1);              // too old for raw
-  db.prepare('INSERT INTO hourly VALUES (?, ?, 1, 1, 1)').run('a', Math.floor((now - (RETENTION.HOURLY_DAYS + 1) * DAY) / H));
+  db.prepare('INSERT INTO hourly (camera_id, hour, samples, avg_vehicles, max_vehicles) VALUES (?, ?, 1, 1, 1)').run('a', Math.floor((now - (RETENTION.HOURLY_DAYS + 1) * DAY) / H));
   db.prepare('INSERT INTO passes VALUES (?, 1, 1, 1, 1)').run(now - (RETENTION.PASSES_DAYS + 1) * DAY);
 
   const removed = maintain(db, now);

@@ -5,28 +5,9 @@ import { readFileSync } from 'node:fs';
 import { RETENTION, dbBytes } from './db.mjs';
 
 const INDEX = new URL('../web/index.html', import.meta.url);
-const ONLINE_WINDOW = 15 * 60; // a camera counts as live if it answered in the last 15 min
 
-// Traffic level from the latest count vs. this camera's own average.
-// Floors keep a quiet camera from turning "padat" over two cars; with no history yet the floors decide alone.
-// ponytail: plain 7-day average; switch to an hour-of-week baseline once a few weeks of hourly data exist.
-export function levelOf(vehicles, avg) {
-  if (vehicles == null) return 'offline';
-  if (vehicles >= Math.max(6, avg * 2)) return 'padat';
-  if (vehicles >= Math.max(3, avg * 1.3)) return 'ramai';
-  return 'lancar';
-}
-
-const MIN_SAMPLES = 12; // an hour of 5-min readings before trusting a camera's own average
-
-function averages(db, now) {
-  return new Map(db.prepare(`
-    SELECT camera_id, AVG(vehicles) avg, COUNT(*) n FROM readings
-    WHERE ts >= ? AND vehicles IS NOT NULL GROUP BY camera_id`).all(now - RETENTION.RAW_DAYS * 86400)
-    .map((r) => [r.camera_id, r.n >= MIN_SAMPLES ? r.avg : 0]));
-}
-
-export function api(db, cameras, latest, path, params, now = Math.floor(Date.now() / 1000)) {
+// state.levels: Map id -> { level, vehicles, stopped, usual } from levels.mjs, refreshed every pass
+export function api(db, cameras, latest, state, path, params, now = Math.floor(Date.now() / 1000)) {
   if (path === '/api/summary') {
     const last = db.prepare('SELECT * FROM passes ORDER BY ts DESC LIMIT 1').get() ?? null;
     const status = new Map(db.prepare('SELECT camera_id, last_ok FROM camera_status').all().map((r) => [r.camera_id, r.last_ok]));
@@ -52,19 +33,15 @@ export function api(db, cameras, latest, path, params, now = Math.floor(Date.now
     };
   }
   if (path === '/api/cameras') {
-    const st = new Map(db.prepare(`
-      SELECT s.camera_id, s.last_ok, r.vehicles FROM camera_status s
-      LEFT JOIN readings r ON r.camera_id = s.camera_id AND r.ts = s.last_ok`).all().map((r) => [r.camera_id, r]));
-    const avg = averages(db, now);
+    const lastOk = new Map(db.prepare('SELECT camera_id, last_ok FROM camera_status').all().map((r) => [r.camera_id, r.last_ok]));
     return cameras.map((c) => {
-      const s = st.get(c.id);
-      const live = s?.last_ok != null && now - s.last_ok < ONLINE_WINDOW;
-      const a = avg.get(c.id) ?? 0;
+      const l = state.levels.get(c.id);
       return {
         id: c.id, name: c.name, source: c.source, lat: c.lat, lng: c.lng, approx: !!c.approx,
         stream: c.stream, snapshot: c.snapshot,
-        vehicles: live ? s.vehicles : null, avg: +a.toFixed(1), level: levelOf(live ? s.vehicles : null, a),
-        last_ok: s?.last_ok ?? null, frame: latest.has(c.id),
+        level: l?.level ?? 'offline', vehicles: l?.vehicles ?? null, stopped: l?.stopped ?? null,
+        usual: l?.usual ? { vehicles: l.usual.vehicles, stopped: l.usual.stopped } : null,
+        last_ok: lastOk.get(c.id) ?? null, frame: latest.has(c.id),
       };
     });
   }
@@ -73,7 +50,7 @@ export function api(db, cameras, latest, path, params, now = Math.floor(Date.now
     const f = latest.get(id);
     return {
       id,
-      raw: db.prepare('SELECT ts, vehicles FROM readings WHERE camera_id = ? AND ts >= ? ORDER BY ts').all(id, now - 86400),
+      raw: db.prepare('SELECT ts, vehicles, stopped FROM readings WHERE camera_id = ? AND ts >= ? ORDER BY ts').all(id, now - 86400),
       hourly: db.prepare('SELECT hour, avg_vehicles, max_vehicles FROM hourly WHERE camera_id = ? AND hour >= ? ORDER BY hour')
         .all(id, Math.floor((now - 7 * 86400) / 3600)),
       frame: f ? { ts: f.ts, w: f.w, h: f.h, boxes: f.boxes } : null,
@@ -84,7 +61,7 @@ export function api(db, cameras, latest, path, params, now = Math.floor(Date.now
 
 const MAX_AGE = { '/api/summary': 30, '/api/cameras': 60, '/api/camera': 60 };
 
-export function serve(db, loadCameras, latest, port) {
+export function serve(db, loadCameras, latest, state, port) {
   createServer((req, res) => {
     const url = new URL(req.url, 'http://x');
     if (req.method !== 'GET') return res.writeHead(405).end();
@@ -100,7 +77,7 @@ export function serve(db, loadCameras, latest, port) {
     }
     let body;
     try {
-      body = api(db, loadCameras(), latest, url.pathname, url.searchParams);
+      body = api(db, loadCameras(), latest, state, url.pathname, url.searchParams);
     } catch (e) {
       console.error('api error:', e);
       return res.writeHead(500).end();

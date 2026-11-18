@@ -1,11 +1,19 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { decode, nms, normalizeBoxes } from './detect.mjs';
+import { decode, nms, normalizeBoxes, motion } from './detect.mjs';
+
+test('motion: in-place vehicles are stopped, shifted or vanished ones are moving', () => {
+  const box = (x, y, w = 40) => ({ x1: x, y1: y, x2: x + w, y2: y + 20, score: 0.9, cls: 'car' });
+  const a = [box(0, 0), box(100, 0), box(200, 0), box(300, 0)];
+  const b = [box(3, 1), box(115, 0), box(300, 0)];  // 1st barely moved; 2nd moved 15 px (> 0.25 x 40); 3rd gone
+  assert.deepEqual(motion(a, b).map((x) => x.stopped), [true, false, false, true]);
+  assert.deepEqual(motion(a, []).map((x) => x.stopped), [false, false, false, false]);
+});
 
 test('normalizeBoxes maps letterboxed coords back to the original image', () => {
   // 640x360 -> scale 0.65 -> 416x234 at top-left
   const [b] = normalizeBoxes([{ x1: 0, y1: 0, x2: 208, y2: 234, cls: 'car', score: 0.91234 }], 640, 360);
-  assert.deepEqual(b, { x1: 0, y1: 0, x2: 0.5, y2: 1, cls: 'car', score: 0.91 });
+  assert.deepEqual(b, { x1: 0, y1: 0, x2: 0.5, y2: 1, cls: 'car', score: 0.91, stopped: false });
 });
 
 // Build a fake raw YOLOX output with one row set per entry.

@@ -80,12 +80,31 @@ export async function detectVehicles(jpeg) {
   return decode(res.output.data, res.output.dims[1]);
 }
 
+// Which vehicles in frame A are still in place in frame B (~2 s later)?
+// Matched greedily by overlap; "stopped" = centre moved less than STILL x its own width.
+// A vehicle with no match counts as moving (left the spot, or flickered): errs toward "not jammed".
+const STILL = 0.25;
+export function motion(a, b) {
+  const pairs = [];
+  a.forEach((x, i) => b.forEach((y, j) => { const v = iou(x, y); if (v > 0.1) pairs.push([v, i, j]); }));
+  pairs.sort((p, q) => q[0] - p[0]);
+  const usedA = new Set(), usedB = new Set(), stopped = new Set();
+  for (const [, i, j] of pairs) {
+    if (usedA.has(i) || usedB.has(j)) continue;
+    usedA.add(i); usedB.add(j);
+    const x = a[i], y = b[j];
+    const d = Math.hypot((x.x1 + x.x2 - y.x1 - y.x2) / 2, (x.y1 + x.y2 - y.y1 - y.y2) / 2);
+    if (d < STILL * (x.x2 - x.x1)) stopped.add(i);
+  }
+  return a.map((x, i) => ({ ...x, stopped: stopped.has(i) }));
+}
+
 // Letterboxed 416px boxes -> fractions of the original image (0..1), for drawing over the frame.
 export function normalizeBoxes(boxes, w, h) {
   const r = Math.min(SIZE / w, SIZE / h);
   const fx = (v) => +Math.min(1, Math.max(0, v / (w * r))).toFixed(4);
   const fy = (v) => +Math.min(1, Math.max(0, v / (h * r))).toFixed(4);
-  return boxes.map((b) => ({ x1: fx(b.x1), y1: fy(b.y1), x2: fx(b.x2), y2: fy(b.y2), cls: b.cls, score: +b.score.toFixed(2) }));
+  return boxes.map((b) => ({ x1: fx(b.x1), y1: fy(b.y1), x2: fx(b.x2), y2: fy(b.y2), cls: b.cls, score: +b.score.toFixed(2), stopped: !!b.stopped }));
 }
 
 // CLI: node scripts/detect.mjs frame.jpg [...]

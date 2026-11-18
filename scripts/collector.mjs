@@ -6,9 +6,10 @@
 //      node scripts/collector.mjs --once --save   (also keep frames in snapshots/ for the accuracy check)
 //      PORT=8790 node scripts/collector.mjs       (loop + UI on http://127.0.0.1:8790)
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { grabFrame, pool, jpegSize } from './frame.mjs';
-import { detectVehicles, normalizeBoxes } from './detect.mjs';
+import { grabFrames, pool, jpegSize } from './frame.mjs';
+import { detectVehicles, normalizeBoxes, motion } from './detect.mjs';
 import { openDb, recordPass, maintainIfDue } from './db.mjs';
+import { computeLevels } from './levels.mjs';
 
 const SAVE = process.argv.includes('--save');
 const INTERVAL_MS = 5 * 60 * 1000; // 1 frame / 5 min per camera keeps the load on owners' servers tiny
@@ -19,6 +20,8 @@ const db = openDb(process.env.DB_PATH || 'data/traffic.db');
 const loadCameras = () => JSON.parse(readFileSync('data/cameras.json', 'utf8'));
 // Latest frame per camera, RAM only (~10 MB), overwritten every pass: lets the UI show what the AI counted.
 const latest = new Map();
+// Traffic level per camera, recomputed after every pass (see levels.mjs); shared with the web server.
+const state = { levels: computeLevels(db, Math.floor(Date.now() / 1000)) };
 
 async function pass() {
   const cameras = loadCameras();
@@ -27,29 +30,36 @@ async function pass() {
   const saveDir = `snapshots/${ts}`;
   if (SAVE) mkdirSync(saveDir, { recursive: true });
   const results = await pool(cameras, CONCURRENCY, async (cam) => {
-    const frame = await grabFrame(cam);
-    let vehicles = null;
+    const [frame, later] = await grabFrames(cam);
+    let vehicles = null, stopped = null;
     if (frame) {
-      const boxes = await detectVehicles(frame).catch(() => null);
+      let boxes = await detectVehicles(frame).catch(() => null);
+      if (boxes && later) {
+        const next = await detectVehicles(later).catch(() => null);
+        if (next) { boxes = motion(boxes, next); stopped = boxes.filter((b) => b.stopped).length; }
+      }
       vehicles = boxes?.length ?? null;
       const size = jpegSize(frame);
       if (boxes && size) latest.set(cam.id, { jpeg: frame, ts, ...size, boxes: normalizeBoxes(boxes, size.w, size.h) });
-      if (SAVE) writeFileSync(`${saveDir}/${cam.id.replace(/[^\w.-]+/g, '_')}__${vehicles}.jpg`, frame);
+      if (SAVE) writeFileSync(`${saveDir}/${cam.id.replace(/[^\w.-]+/g, '_')}__${vehicles}_${stopped}.jpg`, frame);
     } else {
       latest.delete(cam.id);
     }
-    return { id: cam.id, source: cam.source, ok: !!frame, vehicles };
+    return { id: cam.id, source: cam.source, ok: !!frame, vehicles, stopped };
   });
   const seconds = Math.round((Date.now() - started) / 1000);
   recordPass(db, ts, results, seconds);
+  state.levels = computeLevels(db, ts);
   const pruned = maintainIfDue(db, ts);
 
   const online = results.filter((r) => r.ok);
-  console.log(`${new Date().toISOString()} ${online.length}/${cameras.length} online, ${online.reduce((a, r) => a + (r.vehicles ?? 0), 0)} vehicles, ${seconds}s`);
+  const lv = {};
+  for (const { level } of state.levels.values()) lv[level] = (lv[level] ?? 0) + 1;
+  console.log(`${new Date().toISOString()} ${online.length}/${cameras.length} online, ${online.reduce((a, r) => a + (r.vehicles ?? 0), 0)} vehicles, ${seconds}s, ${JSON.stringify(lv)}`);
   if (pruned) console.log(`  pruned: ${JSON.stringify(pruned)}`);
 }
 
-if (process.env.PORT) (await import('./web.mjs')).serve(db, loadCameras, latest, +process.env.PORT);
+if (process.env.PORT) (await import('./web.mjs')).serve(db, loadCameras, latest, state, +process.env.PORT);
 
 if (process.argv.includes('--once')) {
   await pass();

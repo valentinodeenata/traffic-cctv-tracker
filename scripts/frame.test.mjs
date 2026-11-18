@@ -1,6 +1,13 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { isJpeg, pool, jpegSize } from './frame.mjs';
+import { isJpeg, pool, jpegSize, splitJpegs } from './frame.mjs';
+
+test('splitJpegs separates concatenated frames', () => {
+  const a = Buffer.from([0xff, 0xd8, 1, 2, 0xff, 0xd9]), b = Buffer.from([0xff, 0xd8, 3, 0xff, 0xd9]);
+  const parts = splitJpegs(Buffer.concat([a, b]));
+  assert.deepEqual(parts.map((p) => [...p]), [[...a], [...b]]);
+  assert.equal(splitJpegs(Buffer.from('nope')).length, 0);
+});
 
 test('isJpeg checks the magic bytes', () => {
   assert.ok(isJpeg(Buffer.from([0xff, 0xd8, 0xff, 0xe0])));
